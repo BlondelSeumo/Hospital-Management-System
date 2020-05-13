@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field}に記入必須項目";
+$lang['form_validation_isset'] = "{field}でパスワードを作成してください値";
+$lang['form_validation_valid_email'] = "{field}分野が含まれていなければならない有効なメールアドレス";
+$lang['form_validation_valid_emails'] = "{field}分野を含まなければならず有効なすべてのメールアドレス";
+$lang['form_validation_valid_url'] = "{field}分野が含まれていなければならない有効なURL";
+$lang['form_validation_valid_ip'] = "{field}分野が含まれていなければならない有効なIP";
+$lang['form_validation_min_length'] = "{field}分野以上の{param}文字の長さ";
+$lang['form_validation_max_length'] = "{field}分野を超えることができません{param}文字の長さ";
+$lang['form_validation_exact_length'] = "{field}分野の書式を遵守して作成すること{param}文字の長さ";
+$lang['form_validation_alpha'] = "{field}分野が含まれる文字のアルファベッ";
+$lang['form_validation_alpha_numeric'] = "{field}分野のみを含む文字列";
+$lang['form_validation_alpha_numeric_spaces'] = "{field}分野が含まれる英数字および空間";
+$lang['form_validation_alpha_dash'] = "{field}分野が含まれる英数字は、字、ダッシュ";
+$lang['form_validation_numeric'] = "{field}分野が含まれている必要があ番号のみ";
+$lang['form_validation_is_numeric'] = "{field}分野を含まなければならず数字のみ指定";
+$lang['form_validation_integer'] = "{field}分野が含まれている必要があ整数";
+$lang['form_validation_regex_match'] = "{field}フィールドは、正しい形式";
+$lang['form_validation_matches'] = "{field}分野に合っていない{param}分野";
+$lang['form_validation_differs'] = "{field}メールアドレスと異なる{param}分野";
+$lang['form_validation_is_unique'] = "{field}分野が含まれていなければならない独自の価値を";
+$lang['form_validation_is_natural'] = "{field}メールアドレスだけが含まれま桁";
+$lang['form_validation_is_natural_no_zero'] = "{field}メールアドレスだけが含まれま桁はゼロより大きくなければなり";
+$lang['form_validation_decimal'] = "{field}分野が含まれていなければならない桁数";
+$lang['form_validation_less_than'] = "{field}分野が含まれていなければならない番号を以下{param}";
+$lang['form_validation_less_than_equal_to'] = "{field}分野が含まれていなければならない番号を以下の{param}";
+$lang['form_validation_greater_than'] = "{field}分野が含まれていなければならないよりも大きな数{param}";
+$lang['form_validation_greater_than_equal_to'] = "{field}分野が含まれていなければならない数以上{param}";
+$lang['form_validation_error_message_not_set'] = "アクセスできないエラーメッセージに応じたフィールド名-9頁";
+$lang['form_validation_in_list'] = "{field}分野のいずれかである必要があ:{param}";

@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} alan gereklidir";
+$lang['form_validation_isset'] = "{field} alan bir değer olmalıdır";
+$lang['form_validation_valid_email'] = "{field} alana geçerli bir e-posta adresi içermelidir";
+$lang['form_validation_valid_emails'] = "{field} alan tüm geçerli e-posta adreslerini içermelidir";
+$lang['form_validation_valid_url'] = "{field} alan geçerli bir URL içermelidir";
+$lang['form_validation_valid_ip'] = "{field} alan geçerli bir IP içermelidir";
+$lang['form_validation_min_length'] = "{field} alan uzunluğu {param} en azından karakter olmalıdır";
+$lang['form_validation_max_length'] = "{field} alan uzunluğu {param} karakteri aşamaz";
+$lang['form_validation_exact_length'] = "{field} alan uzunluğu {param} tam olarak karakter olmalıdır";
+$lang['form_validation_alpha'] = "{field} alan yalnızca alfabetik karakterler içerebilir";
+$lang['form_validation_alpha_numeric'] = "{field} alan yalnızca alfa sayısal karakterler içeriyor olabilir-";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} alan yalnızca sayısal karakterler ve boşluk alfa içerebilir-";
+$lang['form_validation_alpha_dash'] = "{field} alan sadece alfa-sayısal karakterler, altçizgiler içerebilir, tire";
+$lang['form_validation_numeric'] = "{field} alan tek sayı içermelidir";
+$lang['form_validation_is_numeric'] = "{field} alan yalnızca sayısal karakter içermelidir";
+$lang['form_validation_integer'] = "{field} alan bir tam sayı içermelidir";
+$lang['form_validation_regex_match'] = "{field} alana doğru biçimde değil";
+$lang['form_validation_matches'] = "{field} alan {param} alan eşleşmiyor";
+$lang['form_validation_differs'] = "{field} alan {param} alanı farklı olmalıdır";
+$lang['form_validation_is_unique'] = "{field} alan benzersiz bir değer içermeli";
+$lang['form_validation_is_natural'] = "{field} alan sadece rakam içermelidir";
+$lang['form_validation_is_natural_no_zero'] = "{field} alan sadece rakam içermelidir ve sıfırdan büyük olmalıdır";
+$lang['form_validation_decimal'] = "{field} alan ondalık sayı içermelidir";
+$lang['form_validation_less_than'] = "{field} alan {param} daha az bir sayı içermelidir";
+$lang['form_validation_less_than_equal_to'] = "{field} alan {param} eşit veya daha az bir sayı içermeli";
+$lang['form_validation_greater_than'] = "{field} alan {param} daha büyük bir sayı içermeli";
+$lang['form_validation_greater_than_equal_to'] = "{field} alan {param} sıfırdan büyük veya eşit bir sayı içermeli";
+$lang['form_validation_error_message_not_set'] = "{field} yapamaz ...adı alanıyla ilgili bir hata iletisi erişmek için";
+$lang['form_validation_in_list'] = "{field} alan biri olmalıdır: {param}";

@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} زمینه مورد نیاز است";
+$lang['form_validation_isset'] = "{field} زمینه باید یک مقدار";
+$lang['form_validation_valid_email'] = "{field} زمینه باید یک آدرس ایمیل معتبر";
+$lang['form_validation_valid_emails'] = "{field} زمینه باید حاوی تمام آدرس های ایمیل معتبر";
+$lang['form_validation_valid_url'] = "{field} زمینه باید شامل یک URL معتبر";
+$lang['form_validation_valid_ip'] = "{field} زمینه باید یک IP معتبر";
+$lang['form_validation_min_length'] = "{field} رشته باید حداقل {param} کاراکتر در طول";
+$lang['form_validation_max_length'] = "{field} زمینه نمی تواند بیش از {param} کاراکتر در طول";
+$lang['form_validation_exact_length'] = "{field} رشته باید دقیقا {param} کاراکتر در طول";
+$lang['form_validation_alpha'] = "{field} زمینه ممکن است تنها شامل به ترتیب حروف الفبا, شخصیت";
+$lang['form_validation_alpha_numeric'] = "{field} زمینه ممکن است تنها شامل آلفا-شخصیت های عددی";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} زمینه ممکن است فقط حاوی آلفا عددی شخصیت ها و فضاهای";
+$lang['form_validation_alpha_dash'] = "{field} زمینه ممکن است تنها شامل آلفا-شخصیت های عددی تأکید و خط تیره";
+$lang['form_validation_numeric'] = "{field} زمینه باید فقط شامل اعداد";
+$lang['form_validation_is_numeric'] = "{field} زمینه باید فقط شامل شخصیت های عددی";
+$lang['form_validation_integer'] = "{field} زمینه باید شامل یک عدد صحیح";
+$lang['form_validation_regex_match'] = "{field} رشته در فرمت صحیح";
+$lang['form_validation_matches'] = "{field} زمینه مطابقت ندارد {param} زمینه";
+$lang['form_validation_differs'] = "{field} زمینه باید متفاوت از {param} زمینه";
+$lang['form_validation_is_unique'] = "{field} رشته باید دارای یک ارزش منحصر به فرد";
+$lang['form_validation_is_natural'] = "{field} زمینه باید فقط شامل اعداد";
+$lang['form_validation_is_natural_no_zero'] = "{field} زمینه باید فقط شامل اعداد و باید بزرگتر از صفر";
+$lang['form_validation_decimal'] = "{field} زمینه باید شامل یک عدد دهدهی";
+$lang['form_validation_less_than'] = "{field} رشته باید دارای یک شماره کمتر از {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} رشته باید تعداد مساوی یا کمتر از {param}";
+$lang['form_validation_greater_than'] = "{field} زمینه باید شامل یک عدد بزرگتر از {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} رشته باید دارای یک شماره بزرگتر یا مساوی {param}";
+$lang['form_validation_error_message_not_set'] = "قادر به دسترسی به پیام خطایی مربوط به رشته خود را نام {field}";
+$lang['form_validation_in_list'] = "{field} رشته باید یکی از: {param}";

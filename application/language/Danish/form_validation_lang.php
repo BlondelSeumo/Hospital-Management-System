@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} felt er påkrævet";
+$lang['form_validation_isset'] = "{field} felt skal have en værdi,";
+$lang['form_validation_valid_email'] = "{field} felt skal indeholde en gyldig e-mail-adresse";
+$lang['form_validation_valid_emails'] = "{field} felt skal indeholde alle gyldige e-mail adresser";
+$lang['form_validation_valid_url'] = "{field} felt skal indeholde en gyldig URL";
+$lang['form_validation_valid_ip'] = "{field} felt skal indeholde en gyldig IP";
+$lang['form_validation_min_length'] = "{field} felt skal være mindst {param} tegn i længden";
+$lang['form_validation_max_length'] = "{field} felt må ikke overstige {param} tegn i længden";
+$lang['form_validation_exact_length'] = "{field} felt skal være præcis {param} tegn i længden";
+$lang['form_validation_alpha'] = "{field} felt kan kun indeholde alfabetiske tegn";
+$lang['form_validation_alpha_numeric'] = "{field} felt kan kun indeholde alfanumeriske tegn";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} felt kan kun indeholde alfanumeriske tegn og mellemrum";
+$lang['form_validation_alpha_dash'] = "{field} felt kan kun indeholde alfanumeriske tegn, understregninger og streger";
+$lang['form_validation_numeric'] = "{field} felt må kun indeholde tal";
+$lang['form_validation_is_numeric'] = "{field} felt må kun indeholde numeriske tegn";
+$lang['form_validation_integer'] = "{field} felt skal indeholde et heltal";
+$lang['form_validation_regex_match'] = "{field} felt er ikke i det rigtige format";
+$lang['form_validation_matches'] = "{field}-feltet ikke svarer til det felt {param}";
+$lang['form_validation_differs'] = "{field} felt skal afvige fra den {param} felt";
+$lang['form_validation_is_unique'] = "{field} felt skal indeholde en entydig værdi";
+$lang['form_validation_is_natural'] = "{field} felt må kun indeholde tal";
+$lang['form_validation_is_natural_no_zero'] = "{field} felt må kun indeholde tal og skal være større end nul";
+$lang['form_validation_decimal'] = "{field} felt skal indeholde et decimaltal";
+$lang['form_validation_less_than'] = "{field} felt skal indeholde et tal mindre end {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} felt skal indeholde et tal mindre end eller lig med {param}";
+$lang['form_validation_greater_than'] = "{field} felt skal indeholde et tal, der er større end {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} felt skal indeholde et tal, der er større end eller lig med {param}";
+$lang['form_validation_error_message_not_set'] = "Ude af stand til at få adgang til en fejlmeddelelse, der svarer til dit område navn {field}";
+$lang['form_validation_in_list'] = "{field} felt skal være en af følgende: {param}";

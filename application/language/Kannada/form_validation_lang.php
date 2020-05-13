@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಅಗತ್ಯವಿದೆ";
+$lang['form_validation_isset'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಮೌಲ್ಯ";
+$lang['form_validation_valid_email'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಒಂದು ಮಾನ್ಯ ಇಮೇಲ್ ವಿಳಾಸ";
+$lang['form_validation_valid_emails'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಎಲ್ಲಾ ಮಾನ್ಯ ಇಮೇಲ್ ವಿಳಾಸಗಳನ್ನು";
+$lang['form_validation_valid_url'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಒಂದು ಮಾನ್ಯವಾದ URL";
+$lang['form_validation_valid_ip'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಮಾನ್ಯ IP";
+$lang['form_validation_min_length'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಇರಬೇಕು ಕನಿಷ್ಠ {param} ಉದ್ದ ಪಾತ್ರಗಳು";
+$lang['form_validation_max_length'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಮೀರಬಾರದು {param} ಉದ್ದ ಪಾತ್ರಗಳು";
+$lang['form_validation_exact_length'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಮಾಡಬೇಕು ನಿಖರವಾಗಿ {param} ಉದ್ದ ಪಾತ್ರಗಳು";
+$lang['form_validation_alpha'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ may only contain ವರ್ಣಮಾಲೆಯ ಅಕ್ಷರಗಳನ್ನು";
+$lang['form_validation_alpha_numeric'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ may only contain ಆಲ್ಫಾ-ಸಂಖ್ಯಾ ಪಾತ್ರಗಳು";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ may only contain ಆಲ್ಫಾ-ಸಂಖ್ಯಾ ಪಾತ್ರಗಳು ಮತ್ತು ಖಾಲಿ";
+$lang['form_validation_alpha_dash'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ may only contain ಆಲ್ಫಾ-ಸಂಖ್ಯಾ ಪಾತ್ರಗಳು, ಒತ್ತಿಹೇಳುತ್ತದೆ, ಮತ್ತು ಗೆರೆಗಳು";
+$lang['form_validation_numeric'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ must contain only numbers";
+$lang['form_validation_is_numeric'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಕೇವಲ ಸಂಖ್ಯಾ ಪಾತ್ರಗಳು";
+$lang['form_validation_integer'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಒಂದು ಪೂರ್ಣಾಂಕ";
+$lang['form_validation_regex_match'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಅಲ್ಲ ಸರಿಯಾದ ಸ್ವರೂಪ";
+$lang['form_validation_matches'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ {param} ಕ್ಷೇತ್ರ";
+$lang['form_validation_differs'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಮಾಡಬೇಕು ಭಿನ್ನವಾಗಿವೆ {param} ಕ್ಷೇತ್ರ";
+$lang['form_validation_is_unique'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಒಂದು ಅನನ್ಯ ಮೌಲ್ಯ";
+$lang['form_validation_is_natural'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಮಾಡಬೇಕು ಮಾತ್ರ ಹೊಂದಿರುತ್ತವೆ ಅಂಕೆಗಳು";
+$lang['form_validation_is_natural_no_zero'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಮಾಡಬೇಕು ಮಾತ್ರ ಹೊಂದಿರುತ್ತವೆ ಅಂಕೆಗಳು ಮತ್ತು must be greater than zero";
+$lang['form_validation_decimal'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಒಂದು ದಶಮಾಂಶ ಸಂಖ್ಯೆ";
+$lang['form_validation_less_than'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಒಂದು ಸಂಖ್ಯೆ ಕಡಿಮೆ {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಒಂದು ಸಂಖ್ಯೆ ಕಡಿಮೆ ಅಥವಾ ಸಮಾನ {param}";
+$lang['form_validation_greater_than'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಒಂದು ಸಂಖ್ಯೆ ಹೆಚ್ಚಾಗಿದೆ {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಂದಿರಬೇಕು ಒಂದು ಸಂಖ್ಯೆ greater than or equal to {param}";
+$lang['form_validation_error_message_not_set'] = "ಪ್ರವೇಶಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ ಒಂದು ದೋಷ ಸಂದೇಶವನ್ನು ಅನುಗುಣವಾದ ನಿಮ್ಮ ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೆಸರು {field}";
+$lang['form_validation_in_list'] = "{field} ಕ್ಷೇತ್ರದಲ್ಲಿ ಒಂದು ಇರಬೇಕು: {param}";

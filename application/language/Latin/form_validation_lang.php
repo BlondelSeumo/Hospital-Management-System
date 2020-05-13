@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} agro requiritur";
+$lang['form_validation_isset'] = "{field} campo debet habere valorem";
+$lang['form_validation_valid_email'] = "{field} agro debet continere a valid email address";
+$lang['form_validation_valid_emails'] = "{field} agro debet continere omnes valid email oratio";
+$lang['form_validation_valid_url'] = "{field} agro debet continere valet URL";
+$lang['form_validation_valid_ip'] = "{field} agro debet continere valet IP";
+$lang['form_validation_min_length'] = "{field} agro debet esse saltem {param} characters in longitudine";
+$lang['form_validation_max_length'] = "{field} agro non excedunt {param} characters in longitudine";
+$lang['form_validation_exact_length'] = "{field} agro erit prorsus {param} characters in longitudine";
+$lang['form_validation_alpha'] = "{field} agro, ut tantum capiat alphabeti litteris";
+$lang['form_validation_alpha_numeric'] = "{field} agro, ut tantum capiat alpha-numericae characters";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} agro, ut tantum capiat alpha-numericae ingenia et spatia";
+$lang['form_validation_alpha_dash'] = "{field} agro, ut tantum capiat alpha-numericae ingenia, sapien, et allidit";
+$lang['form_validation_numeric'] = "{field} agro debet continere tantum numeris";
+$lang['form_validation_is_numeric'] = "{field} agro oportet continent solum secundum numerum characters";
+$lang['form_validation_integer'] = "{field} agro debet continere integer";
+$lang['form_validation_regex_match'] = "{field} agro est, non in rectam format";
+$lang['form_validation_matches'] = "{field} campo non par {param} agro";
+$lang['form_validation_differs'] = "{field} agro differre debet a {param} agro";
+$lang['form_validation_is_unique'] = "{field} agro oportet continent unicum valorem";
+$lang['form_validation_is_natural'] = "{field} agro debet tantum continere digiti";
+$lang['form_validation_is_natural_no_zero'] = "{field} agro debet tantum continere digiti, oportet nihilo";
+$lang['form_validation_decimal'] = "{field} agro oportet continent decimales numerus";
+$lang['form_validation_less_than'] = "{field} agro oportet continent numerus minor, quam {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} agro oportet continent numerus minus quam aut aequalis {param}";
+$lang['form_validation_greater_than'] = "{field} agro debet continere a numerus maior, quam {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} agro debet continere a numerus maior, aut aequalis {param}";
+$lang['form_validation_error_message_not_set'] = "Non ad accessum an erroris nuntius debita ad agrum tuum nomen {field}";
+$lang['form_validation_in_list'] = "{field} agrum, oportet esse unum: {param}";

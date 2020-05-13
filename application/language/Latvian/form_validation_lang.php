@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} lauks ir vajadzīgs";
+$lang['form_validation_isset'] = "{field} laukā jābūt vērtība";
+$lang['form_validation_valid_email'] = "{field} laukā jābūt derīgu e-pasta adresi";
+$lang['form_validation_valid_emails'] = "{field} laukā jābūt visiem derīgu e-pasta adreses";
+$lang['form_validation_valid_url'] = "{field} laukā jābūt derīgam URL";
+$lang['form_validation_valid_ip'] = "{field} laukā jābūt derīgiem IP";
+$lang['form_validation_min_length'] = "{field} laukā ir jābūt vismaz {param} rakstzīmēm";
+$lang['form_validation_max_length'] = "{field} jomā nevar pārsniegt {param} rakstzīmēm";
+$lang['form_validation_exact_length'] = "{field} laukā jābūt tieši {param} rakstzīmēm";
+$lang['form_validation_alpha'] = "{field} jomā var ietvert tikai alfabēta burtus";
+$lang['form_validation_alpha_numeric'] = "{field} jomā var ietvert tikai burtu un ciparu rakstzīmes";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} jomā var ietvert tikai burtciparu rakstzīmes un telpas";
+$lang['form_validation_alpha_dash'] = "{field} jomā var ietvert tikai burtciparu rakstzīmes, uzsver, un domuzīmes";
+$lang['form_validation_numeric'] = "{field} laukā jābūt tikai numuri";
+$lang['form_validation_is_numeric'] = "{field} laukā jābūt tikai ciparu rakstzīmes";
+$lang['form_validation_integer'] = "{field} laukā jābūt veselam skaitlim";
+$lang['form_validation_regex_match'] = "{field} jomā nav pareizais formāts";
+$lang['form_validation_matches'] = "{field} jomā neatbilst {param} jomā";
+$lang['form_validation_differs'] = "{field} laukā ir jābūt atšķirties no {param} jomā";
+$lang['form_validation_is_unique'] = "{field} laukā jābūt unikāla vērtība";
+$lang['form_validation_is_natural'] = "{field} jomā ir iekļauti tikai cipariem";
+$lang['form_validation_is_natural_no_zero'] = "{field} jomā ir iekļauti tikai cipariem, un tam jābūt lielākam par nulli";
+$lang['form_validation_decimal'] = "{field} laukā jābūt decimālo skaitli";
+$lang['form_validation_less_than'] = "{field} jomā jāietver skaits ir mazāks par {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} jomā jāietver skaits ir mazāks par vai vienāds ar {param}";
+$lang['form_validation_greater_than'] = "{field} laukā jābūt skaitlis ir lielāks par {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} laukā jābūt skaitlis ir lielāks par vai vienāds ar {param}";
+$lang['form_validation_error_message_not_set'] = "Nevar piekļūt kļūdas ziņojums, kas atbilst jūsu lauka nosaukums {field}";
+$lang['form_validation_in_list'] = "{field} laukā jābūt vienai no: {param}";

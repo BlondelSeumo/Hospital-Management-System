@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} ক্ষেত্রের প্রয়োজন বোধ করা হয়";
+$lang['form_validation_isset'] = "{field} ক্ষেত্রের একটি মান থাকতে হবে";
+$lang['form_validation_valid_email'] = "{field} ক্ষেত্র ধারণ করতে হবে, একটি বৈধ ইমেইল ঠিকানা";
+$lang['form_validation_valid_emails'] = "{field} ক্ষেত্র ধারণ করতে হবে সব বৈধ ইমেইল ঠিকানা";
+$lang['form_validation_valid_url'] = "{field} ক্ষেত্র ধারণ করতে হবে একটি বৈধ URL টি";
+$lang['form_validation_valid_ip'] = "{field} ক্ষেত্র ধারণ করতে হবে একটি বৈধ IP";
+$lang['form_validation_min_length'] = "{field} ক্ষেত্র হতে হবে, অন্তত {param} দৈর্ঘ্য অক্ষর";
+$lang['form_validation_max_length'] = "{field} ক্ষেত্র অতিক্রম করতে পারে না {param} দৈর্ঘ্য অক্ষর";
+$lang['form_validation_exact_length'] = "{field} ক্ষেত্র হতে হবে, ঠিক {param} দৈর্ঘ্য অক্ষর";
+$lang['form_validation_alpha'] = "{field} ক্ষেত্র হতে পারে, শুধুমাত্র ধারণ বর্ণানুক্রমিক অক্ষর";
+$lang['form_validation_alpha_numeric'] = "{field} ক্ষেত্র হতে পারে, শুধুমাত্র ধারণ আলফা-সাংখ্যিক অক্ষর";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} ক্ষেত্র হতে পারে, শুধুমাত্র ধারণ আলফা-সাংখ্যিক অক্ষর এবং স্পেস";
+$lang['form_validation_alpha_dash'] = "{field} ক্ষেত্র হতে পারে, শুধুমাত্র ধারণ আলফা-সাংখ্যিক অক্ষর আন্ডারস্কোর এবং ড্যাশ";
+$lang['form_validation_numeric'] = "{field} ক্ষেত্র ধারণ করতে হবে শুধুমাত্র সংখ্যা";
+$lang['form_validation_is_numeric'] = "{field} ক্ষেত্র ধারণ করতে হবে শুধুমাত্র সাংখ্যিক অক্ষর";
+$lang['form_validation_integer'] = "{field} ক্ষেত্র ধারণ করতে হবে একটি পূর্ণসংখ্যা";
+$lang['form_validation_regex_match'] = "{field} ক্ষেত্র নয়, সঠিক বিন্যাস";
+$lang['form_validation_matches'] = "{field} ক্ষেত্রের সাথে মেলে না {param} ক্ষেত্র";
+$lang['form_validation_differs'] = "{field} ক্ষেত্র, করতে হবে, থেকে পৃথক {param} ক্ষেত্র";
+$lang['form_validation_is_unique'] = "{field} ক্ষেত্র ধারণ করতে হবে একটি অনন্য মান";
+$lang['form_validation_is_natural'] = "{field} ক্ষেত্র হবে, শুধুমাত্র ধারণ সংখ্যা";
+$lang['form_validation_is_natural_no_zero'] = "{field} ক্ষেত্র হবে, শুধুমাত্র ধারণ ডিজিটের হবে এবং তার চেয়ে অনেক বেশী শূন্য";
+$lang['form_validation_decimal'] = "{field} ক্ষেত্র ধারণ করতে হবে, একটি দশমিক সংখ্যা";
+$lang['form_validation_less_than'] = "{field} ক্ষেত্র ধারণ করতে হবে, একটি সংখ্যা কম {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} ক্ষেত্র ধারণ করতে হবে, একটি সংখ্যা এর চেয়ে কম বা সমান {param}";
+$lang['form_validation_greater_than'] = "{field} ক্ষেত্র ধারণ করতে হবে, একটি সংখ্যা তার চেয়ে অনেক বেশী {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} ক্ষেত্র ধারণ করতে হবে, একটি সংখ্যা তার চেয়ে অনেক বেশী বা সমান {param}";
+$lang['form_validation_error_message_not_set'] = "অ্যাক্সেস করতে অক্ষম, একটি ত্রুটির বার্তা সংশ্লিষ্ট করার জন্য, আপনার ক্ষেত্র নাম {field}";
+$lang['form_validation_in_list'] = "{field} ক্ষেত্রের এক হতে হবে: {param}";

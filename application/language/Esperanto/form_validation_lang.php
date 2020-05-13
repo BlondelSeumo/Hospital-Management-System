@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field}kampo estas bezonata";
+$lang['form_validation_isset'] = "{field} kampo devas havi valoron";
+$lang['form_validation_valid_email'] = "{field} kampo devas enhavi validan # retpo? to adreso";
+$lang['form_validation_valid_emails'] = "{field} kampo devas enhavi ĉiujn valida # retpo? to adresojn";
+$lang['form_validation_valid_url'] = "{field} kampo devas enhavi validan RETADRESON";
+$lang['form_validation_valid_ip'] = "{field} kampo devas enhavi validan IP";
+$lang['form_validation_min_length'] = "{field} kampo devas esti almenaŭ {param} karakteroj en longo";
+$lang['form_validation_max_length'] = "{field}kampo ne povas preterpasi {param} karakteroj en longo";
+$lang['form_validation_exact_length'] = "{field} kampo devas esti ĝuste {param} karakteroj en longo";
+$lang['form_validation_alpha'] = "{field}kampo povas nur enhavi alfabeta karakteroj";
+$lang['form_validation_alpha_numeric'] = "{field}kampo povas nur enhavi alfa-numera karakteroj";
+$lang['form_validation_alpha_numeric_spaces'] = "{field}kampo povas nur enhavi alfa-numera signoj kaj spacoj";
+$lang['form_validation_alpha_dash'] = "{field}kampo povas nur enhavi alfa-numera literoj, substrekoj, kaj streketoj";
+$lang['form_validation_numeric'] = "{field} kampo devas enhavi nur nombroj";
+$lang['form_validation_is_numeric'] = "{field} kampo devas enhavi nur nombraj karakteroj";
+$lang['form_validation_integer'] = "{field} kampo devas enhavi entjero";
+$lang['form_validation_regex_match'] = "{field}kampo ne estas en la ĝusta formato";
+$lang['form_validation_matches'] = "{field}kampo ne kongruas kun la kampo {param}";
+$lang['form_validation_differs'] = "{field} kampo devas diferencas de la kampo {param}";
+$lang['form_validation_is_unique'] = "{field} kampo devas enhavi unika valoro";
+$lang['form_validation_is_natural'] = "{field} kampo devas nur enhavi ciferoj";
+$lang['form_validation_is_natural_no_zero'] = "{field} kampo devas nur enhavas ciferojn kaj devas esti pli granda ol nulo";
+$lang['form_validation_decimal'] = "{field} kampo devas enhavi dekuma nombro";
+$lang['form_validation_less_than'] = "{field} kampo devas enhavi nombron malpli ol {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} kampo devas enhavi nombron malpli ol aŭ egala al {param}";
+$lang['form_validation_greater_than'] = "{field} kampo devas enhavi nombro pli granda ol {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} kampo devas enhavi nombro pli granda ol aŭ egala al {param}";
+$lang['form_validation_error_message_not_set'] = "Nekapabla aliri eraran # mesa? o responda al via kampo nomo {field}";
+$lang['form_validation_in_list'] = "{field} kampo devas esti unu el: {param}";

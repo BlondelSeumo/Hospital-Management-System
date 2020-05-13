@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} поле е потребно";
+$lang['form_validation_isset'] = "{field} поле мора да има вредност";
+$lang['form_validation_valid_email'] = "{field} поле мора да содржи валидна е-мејл адреса";
+$lang['form_validation_valid_emails'] = "{field} поле мора да ги содржи сите валидни адреси за е-пошта";
+$lang['form_validation_valid_url'] = "{field} поле мора да содржи важечка URL";
+$lang['form_validation_valid_ip'] = "{field} поле мора да содржи валидна IP";
+$lang['form_validation_min_length'] = "{field} поле мора да биде најмалку {param} карактери";
+$lang['form_validation_max_length'] = "{field} поле не може да биде подолг {param} карактери";
+$lang['form_validation_exact_length'] = "{field} поле мора да биде точно {param} карактери";
+$lang['form_validation_alpha'] = "{field} поле може да содржи само алфабетски знаци";
+$lang['form_validation_alpha_numeric'] = "{field} поле може да содржи само алфанумерички карактери";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} поле може да содржи само алфанумерички знаци и празни места";
+$lang['form_validation_alpha_dash'] = "{field} поле може да содржи само алфанумерички карактери, подвлекува, и цртички";
+$lang['form_validation_numeric'] = "{field} поле треба да содржи само бројки";
+$lang['form_validation_is_numeric'] = "{field} поле треба да содржи само нумерички знаци";
+$lang['form_validation_integer'] = "{field} поле мора да содржи цел број";
+$lang['form_validation_regex_match'] = "{field} полето не е во точен формат";
+$lang['form_validation_matches'] = "{field} терен не одговара на {param} поле";
+$lang['form_validation_differs'] = "{field} поле мора да се разликуваат од {param} поле";
+$lang['form_validation_is_unique'] = "{field} поле мора да содржи уникатна вредност";
+$lang['form_validation_is_natural'] = "{field} поле мора да содржат само цифри";
+$lang['form_validation_is_natural_no_zero'] = "{field} поле мора да содржат само цифри и мора да биде поголема од нула";
+$lang['form_validation_decimal'] = "{field} поле мора да содржи децимален број";
+$lang['form_validation_less_than'] = "{field} поле мора да содржи голем број помалку од {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} поле мора да содржи голем број помала или еднаква на {param}";
+$lang['form_validation_greater_than'] = "{field} поле мора да содржи голем број поголем од {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} поле мора да содржи голем број поголема или еднаква на {param}";
+$lang['form_validation_error_message_not_set'] = "Во можност да пристапите до некоја порака за грешка одговара на вашиот областа име {field}";
+$lang['form_validation_in_list'] = "{field} поле мора да биде една од: {param}";

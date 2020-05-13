@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} réimse riachtanach";
+$lang['form_validation_isset'] = "{field} réimse ní mór bhfuil a luach";
+$lang['form_validation_valid_email'] = "{field} réimse ní mór bhfuil seoladh ríomhphoist bailí";
+$lang['form_validation_valid_emails'] = "{field} réimse ní mór bhfuil gach seoltaí ríomhphoist bailí";
+$lang['form_validation_valid_url'] = "{field} réimse ní mór bhfuil URL bailí";
+$lang['form_validation_valid_ip'] = "{field} réimse ní mór bhfuil a IP bailí";
+$lang['form_validation_min_length'] = "{field} réimse mór a bheith ar a laghad {param} carachtair ar fhad";
+$lang['form_validation_max_length'] = "{field} réimse a bheith níos mó ná {param} carachtair ar fhad";
+$lang['form_validation_exact_length'] = "{field} réimse mór a bheith díreach {param} carachtair ar fhad";
+$lang['form_validation_alpha'] = "{field} réimse ach amháin go bhfuil carachtair aibítreach";
+$lang['form_validation_alpha_numeric'] = "{field} réimse ach amháin go bhfuil alfa-uimhriúil carachtair";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} réimse ach amháin go bhfuil alfa-uimhriúil carachtair agus spásanna";
+$lang['form_validation_alpha_dash'] = "{field} réimse ach amháin go bhfuil alfa-uimhriúil carachtair, béim, agus dashes";
+$lang['form_validation_numeric'] = "{field} réimse ní mór bhfuil iontu ach uimhreacha";
+$lang['form_validation_is_numeric'] = "{field} réimse ní mór bhfuil ach carachtair uimhriúil";
+$lang['form_validation_integer'] = "{field} réimse ní mór bhfuil slánuimhir";
+$lang['form_validation_regex_match'] = "{field} réimse nach é an fhormáid cheart";
+$lang['form_validation_matches'] = "{field} réimse nach bhfuil comhoiriúnach leis an {param} réimse";
+$lang['form_validation_differs'] = "{field} réimse mór difriúil ó an {param} réimse";
+$lang['form_validation_is_unique'] = "{field} réimse ní mór bhfuil a luach ar leith";
+$lang['form_validation_is_natural'] = "{field} réimse mór ach go bhfuil dhigit";
+$lang['form_validation_is_natural_no_zero'] = "{field} réimse mór ach go bhfuil dhigit agus ní mór a bheith níos mó ná náid";
+$lang['form_validation_decimal'] = "{field} réimse ní mór bhfuil uimhir dheachúlach";
+$lang['form_validation_less_than'] = "{field} réimse ní mór bhfuil líon níos lú ná {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} réimse ní mór bhfuil líon níos lú ná, nó cóimhéid le, {param}";
+$lang['form_validation_greater_than'] = "{field} réimse ní mór bhfuil líon níos mó ná {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} réimse ní mór bhfuil líon níos mó ná nó cothrom le {param}";
+$lang['form_validation_error_message_not_set'] = "In ann rochtain a fháil ar an teachtaireacht earráide a fhreagraíonn do réimse an ainm-9";
+$lang['form_validation_in_list'] = "{field} réimse ní mór a bheith ar cheann de: {param}";

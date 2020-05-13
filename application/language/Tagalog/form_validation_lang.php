@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} mga patlang ay kinakailangan";
+$lang['form_validation_isset'] = "{field} field ay dapat na magkaroon ng isang halaga";
+$lang['form_validation_valid_email'] = "{field} field ay dapat maglaman ng isang wastong email address";
+$lang['form_validation_valid_emails'] = "{field} field ay dapat na naglalaman ng lahat ng mga wastong email address";
+$lang['form_validation_valid_url'] = "{field} field ay dapat maglaman ng isang wastong URL";
+$lang['form_validation_valid_ip'] = "{field} field ay dapat maglaman ng isang wastong IP";
+$lang['form_validation_min_length'] = "{field} patlang ay dapat na hindi bababa sa {param} character ang haba";
+$lang['form_validation_max_length'] = "{field} na patlang ay hindi hihigit sa {param} character ang haba";
+$lang['form_validation_exact_length'] = "{field} field ay dapat na eksaktong {param} character ang haba";
+$lang['form_validation_alpha'] = "{field} patlang na maaaring maglaman lamang ang mga pang-abakada character";
+$lang['form_validation_alpha_numeric'] = "{field} patlang na maaaring maglaman lamang ang mga alpha-numeric character";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} patlang na maaaring maglaman lamang ang mga alpha-numeric character at mga puwang";
+$lang['form_validation_alpha_dash'] = "{field} patlang na maaaring maglaman lamang ang mga alpha-numeric character, underscore, at gitling";
+$lang['form_validation_numeric'] = "{field} field ay dapat maglaman lamang ang mga numero ng";
+$lang['form_validation_is_numeric'] = "{field} field ay dapat maglaman lamang numeric character";
+$lang['form_validation_integer'] = "{field} field ay dapat na naglalaman ng isang integer";
+$lang['form_validation_regex_match'] = "{field} patlang ay hindi sa tamang format";
+$lang['form_validation_matches'] = "{field} patlang na ay hindi tugma sa ang mga patlang {param}";
+$lang['form_validation_differs'] = "{field} field ay dapat na naiiba mula sa ang mga patlang {param}";
+$lang['form_validation_is_unique'] = "{field} field ay dapat maglaman ng isang natatanging halaga";
+$lang['form_validation_is_natural'] = "{field} field ay dapat na lamang naglalaman ng mga digit";
+$lang['form_validation_is_natural_no_zero'] = "{field} field ay dapat na lamang maglaman ng mga numero at dapat maging mas malaki kaysa sa zero";
+$lang['form_validation_decimal'] = "{field} field ay dapat maglaman ng isang decimal na numero";
+$lang['form_validation_less_than'] = "{field} field ay dapat maglaman ng isang bilang na mas mababa kaysa sa {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} field ay dapat maglaman ng isang bilang na mas mababa kaysa sa o katumbas ng {param}";
+$lang['form_validation_greater_than'] = "{field} field ay dapat na naglalaman ng isang numero ng mas malaki kaysa sa {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} field ay dapat na naglalaman ng isang numero ng mas malaki kaysa sa o katumbas ng {param}";
+$lang['form_validation_error_message_not_set'] = "Hindi upang ma-access ang isang mensahe ng error na naaayon sa iyong mga patlang na pangalan {field}";
+$lang['form_validation_in_list'] = "{field} field ay dapat na ang isa ng: {param}";

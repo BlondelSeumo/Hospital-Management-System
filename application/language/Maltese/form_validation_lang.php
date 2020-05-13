@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} il-qasam hija meħtieġa";
+$lang['form_validation_isset'] = "{field} qasam għandu jkollhom il-valur";
+$lang['form_validation_valid_email'] = "{field} qasam irid ikun validu-indirizz tal-email";
+$lang['form_validation_valid_emails'] = "{field} qasam għandu jkun fiha l-indirizzi email valida";
+$lang['form_validation_valid_url'] = "{field} qasam irid ikun validu URL";
+$lang['form_validation_valid_ip'] = "{field} qasam irid ikun validu PI";
+$lang['form_validation_min_length'] = "{field} qasam għandu jkun mill-inqas {param}-karattri fit-tul";
+$lang['form_validation_max_length'] = "{field} qasam ma jistax jaqbeż il-{param}-karattri fit-tul";
+$lang['form_validation_exact_length'] = "{field} qasam għandhom ikunu eżattament {param}-karattri fit-tul";
+$lang['form_validation_alpha'] = "{field}-qasam tista'tinkludi biss alfabetiku-karattri";
+$lang['form_validation_alpha_numeric'] = "{field}-qasam tista'tinkludi biss alfa-numerika-karattri";
+$lang['form_validation_alpha_numeric_spaces'] = "{field}-qasam tista'tinkludi biss alfa-numerika-karattri u l-ispazji";
+$lang['form_validation_alpha_dash'] = "{field}-qasam tista'tinkludi biss alfa-numerika-karattri, jenfasizza, u daxxijiet";
+$lang['form_validation_numeric'] = "{field} qasam għandu jkun fiha biss in-numri";
+$lang['form_validation_is_numeric'] = "{field} qasam għandu jkun fiha biss numeriku-karattri";
+$lang['form_validation_integer'] = "{field} qasam għandu jkun fih l-eqreb numru sħiħ";
+$lang['form_validation_regex_match'] = "{field}-qasam mhuwiex fil-format korrett";
+$lang['form_validation_matches'] = "{field} qasam ma kinux jaqblu mal - {param}-qasam";
+$lang['form_validation_differs'] = "{field} qasam għandhom ikunu differenti mill-{param}-qasam";
+$lang['form_validation_is_unique'] = "{field} qasam għandu jkun fih valur uniku";
+$lang['form_validation_is_natural'] = "{field} qasam għandu jkun fiha biss ċifri";
+$lang['form_validation_is_natural_no_zero'] = "{field} qasam għandu jkun fiha biss ċifri u għandu jkun akbar minn żero";
+$lang['form_validation_decimal'] = "{field} qasam għandhom jinkludu numru deċimali";
+$lang['form_validation_less_than'] = "{field} qasam għandhom jinkludu n-numru inqas minn {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} qasam għandhom jinkludu n-numru inqas minn jew ugwali għal {param}";
+$lang['form_validation_greater_than'] = "{field} qasam għandhom jinkludu n-numru akbar minn {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} qasam għandhom jinkludu n-numru akbar minn jew ugwali għal {param}";
+$lang['form_validation_error_message_not_set'] = "F'pożizzjoni li l-aċċess ta'l-messaġġ ta ' żball li jikkorrispondi għall-qasam tiegħek isem-9";
+$lang['form_validation_in_list'] = "{field} qasam għandu jkun wieħed mill -: {param}";

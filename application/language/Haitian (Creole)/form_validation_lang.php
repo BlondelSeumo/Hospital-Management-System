@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} jaden yo mande yo";
+$lang['form_validation_isset'] = "{field} jaden yo dwe gen yon valè";
+$lang['form_validation_valid_email'] = "{field} jaden dwe genyen ladan yon adrès imel ki valab";
+$lang['form_validation_valid_emails'] = "{field} jaden yo dwe genyen ladan yo tout sa ki valab adrès imel";
+$lang['form_validation_valid_url'] = "{field} jaden dwe genyen yon valab URL";
+$lang['form_validation_valid_ip'] = "{field} jaden yo dwe gen yon IP ki valab";
+$lang['form_validation_min_length'] = "{field} jaden yo dwe omwen {param} karaktè nan longè";
+$lang['form_validation_max_length'] = "{field} jaden yo pa gen dwa depase {param} karaktè nan longè";
+$lang['form_validation_exact_length'] = "{field} jaden yo dwe egzakteman {param} karaktè nan longè";
+$lang['form_validation_alpha'] = "{field} jaden yo ka sèlman gen ladan karaktè alfabetik";
+$lang['form_validation_alpha_numeric'] = "{field} jaden yo ka sèlman gen ladan alfa-nimerik karaktè";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} jaden yo ka sèlman gen ladan alfa-nimerik karaktè yo ak espas";
+$lang['form_validation_alpha_dash'] = "{field} jaden yo ka sèlman gen ladan alfa-nimerik karaktè, demontre, ak tirè";
+$lang['form_validation_numeric'] = "{field} jaden yo dwe gen ladann sèlman nan chif yo";
+$lang['form_validation_is_numeric'] = "{field} jaden yo dwe gen ladann sèlman nimerik karaktè";
+$lang['form_validation_integer'] = "{field} jaden dwe genyen yon nonb antye ki pè";
+$lang['form_validation_regex_match'] = "{field} jaden se pa nan a kòrèk fòma";
+$lang['form_validation_matches'] = "{field} jaden pa matche ak {param} jaden";
+$lang['form_validation_differs'] = "{field} jaden yo dwe diferan de {param} jaden";
+$lang['form_validation_is_unique'] = "{field} jaden yo dwe gen yon valè inik";
+$lang['form_validation_is_natural'] = "{field} jaden yo dwe sèlman gen ladan chif";
+$lang['form_validation_is_natural_no_zero'] = "{field} jaden yo dwe sèlman gen ladan chif yo epi yo dwe pi gran pase zewo";
+$lang['form_validation_decimal'] = "{field} jaden dwe genyen ladan yon nimewo desimal";
+$lang['form_validation_less_than'] = "{field} jaden dwe genyen ladan yon nimewo mwens pase {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} jaden dwe genyen ladan yon nimewo mwens pase oswa egal a {param}";
+$lang['form_validation_greater_than'] = "{field} jaden dwe genyen ladan yon nimewo pi gran pase {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} jaden dwe genyen ladan yon nimewo pi gran pase oswa egal a {param}";
+$lang['form_validation_error_message_not_set'] = "Kapab jwenn aksè nan yon mesaj erè ki koresponn nan jaden ou non {field}";
+$lang['form_validation_in_list'] = "{field} jaden yo dwe youn nan yo: {param}";

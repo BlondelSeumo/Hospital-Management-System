@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} துறையில் தேவை";
+$lang['form_validation_isset'] = "{field} துறையில் வேண்டும் ஒரு மதிப்பு";
+$lang['form_validation_valid_email'] = "{field} துறையில் கொண்டிருக்க வேண்டும் ஒரு செல்லுபடியாகும் மின்னஞ்சல் முகவரியை";
+$lang['form_validation_valid_emails'] = "{field} துறையில் கொண்டிருக்க வேண்டும் அனைத்து செல்லுபடியாகும் மின்னஞ்சல் முகவரிகள்";
+$lang['form_validation_valid_url'] = "{field} துறையில் கொண்டிருக்க வேண்டும் ஒரு செல்லுபடியாகும் URL";
+$lang['form_validation_valid_ip'] = "{field} field must contain a valid IP";
+$lang['form_validation_min_length'] = "{field} துறையில் குறைந்தது இருக்க வேண்டும் {param} நீளம் பாத்திரங்கள்";
+$lang['form_validation_max_length'] = "{field} துறையில் தாண்ட முடியாது {param} நீளம் பாத்திரங்கள்";
+$lang['form_validation_exact_length'] = "{field} துறையில் இருக்க வேண்டும் சரியாக {param} நீளம் பாத்திரங்கள்";
+$lang['form_validation_alpha'] = "{field} துறையில் மட்டும் கொண்டிருக்கலாம் அகரவரிசை எழுத்துக்கள்";
+$lang['form_validation_alpha_numeric'] = "{field} துறையில் மட்டும் கொண்டிருக்கலாம் alpha-numeric characters";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} துறையில் மட்டும் கொண்டிருக்கலாம் ஆல்பா-எண், எழுத்துக்கள் மற்றும் இடைவெளிகள்";
+$lang['form_validation_alpha_dash'] = "{field} துறையில் மட்டும் கொண்டிருக்கலாம் alpha-numeric characters, அடிக்கோடு, மற்றும் கோடுகள்";
+$lang['form_validation_numeric'] = "{field} field must contain only எண்கள்";
+$lang['form_validation_is_numeric'] = "{field} field must contain only எண் எழுத்துக்கள்";
+$lang['form_validation_integer'] = "{field} துறையில் கொண்டிருக்க வேண்டும் ஒரு முழு எண்";
+$lang['form_validation_regex_match'] = "{field} துறையில் அல்ல சரியான வடிவம்";
+$lang['form_validation_matches'] = "{field} துறையில் பொருந்தவில்லை {param} துறையில்";
+$lang['form_validation_differs'] = "{field} துறையில் வேண்டும் வேறுபடுகின்றன {param} துறையில்";
+$lang['form_validation_is_unique'] = "{field} துறையில் கொண்டிருக்க வேண்டும் ஒரு தனிப்பட்ட மதிப்பு";
+$lang['form_validation_is_natural'] = "{field} துறையில் வேண்டும் மட்டுமே கொண்டிருக்கும் இலக்கங்கள்";
+$lang['form_validation_is_natural_no_zero'] = "{field} துறையில் வேண்டும் மட்டுமே கொண்டிருக்கும் இலக்கங்கள் மற்றும் விட அதிகமாக இருக்க வேண்டும் பூஜ்யம்";
+$lang['form_validation_decimal'] = "{field} துறையில் கொண்டிருக்க வேண்டும் ஒரு தசம எண்";
+$lang['form_validation_less_than'] = "{field} துறையில் கொண்டிருக்க வேண்டும் ஒரு எண்ணிக்கை குறைவாக {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} துறையில் கொண்டிருக்க வேண்டும் ஒரு எண்ணிக்கை குறைவாக அல்லது சமமாக {param}";
+$lang['form_validation_greater_than'] = "{field} துறையில் கொண்டிருக்க வேண்டும் ஒரு எண் அதிகமாக {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} field must contain a number-ஐ விட அதிகமாக அல்லது சமமாக {param}";
+$lang['form_validation_error_message_not_set'] = "அணுக முடியவில்லை ஒரு பிழை செய்தி தொடர்புடைய உங்கள் புலம் பெயர் {field}";
+$lang['form_validation_in_list'] = "{field} துறையில் ஒன்றாக இருக்க வேண்டும்: {param}";

@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} ਖੇਤਰ ਦੀ ਲੋੜ ਹੈ";
+$lang['form_validation_isset'] = "{field} ਖੇਤਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ, ਇੱਕ ਦਾ ਮੁੱਲ";
+$lang['form_validation_valid_email'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਇੱਕ ਠੀਕ ਈ-ਮੇਲ ਐਡਰੈੱਸ";
+$lang['form_validation_valid_emails'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ ਸਾਰੇ ਠੀਕ ਈਮੇਲ ਐਡਰੈੱਸ";
+$lang['form_validation_valid_url'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਇੱਕ ਠੀਕ URL";
+$lang['form_validation_valid_ip'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਇੱਕ ਠੀਕ IP";
+$lang['form_validation_min_length'] = "{field} ਖੇਤਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ, ' ਤੇ ਘੱਟੋ ਘੱਟ {param} ਲੰਬਾਈ ਵਿੱਚ ਅੱਖਰ";
+$lang['form_validation_max_length'] = "{field} ਖੇਤਰ ਵੱਧ ਨਾ ਕਰ ਸਕਦਾ ਹੈ {param} ਲੰਬਾਈ ਵਿੱਚ ਅੱਖਰ";
+$lang['form_validation_exact_length'] = "{field} ਖੇਤਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ਬਿਲਕੁਲ {param} ਲੰਬਾਈ ਵਿੱਚ ਅੱਖਰ";
+$lang['form_validation_alpha'] = "{field} ਖੇਤਰ ਹੋ ਸਕਦਾ ਹੈ, ਸਿਰਫ ਹੁੰਦੇ ਹਨ, ਵਰਣਮਾਲਾ ਅੱਖਰ";
+$lang['form_validation_alpha_numeric'] = "{field} ਖੇਤਰ ਹੋ ਸਕਦਾ ਹੈ, ਸਿਰਫ ਹੁੰਦੇ ਹਨ, ਅਲਫ਼ਾ-ਅੰਕੀ ਅੱਖਰ";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} ਖੇਤਰ ਹੋ ਸਕਦਾ ਹੈ, ਸਿਰਫ ਹੁੰਦੇ ਹਨ, ਅਲਫ਼ਾ-ਅੰਕੀ ਅੱਖਰ ਅਤੇ ਖਾਲੀ";
+$lang['form_validation_alpha_dash'] = "{field} ਖੇਤਰ ਹੋ ਸਕਦਾ ਹੈ, ਸਿਰਫ ਹੁੰਦੇ ਹਨ, ਅਲਫ਼ਾ-ਅੰਕੀ ਅੱਖਰ, ਜ਼ੋਰ, ਅਤੇ ਘਟਾਓ";
+$lang['form_validation_numeric'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਸਿਰਫ ਨੰਬਰ";
+$lang['form_validation_is_numeric'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ ਸਿਰਫ ਅੰਕੀ ਅੱਖਰ";
+$lang['form_validation_integer'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ ਇੱਕ ਪੂਰਨ ਅੰਕ";
+$lang['form_validation_regex_match'] = "{field} ਖੇਤਰ ਵਿੱਚ ਨਹੀ ਹੈ, ਨੂੰ ਠੀਕ ਫਾਰਮੈਟ";
+$lang['form_validation_matches'] = "{field} ਖੇਤਰ ਨਾਲ ਮੇਲ ਨਹੀ ਹੈ, {param} ਖੇਤਰ";
+$lang['form_validation_differs'] = "{field} ਖੇਤਰ ਨੂੰ ਵੱਖਰਾ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, {param} ਖੇਤਰ";
+$lang['form_validation_is_unique'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਇੱਕ ਵਿਲੱਖਣ ਮੁੱਲ";
+$lang['form_validation_is_natural'] = "{field} ਖੇਤਰ ਨੂੰ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ, ਸਿਰਫ ਹੁੰਦੇ ਹਨ, ਅੰਕ";
+$lang['form_validation_is_natural_no_zero'] = "{field} ਖੇਤਰ ਨੂੰ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ, ਸਿਰਫ ਹੁੰਦੇ ਹਨ, ਅੰਕ ਅਤੇ ਵੱਧ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ਜ਼ੀਰੋ";
+$lang['form_validation_decimal'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਇੱਕ ਦਸ਼ਮਲਵ ਨੰਬਰ";
+$lang['form_validation_less_than'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਇੱਕ ਨੰਬਰ ਦੇ ਘੱਟ ਵੱਧ {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਇੱਕ ਗਿਣਤੀ ਨੂੰ ਵੱਧ ਘੱਟ ਜ ਬਰਾਬਰ ਕਰਨ ਲਈ {param}";
+$lang['form_validation_greater_than'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ ਇੱਕ ਨੰਬਰ ਨੂੰ ਵੱਧ ਵੱਡਾ {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} ਖੇਤਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ ਇੱਕ ਨੰਬਰ ਨੂੰ ਵੱਧ ਜ ਬਰਾਬਰ ਕਰਨ ਲਈ {param}";
+$lang['form_validation_error_message_not_set'] = "ਅਸਮਰੱਥ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ ਇੱਕ ਗਲਤੀ ਸੁਨੇਹਾ ਕਰਨ ਲਈ ਅਨੁਸਾਰੀ ਆਪਣੇ ਖੇਤਰ ਦਾ ਨਾਮ {field}";
+$lang['form_validation_in_list'] = "{field} ਖੇਤਰ ਦੇ ਇੱਕ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ: {param}";

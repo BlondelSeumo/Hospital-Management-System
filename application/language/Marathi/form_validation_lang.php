@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} फील्ड आवश्यक आहे";
+$lang['form_validation_isset'] = "{field} क्षेत्रात असणे आवश्यक आहे, एक मूल्य";
+$lang['form_validation_valid_email'] = "{field} क्षेत्रात असणे आवश्यक आहे एक वैध ई-मेल पत्ता";
+$lang['form_validation_valid_emails'] = "{field} क्षेत्रात असणे आवश्यक आहे सर्व वैध ईमेल पत्ते";
+$lang['form_validation_valid_url'] = "{field} क्षेत्रात असणे आवश्यक आहे एक वैध URL";
+$lang['form_validation_valid_ip'] = "{field} क्षेत्रात असणे आवश्यक आहे एक वैध IP";
+$lang['form_validation_min_length'] = "{field} क्षेत्रात असणे आवश्यक आहे किमान {param} characters in length";
+$lang['form_validation_max_length'] = "{field} क्षेत्रात जास्त असू शकत नाही {param} characters in length";
+$lang['form_validation_exact_length'] = "{field} क्षेत्रात असणे आवश्यक आहे नक्की {param} characters in length";
+$lang['form_validation_alpha'] = "{field} क्षेत्रात शकते फक्त असू अकारविल्हे वर्ण";
+$lang['form_validation_alpha_numeric'] = "{field} क्षेत्रात शकते फक्त असू अल्फा-अंकीय वर्ण";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} क्षेत्रात शकते फक्त असू अल्फा-अंकीय वर्ण आणि मोकळी जागा";
+$lang['form_validation_alpha_dash'] = "{field} क्षेत्रात शकते फक्त असू अल्फा-अंकीय वर्ण, underscores, आणि डॅश";
+$lang['form_validation_numeric'] = "{field} क्षेत्रात असणे आवश्यक आहे फक्त संख्या";
+$lang['form_validation_is_numeric'] = "{field} क्षेत्रात असणे आवश्यक आहे फक्त अंकीय वर्ण";
+$lang['form_validation_integer'] = "{field} क्षेत्रात असणे आवश्यक आहे एक पूर्णांक";
+$lang['form_validation_regex_match'] = "{field} क्षेत्रात योग्य स्वरूप";
+$lang['form_validation_matches'] = "{field} क्षेत्रात जुळत नाही {param} क्षेत्रात";
+$lang['form_validation_differs'] = "{field} क्षेत्रात वेगळे करणे आवश्यक आहे, {param} क्षेत्रात";
+$lang['form_validation_is_unique'] = "{field} क्षेत्रात असणे आवश्यक आहे एक अद्वितीय मूल्य";
+$lang['form_validation_is_natural'] = "{field} क्षेत्रात आवश्यक असतात फक्त अंक";
+$lang['form_validation_is_natural_no_zero'] = "{field} क्षेत्रात आवश्यक असतात फक्त अंक आणि पेक्षा जास्त असणे आवश्यक शून्य";
+$lang['form_validation_decimal'] = "{field} क्षेत्रात असणे आवश्यक आहे एक दशांश संख्या";
+$lang['form_validation_less_than'] = "{field} क्षेत्रात असणे आवश्यक आहे एक संख्या पेक्षा कमी {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} क्षेत्रात असणे आवश्यक आहे एक संख्या पेक्षा कमी किंवा समान करण्यासाठी {param}";
+$lang['form_validation_greater_than'] = "{field} क्षेत्रात असणे आवश्यक आहे एक नंबर पेक्षा जास्त {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} क्षेत्रात असणे आवश्यक आहे एक नंबर या पेक्षा मोठे किंवा समान {param}";
+$lang['form_validation_error_message_not_set'] = "प्रवेश करण्यात अक्षम, एक त्रुटी संदेश संबंधित आपल्या क्षेत्रात नाव {field}";
+$lang['form_validation_in_list'] = "{field} क्षेत्रात एक असणे आवश्यक आहे: {param}";

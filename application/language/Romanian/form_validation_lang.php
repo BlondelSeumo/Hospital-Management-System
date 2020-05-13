@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} câmp este obligatoriu";
+$lang['form_validation_isset'] = "{field} domeniu trebuie să aibă o valoare";
+$lang['form_validation_valid_email'] = "{field} câmp trebuie să conțină o adresă de email validă";
+$lang['form_validation_valid_emails'] = "{field} câmp trebuie să conțină toate valabile adresele de e-mail";
+$lang['form_validation_valid_url'] = "{field} câmp trebuie să conțină o adresă URL validă";
+$lang['form_validation_valid_ip'] = "{field} câmp trebuie să conțină o adresă IP validă";
+$lang['form_validation_min_length'] = "{field} câmp trebuie să fie de cel puțin {param} caractere în lungime";
+$lang['form_validation_max_length'] = "{field} domeniu nu poate depăși {param} caractere în lungime";
+$lang['form_validation_exact_length'] = "{field} câmp trebuie să fie exact {param} caractere în lungime";
+$lang['form_validation_alpha'] = "{field} câmp poate conține numai caractere alfabetice";
+$lang['form_validation_alpha_numeric'] = "{field} câmp poate conține numai caractere alfanumerice";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} câmp poate conține numai caractere alfanumerice și spații";
+$lang['form_validation_alpha_dash'] = "{field} câmp poate conține numai caractere alfanumerice, subliniază, și linii";
+$lang['form_validation_numeric'] = "{field} câmp trebuie să conțină doar numere";
+$lang['form_validation_is_numeric'] = "{field} câmp trebuie să conțină doar caractere numerice";
+$lang['form_validation_integer'] = "{field} câmp trebuie să conțină un număr întreg";
+$lang['form_validation_regex_match'] = "{field} câmp nu este în formatul corect";
+$lang['form_validation_matches'] = "{field} teren nu se potrivește cu {param} domeniu";
+$lang['form_validation_differs'] = "{field} câmp trebuie să difere de {param} domeniu";
+$lang['form_validation_is_unique'] = "{field} câmp trebuie să conțină o valoare unică";
+$lang['form_validation_is_natural'] = "{field} câmp trebuie să conțină numai cifre";
+$lang['form_validation_is_natural_no_zero'] = "{field} câmp trebuie să conțină numai cifre și trebuie să fie mai mare decât zero";
+$lang['form_validation_decimal'] = "{field} câmp trebuie să conțină un număr zecimal";
+$lang['form_validation_less_than'] = "{field} câmp trebuie să conțină un număr mai mic decât {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} câmp trebuie să conțină un număr egal sau mai mic decât {param}";
+$lang['form_validation_greater_than'] = "{field} câmp trebuie să conțină un număr mai mare decât {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} câmp trebuie să conțină un număr mai mare sau egală cu {param}";
+$lang['form_validation_error_message_not_set'] = "În imposibilitatea de a accesa un mesaj de eroare corespunzător câmpul nume {field}";
+$lang['form_validation_in_list'] = "{field} câmp trebuie să fie una de: {param}";

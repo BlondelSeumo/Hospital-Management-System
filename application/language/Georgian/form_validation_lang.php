@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} სფერო არის საჭირო";
+$lang['form_validation_isset'] = "{field} სფეროში უნდა ჰქონდეს მნიშვნელობა";
+$lang['form_validation_valid_email'] = "{field} სფეროში უნდა შეიცავდეს სწორი ელ-ფოსტის მისამართი";
+$lang['form_validation_valid_emails'] = "{field} სფეროში უნდა შეიცავდეს ყველა მოქმედი ელექტრონული ფოსტის მისამართები";
+$lang['form_validation_valid_url'] = "{field} სფეროში უნდა შეიცავდეს მოქმედი URL";
+$lang['form_validation_valid_ip'] = "{field} სფეროში უნდა შეიცავდეს a valid IP";
+$lang['form_validation_min_length'] = "{field} სფეროში უნდა იყოს მინიმუმ {param} სიმბოლო";
+$lang['form_validation_max_length'] = "{field} სფეროში არ უნდა აღემატებოდეს {param} სიმბოლო";
+$lang['form_validation_exact_length'] = "{field} სფეროში უნდა იყოს ზუსტად {param} სიმბოლო";
+$lang['form_validation_alpha'] = "{field} სფეროში შეიძლება მხოლოდ შეიცავდეს ანბანური გმირები";
+$lang['form_validation_alpha_numeric'] = "{field} სფეროში შეიძლება მხოლოდ შეიცავდეს ალფა-ციფრული სიმბოლო";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} სფეროში შეიძლება მხოლოდ შეიცავდეს ალფა-რიცხვითი გმირები და სივრცეები";
+$lang['form_validation_alpha_dash'] = "{field} სფეროში შეიძლება მხოლოდ შეიცავდეს ალფა-რიცხვითი გმირები, ხაზს უსვამს, და dashes";
+$lang['form_validation_numeric'] = "{field} სფეროში უნდა შეიცავდეს მხოლოდ ციფრები";
+$lang['form_validation_is_numeric'] = "{field} სფეროში უნდა შეიცავდეს მხოლოდ რიცხვითი გმირები";
+$lang['form_validation_integer'] = "{field} სფეროში უნდა შეიცავდეს რიცხვი";
+$lang['form_validation_regex_match'] = "{field} სფეროში არ არის სწორი ფორმატი";
+$lang['form_validation_matches'] = "{field} სფერო არ ემთხვევა {param} სფეროში";
+$lang['form_validation_differs'] = "{field} სფეროში უნდა განსხვავდება {param} სფეროში";
+$lang['form_validation_is_unique'] = "{field} სფეროში უნდა შეიცავდეს უნიკალური ღირებულება";
+$lang['form_validation_is_natural'] = "{field} სფეროში უნდა მხოლოდ შეიცავდეს ციფრები";
+$lang['form_validation_is_natural_no_zero'] = "{field} სფეროში უნდა მხოლოდ შეიცავდეს ციფრები და უნდა იყოს მეტი ნულოვანი";
+$lang['form_validation_decimal'] = "{field} სფეროში უნდა შეიცავდეს ათობითი რიცხვი";
+$lang['form_validation_less_than'] = "{field} სფეროში უნდა შეიცავდეს ნომერი ნაკლები {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} სფეროში უნდა შეიცავდეს ნომერი ნაკლები ან ტოლია {param}";
+$lang['form_validation_greater_than'] = "{field} სფეროში უნდა შეიცავდეს ნომერი მეტია, ვიდრე {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} სფეროში უნდა შეიცავდეს ნომერი მეტია ან ტოლია {param}";
+$lang['form_validation_error_message_not_set'] = "ვერ შედიხართ შეცდომა შესაბამისი თქვენს სფეროში დასახელება {field}";
+$lang['form_validation_in_list'] = "{field} სფეროში უნდა იყოს ერთი: {param}";

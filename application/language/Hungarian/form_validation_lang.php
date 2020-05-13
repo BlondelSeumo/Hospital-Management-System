@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} mező kitöltése kötelező";
+$lang['form_validation_isset'] = "{field} mező értéke";
+$lang['form_validation_valid_email'] = "{field} mező tartalmaznia kell egy érvényes e-mail címet";
+$lang['form_validation_valid_emails'] = "{field} a mező tartalmaz minden, érvényes e-mail címek";
+$lang['form_validation_valid_url'] = "{field} mező tartalmaznia kell egy érvényes URL";
+$lang['form_validation_valid_ip'] = "{field} mező tartalmaznia kell egy érvényes IP -";
+$lang['form_validation_min_length'] = "{field} mező legalább {param} karakter hosszúságú";
+$lang['form_validation_max_length'] = "{field} mező nem haladhatja meg {param} karakter hosszúságú";
+$lang['form_validation_exact_length'] = "{field} mezőt ki kell pontosan {param} karakter hosszúságú";
+$lang['form_validation_alpha'] = "{field} mező lehet, hogy csak olyan alfabetikus karakterek";
+$lang['form_validation_alpha_numeric'] = "{field} mező lehet, hogy csak olyan alfa-numerikus karakterek";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} mező lehet, hogy csak olyan alfa-numerikus karakterek, terek";
+$lang['form_validation_alpha_dash'] = "{field} mező lehet, hogy csak olyan alfa-numerikus karakterek, kiemeli, odavág";
+$lang['form_validation_numeric'] = "{field} a mező tartalmaz, csak számok";
+$lang['form_validation_is_numeric'] = "{field} a mező tartalmaz, csak a numerikus karakterek";
+$lang['form_validation_integer'] = "{field} mező tartalmaznia kell egy egész";
+$lang['form_validation_regex_match'] = "{field} mező nem a megfelelő formátumban";
+$lang['form_validation_matches'] = "{field} mező nem egyezik meg a {param} mező";
+$lang['form_validation_differs'] = "{field} mező különböznie kell a {param} mező";
+$lang['form_validation_is_unique'] = "{field} a mező tartalmaz egy egyedi érték";
+$lang['form_validation_is_natural'] = "{field} mezőben kell tartalmaznia számjegy";
+$lang['form_validation_is_natural_no_zero'] = "{field} mezőben kell tartalmaznia számjegy lehet nagyobb, mint nulla";
+$lang['form_validation_decimal'] = "{field} a mező tartalmaz egy decimális szám";
+$lang['form_validation_less_than'] = "{field} a mező tartalmaz száma kevesebb, mint {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} a mező tartalmaz egy szám kisebb vagy egyenlő, mint {param}";
+$lang['form_validation_greater_than'] = "{field} a mező tartalmaz egy szám nagyobb, mint {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} a mező tartalmaz egy szám nagyobb vagy egyenlő, mint {param}";
+$lang['form_validation_error_message_not_set'] = "Nem tud hozzáférni egy hibaüzenet megfelelő a mező neve. 9";
+$lang['form_validation_in_list'] = "{field} mező biztos: {param}";

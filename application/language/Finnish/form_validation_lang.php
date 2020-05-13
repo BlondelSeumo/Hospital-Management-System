@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} kenttä on pakollinen";
+$lang['form_validation_isset'] = "{field}-kentässä on arvo";
+$lang['form_validation_valid_email'] = "{field}-kentän tulee sisältää kelvollinen sähköpostiosoite";
+$lang['form_validation_valid_emails'] = "{field}-kentän tulee sisältää kaikki voimassa sähköpostiosoitteet";
+$lang['form_validation_valid_url'] = "{field}-kentän tulee sisältää kelvollinen URL";
+$lang['form_validation_valid_ip'] = "{field}-kentän tulee sisältää kelvollinen IP";
+$lang['form_validation_min_length'] = "{field}-kentässä on oltava vähintään {param} merkkiä pitkä";
+$lang['form_validation_max_length'] = "{field}-kentässä voi olla enintään {param} merkkiä pitkä";
+$lang['form_validation_exact_length'] = "{field}-kentässä on oltava täsmälleen {param} merkkiä pitkä";
+$lang['form_validation_alpha'] = "{field}-kenttä voi sisältää vain kirjaimia";
+$lang['form_validation_alpha_numeric'] = "{field}-kenttä voi sisältää vain alfa-numeerisia merkkejä";
+$lang['form_validation_alpha_numeric_spaces'] = "{field}-kenttä voi sisältää vain alfanumeerisia merkkejä ja välilyöntejä";
+$lang['form_validation_alpha_dash'] = "{field}-kenttä voi sisältää vain alfa-numeerisia merkkejä, alaviivoja ja väliviivoja";
+$lang['form_validation_numeric'] = "{field} kenttä saa sisältää vain numeroita";
+$lang['form_validation_is_numeric'] = "{field} kenttä saa sisältää vain numeerisia merkkejä";
+$lang['form_validation_integer'] = "{field}-kentässä on oltava kokonaisluku";
+$lang['form_validation_regex_match'] = "{field} kenttä ei ole oikeassa muodossa";
+$lang['form_validation_matches'] = "{field} kenttä ei vastaa {param} alalla";
+$lang['form_validation_differs'] = "{field} kenttä on eroavat {param} alalla";
+$lang['form_validation_is_unique'] = "{field}-kentän on oltava yksilöllinen arvo";
+$lang['form_validation_is_natural'] = "{field} kenttä saa sisältää vain numeroita";
+$lang['form_validation_is_natural_no_zero'] = "{field} kenttä saa sisältää vain numeroita ja sen on oltava suurempi kuin nolla";
+$lang['form_validation_decimal'] = "{field} kentässä on oltava desimaaliluku";
+$lang['form_validation_less_than'] = "{field}-kentän tulee sisältää määrä vähemmän kuin {param}";
+$lang['form_validation_less_than_equal_to'] = "{field}-kentässä on oltava numero, joka on pienempi tai yhtä suuri {param}";
+$lang['form_validation_greater_than'] = "{field} kentässä on oltava numero, joka on suurempi kuin {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} kentässä on oltava numero, joka on suurempi tai yhtä suuri kuin {param}";
+$lang['form_validation_error_message_not_set'] = "Voi käyttää virheilmoituksen, joka vastaa kentän nimi-9";
+$lang['form_validation_in_list'] = "{field} kentän on oltava yksi: {param}";

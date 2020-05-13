@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} สนามคือต้องการ";
+$lang['form_validation_isset'] = "{field} สนามต้องมีค่า";
+$lang['form_validation_valid_email'] = "{field} สนามต้องมีที่อยู่อีเมลที่ถูกต้อง";
+$lang['form_validation_valid_emails'] = "{field} สนามต้องมีทั้งที่ใช้งานได้ที่อยู่อีเมล";
+$lang['form_validation_valid_url'] = "{field} สนามต้องมีที่อยู่ URL ที่ถูกต้อง";
+$lang['form_validation_valid_ip'] = "{field} สนามต้องมีที่ถูกต้องหมายเลขไอพี";
+$lang['form_validation_min_length'] = "{field} สนามคงต้องเป็นอย่างน้อย {param} ตัวอักษรในความยาว";
+$lang['form_validation_max_length'] = "{field} สนามไม่สามารถเกิ {param} ตัวอักษรในความยาว";
+$lang['form_validation_exact_length'] = "{field} สนามต้องเป็นสิ่ง {param} ตัวอักษรในความยาว";
+$lang['form_validation_alpha'] = "{field} สนามอาจจะเป็นเพียงแค่มีตัวอักษรเรียงตามตัวอักษร";
+$lang['form_validation_alpha_numeric'] = "{field} สนามอาจจะเดียวที่มีอัลฟ่า-numeric ตัวอักษร";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} สนามอาจจะเดียวที่มีอัลฟ่า-numeric ตัวอักษรและองการตัวแยก(ช่องว่าง)";
+$lang['form_validation_alpha_dash'] = "{field} สนามอาจจะเดียวที่มีอัลฟ่า-numeric ตัวอักษร underscores และ dashes";
+$lang['form_validation_numeric'] = "{field} สนามต้องมีแค่ตัวเลข";
+$lang['form_validation_is_numeric'] = "{field} สนามต้องมีเพียง numeric ตัวอักษร";
+$lang['form_validation_integer'] = "{field} สนามต้องมีเป็นจำนวนเต็ม";
+$lang['form_validation_regex_match'] = "{field} สนามไม่ได้อยู่ในรูปแบบที่ถูกต้อง";
+$lang['form_validation_matches'] = "{field} สนามไม่ได้ตรงกับ {param} สนาม";
+$lang['form_validation_differs'] = "{field} สนามต้องแตกต่างกันอกจาก {param} สนาม";
+$lang['form_validation_is_unique'] = "{field} สนามต้องมีเฉพาะตัวและงานเพียงอย่างเดีค่า";
+$lang['form_validation_is_natural'] = "{field} สนามต้องเดียวที่มีตัวเลข";
+$lang['form_validation_is_natural_no_zero'] = "{field} สนามต้องเดียวที่มีตัวเลขและต้องเป็นสิ่งที่ยิ่งใหญ่กว่าศูนย์";
+$lang['form_validation_decimal'] = "{field} สนามต้องมีเป็นจำนวนทศนิยม";
+$lang['form_validation_less_than'] = "{field} สนามต้องมีเป็นจำนวนน้อยกว่า {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} สนามต้องมีเป็นจำนวนน้อยกว่าหรือเท่ากับ {param}";
+$lang['form_validation_greater_than'] = "{field} สนามต้องมีเป็นจำนวนมากกว่า {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} สนามต้องมีเป็นจำนวนมากกว่าหรือเท่ากับ {param}";
+$lang['form_validation_error_message_not_set'] = "ไม่สามารถเข้าถึงข้อผิดพลาดเกิดขึ้นระหว่างข้อความที่ตรงกับของสนามชื่อ{field}";
+$lang['form_validation_in_list'] = "{field} สนามคงต้องเป็นหนึ่ง:{param}";

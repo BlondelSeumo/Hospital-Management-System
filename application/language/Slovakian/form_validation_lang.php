@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} pole je povinné";
+$lang['form_validation_isset'] = "{field} pole musí mať hodnotu";
+$lang['form_validation_valid_email'] = "{field} pole musí obsahovať platnú e-mailovú adresu";
+$lang['form_validation_valid_emails'] = "{field} pole musí obsahovať všetky platnej e-mailovej adresy";
+$lang['form_validation_valid_url'] = "{field} pole musí obsahovať platnú adresu URL";
+$lang['form_validation_valid_ip'] = "{field} pole musí obsahovať platnú IP";
+$lang['form_validation_min_length'] = "{field} pole musí byť aspoň {param} znakov";
+$lang['form_validation_max_length'] = "{field} pole nemôže presiahnuť {param} znakov";
+$lang['form_validation_exact_length'] = "{field} pole musí byť presne {param} znakov";
+$lang['form_validation_alpha'] = "{field} pole môže obsahovať iba abecedné znaky";
+$lang['form_validation_alpha_numeric'] = "{field} pole môže obsahovať alfa-numerické znaky";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} pole môže obsahovať iba alfanumerické znaky a medzery";
+$lang['form_validation_alpha_dash'] = "{field} pole môže obsahovať alfa-numerické znaky, roľa, a pomlčky";
+$lang['form_validation_numeric'] = "{field} pole musí obsahovať len čísla";
+$lang['form_validation_is_numeric'] = "{field} pole musí obsahovať iba alfanumerické znaky";
+$lang['form_validation_integer'] = "{field} pole musí obsahovať celé číslo";
+$lang['form_validation_regex_match'] = "{field} pole nie je v správnom formáte";
+$lang['form_validation_matches'] = "{field} poľa nezodpovedá {param} oblasti";
+$lang['form_validation_differs'] = "{field} pole musí líšiť od {param} oblasti";
+$lang['form_validation_is_unique'] = "{field} pole musí obsahovať jedinečné hodnoty";
+$lang['form_validation_is_natural'] = "{field} pole musí obsahovať iba číslice";
+$lang['form_validation_is_natural_no_zero'] = "{field} pole musí obsahovať len číslice a musí byť väčší ako nula";
+$lang['form_validation_decimal'] = "{field} pole musí obsahovať desatinné číslo";
+$lang['form_validation_less_than'] = "{field} pole musí obsahovať číslo menej ako {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} pole musí obsahovať číslo menšia alebo rovná {param}";
+$lang['form_validation_greater_than'] = "{field} pole musí obsahovať číslo väčšie ako {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} pole musí obsahovať číslo väčšie ako alebo rovné {param}";
+$lang['form_validation_error_message_not_set'] = "Zamedzil prístup k chybové hlásenie zodpovedajúce pole názov-9";
+$lang['form_validation_in_list'] = "{field} pole musí byť jednou z: {param}";

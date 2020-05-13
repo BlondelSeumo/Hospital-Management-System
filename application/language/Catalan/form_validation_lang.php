@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} camp és obligatori";
+$lang['form_validation_isset'] = "{field} camp ha de tenir un valor";
+$lang['form_validation_valid_email'] = "{field} camp ha de contenir una adreça vàlida de correu electrònic";
+$lang['form_validation_valid_emails'] = "{field} camp ha de contenir totes les adreces de correu electrònic vàlida";
+$lang['form_validation_valid_url'] = "{field} camp ha de contenir un URL vàlid";
+$lang['form_validation_valid_ip'] = "{field} camp ha de contenir una IP vàlida";
+$lang['form_validation_min_length'] = "{field} camp ha de ser, com a mínim {param} caràcters de longitud";
+$lang['form_validation_max_length'] = "{field} camp no pot superar {param} caràcters de longitud";
+$lang['form_validation_exact_length'] = "{field} camp ha de ser exactament {param} caràcters de longitud";
+$lang['form_validation_alpha'] = "{field} camp només pot contenir alfabètic personatges";
+$lang['form_validation_alpha_numeric'] = "{field} camp només pot contenir caràcters alfanumèrics";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} camp només pot contenir caràcters alfanumèrics i espais";
+$lang['form_validation_alpha_dash'] = "{field} camp només pot contenir caràcters alfanumèrics, guions i guions";
+$lang['form_validation_numeric'] = "{field} camp ha de contenir només els números";
+$lang['form_validation_is_numeric'] = "{field} camp ha de contenir només caràcters numèrics";
+$lang['form_validation_integer'] = "{field} camp ha de contenir un nombre enter";
+$lang['form_validation_regex_match'] = "{field} camp no en el format correcte";
+$lang['form_validation_matches'] = "{field} camp no coincideix amb la {param} camp";
+$lang['form_validation_differs'] = "{field} camp ha de diferir de la {param} camp";
+$lang['form_validation_is_unique'] = "{field} camp ha de contenir un valor únic";
+$lang['form_validation_is_natural'] = "{field} camp només ha de contenir dígits";
+$lang['form_validation_is_natural_no_zero'] = "{field} camp només ha de contenir dígits i ha de ser més gran que zero";
+$lang['form_validation_decimal'] = "{field} camp ha de contenir un número decimal";
+$lang['form_validation_less_than'] = "{field} camp ha de contenir un nombre menys de {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} camp ha de contenir un nombre inferior o igual a {param}";
+$lang['form_validation_greater_than'] = "{field} camp ha de contenir un nombre més gran que {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} camp ha de contenir un nombre superior o igual a {param}";
+$lang['form_validation_error_message_not_set'] = "Que no poden accedir a un missatge d'error corresponent, el nom del camp {field}";
+$lang['form_validation_in_list'] = "{field} camp ha de ser una de: {param}";

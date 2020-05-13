@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field}-Feld erforderlich";
+$lang['form_validation_isset'] = "{field}-Feld muss einen Wert haben";
+$lang['form_validation_valid_email'] = "{field}-Feld muss eine gültige E-Mail-Adresse";
+$lang['form_validation_valid_emails'] = "{field}-Feld enthalten muss, die alle gültigen E-Mail-Adressen";
+$lang['form_validation_valid_url'] = "{field}-Feld muss eine gültige URL";
+$lang['form_validation_valid_ip'] = "{field}-Feld muss eine gültige IP";
+$lang['form_validation_min_length'] = "{field}-Feld muss mindestens {param} Zeichen in der Länge";
+$lang['form_validation_max_length'] = "{field} Feld nicht überschreiten {param} Zeichen in der Länge";
+$lang['form_validation_exact_length'] = "{field}-Feld muss genau {param} Zeichen in der Länge";
+$lang['form_validation_alpha'] = "{field}-Feld kann nur alphabetische Zeichen enthalten";
+$lang['form_validation_alpha_numeric'] = "{field}-Feld enthalten nur alpha-numerische Zeichen";
+$lang['form_validation_alpha_numeric_spaces'] = "{field}-Feld darf nur alphanumerische Zeichen und Leerzeichen";
+$lang['form_validation_alpha_dash'] = "{field}-Feld darf nur alphanumerische Zeichen, Unterstriche und Bindestriche";
+$lang['form_validation_numeric'] = "{field}-Feld darf nur zahlen enthalten";
+$lang['form_validation_is_numeric'] = "{field}-Feld darf nur numerische Zeichen enthalten";
+$lang['form_validation_integer'] = "{field}-Feld muss eine Ganzzahl enthalten";
+$lang['form_validation_regex_match'] = "{field}-Feld ist nicht im richtigen format";
+$lang['form_validation_matches'] = "{field}-Feld nicht mit dem {param} Feld";
+$lang['form_validation_differs'] = "{field} Feld muss, unterscheiden sich von den {param} Feld";
+$lang['form_validation_is_unique'] = "{field}-Feld muss einen eindeutigen Wert enthalten";
+$lang['form_validation_is_natural'] = "{field}-Feld darf nur Ziffern enthalten";
+$lang['form_validation_is_natural_no_zero'] = "{field}-Feld darf nur Ziffern enthalten und muss größer als null sein";
+$lang['form_validation_decimal'] = "{field}-Feld darf eine Dezimalzahl enthalten";
+$lang['form_validation_less_than'] = "{field}-Feld muss eine Zahl enthalten weniger als {param}";
+$lang['form_validation_less_than_equal_to'] = "{field}-Feld muss eine Zahl enthalten, die kleiner als oder gleich {param}";
+$lang['form_validation_greater_than'] = "{field}-Feld muss eine Zahl enthalten, die größer als {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field}-Feld muss eine Zahl enthalten, die größer als oder gleich {param}";
+$lang['form_validation_error_message_not_set'] = "Nicht auf eine Fehlermeldung entsprechend Ihrem Feld-name {field}";
+$lang['form_validation_in_list'] = "{field}-Feld muss sein: {param}";

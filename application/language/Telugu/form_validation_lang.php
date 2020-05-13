@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} ఫీల్డ్ అవసరం";
+$lang['form_validation_isset'] = "{field} రంగంలో కలిగి ఉండాలి ఒక విలువ";
+$lang['form_validation_valid_email'] = "{field} రంగంలో కలిగి ఉండాలి ఒక చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామా";
+$lang['form_validation_valid_emails'] = "{field} రంగంలో కలిగి ఉండాలి అన్ని చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాలు";
+$lang['form_validation_valid_url'] = "{field} రంగంలో must contain a valid URL";
+$lang['form_validation_valid_ip'] = "{field} రంగంలో కలిగి ఉండాలి ఒక చెల్లుబాటు అయ్యే IP";
+$lang['form_validation_min_length'] = "{field} రంగంలో కనీసం ఉండాలి {param} అక్షరాల పొడవు";
+$lang['form_validation_max_length'] = "{field} రంగంలో cannot exceed {param} అక్షరాల పొడవు";
+$lang['form_validation_exact_length'] = "{field} రంగంలో ఉండాలి. సరిగ్గా {param} అక్షరాల పొడవు";
+$lang['form_validation_alpha'] = "{field} రంగంలో మాత్రమే కలిగి అక్షర అక్షరాలు";
+$lang['form_validation_alpha_numeric'] = "{field} రంగంలో మాత్రమే కలిగి ఆల్ఫా-సంఖ్యా అక్షరాలు";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} రంగంలో మాత్రమే కలిగి ఆల్ఫా-సంఖ్యా అక్షరాలు మరియు ఖా";
+$lang['form_validation_alpha_dash'] = "{field} రంగంలో మాత్రమే కలిగి ఆల్ఫా-సంఖ్యా అక్షరాలు, ఉద్ఘాటిస్తుంది, మరియు వడివడిగా";
+$lang['form_validation_numeric'] = "{field} రంగంలో must contain only numbers";
+$lang['form_validation_is_numeric'] = "{field} రంగంలో must contain only న్యూమరిక్ అక్షరాలు";
+$lang['form_validation_integer'] = "{field} రంగంలో must contain an integer";
+$lang['form_validation_regex_match'] = "{field} రంగంలో కాదు, సరైన ఫార్మాట్";
+$lang['form_validation_matches'] = "{field} రంగంలో సరిపోలడం లేదు {param} రంగంలో";
+$lang['form_validation_differs'] = "{field} రంగంలో ఉండాలి. విభిన్నమైన {param} రంగంలో";
+$lang['form_validation_is_unique'] = "{field} రంగంలో కలిగి ఉండాలి ఒక ఏకైక విలువ";
+$lang['form_validation_is_natural'] = "{field} రంగంలో ఉండాలి మాత్రమే కలిగి అంకెలు";
+$lang['form_validation_is_natural_no_zero'] = "{field} రంగంలో ఉండాలి మాత్రమే కలిగి అంకెలు తప్పక సున్నా కంటే ఎక్కువ.";
+$lang['form_validation_decimal'] = "{field} రంగంలో కలిగి ఉండాలి ఒక దశాంశ సంఖ్య";
+$lang['form_validation_less_than'] = "{field} రంగంలో కలిగి ఉండాలి ఒక సంఖ్య కంటే తక్కువ {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} రంగంలో కలిగి ఉండాలి ఒక సంఖ్య కంటే తక్కువ లేదా సమానంగా {param}";
+$lang['form_validation_greater_than'] = "{field} రంగంలో కలిగి ఉండాలి ఒక సంఖ్య కంటే ఎక్కువ {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} రంగంలో కలిగి ఉండాలి ఒక సంఖ్య కంటే ఎక్కువ లేదా సమాన {param}";
+$lang['form_validation_error_message_not_set'] = "Unable to access ఒక దోష సందేశం ఇదే మీ రంగంలో పేరు {field}";
+$lang['form_validation_in_list'] = "{field} రంగంలో ఒకటి ఉండాలి: {param}";

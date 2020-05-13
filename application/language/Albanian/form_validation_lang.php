@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} fusha është e nevojshme";
+$lang['form_validation_isset'] = "{field} fusha duhet të ketë një vlerë";
+$lang['form_validation_valid_email'] = "{field} fusha duhet të përmbajë një adresë e vlefshme email";
+$lang['form_validation_valid_emails'] = "{field} fusha duhet të përmbajë të gjitha të vlefshme adresat e-mail";
+$lang['form_validation_valid_url'] = "{field} fusha duhet të përmbajë një URL e vlefshme";
+$lang['form_validation_valid_ip'] = "{field} fusha duhet të përmbajë një vlefshme IP";
+$lang['form_validation_min_length'] = "{field} fushë duhet të jetë të paktën {param} karaktere në gjatësi";
+$lang['form_validation_max_length'] = "{field} fushë nuk mund të kalojë {param} karaktere në gjatësi";
+$lang['form_validation_exact_length'] = "{field} fushë duhet të jetë saktësisht {param} karaktere në gjatësi";
+$lang['form_validation_alpha'] = "{field} fushën mund të përmbajnë vetëm karaktere alfabetike";
+$lang['form_validation_alpha_numeric'] = "{field} fushën mund të përmbajnë vetëm alfa-numerike karaktere";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} fushën mund të përmbajnë vetëm alfa-numerike karaktere dhe hapësira";
+$lang['form_validation_alpha_dash'] = "{field} fushën mund të përmbajnë vetëm alfa-numerike karaktere, nënvizon, dhe dashes";
+$lang['form_validation_numeric'] = "{field} fusha duhet të përmbajë vetëm numra";
+$lang['form_validation_is_numeric'] = "{field} fusha duhet të përmbajë vetëm karaktere numerike";
+$lang['form_validation_integer'] = "{field} fusha duhet të përmbajë një numër i plotë";
+$lang['form_validation_regex_match'] = "{field} fushë që nuk është e saktë format";
+$lang['form_validation_matches'] = "{field} fushë nuk përputhet me fushën {param}";
+$lang['form_validation_differs'] = "{field} fusha duhet të ndryshojnë nga {param} fushën";
+$lang['form_validation_is_unique'] = "{field} fusha duhet të përmbajë një vlere të vetme";
+$lang['form_validation_is_natural'] = "{field} fusha duhet të përmbajnë vetëm shifra";
+$lang['form_validation_is_natural_no_zero'] = "{field} fusha duhet të përmbajnë vetëm shifra dhe duhet të jetë më e madhe se zero";
+$lang['form_validation_decimal'] = "{field} fusha duhet të përmbajë një numër decimal";
+$lang['form_validation_less_than'] = "{field} fusha duhet të përmbajnë një numër më pak se {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} fusha duhet të përmbajnë një numër më pak se ose e barabartë me {param}";
+$lang['form_validation_greater_than'] = "{field} fusha duhet të përmbajnë një numër më të madh se {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} fusha duhet të përmbajnë një numër më të madh se ose e barabartë me {param}";
+$lang['form_validation_error_message_not_set'] = "Në gjendje për të hyrë në një mesazh gabimi që korrespondon me fushën tuaj emri {field}";
+$lang['form_validation_in_list'] = "{field} fushë duhet të jetë një prej: {param}";

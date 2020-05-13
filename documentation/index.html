@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Smart Hospital - Documentation</title>  
+    <meta name="description" content="Smart Hospital Ver 2.1 - Documentation">
+    <meta name="author" content="QDOCS">
+    <meta name="copyright" content="QDOCS"> 
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link href="assets/images/s-favicon.png" rel="shortcut icon" type="image/x-icon">
+    <!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+
+    <!-- Ionicons -->
+   
+    <!-- Theme style -->
+    <link rel="stylesheet" href="assets/css/docmain.min.css">
+    <link rel="stylesheet" href="assets/css/_all-skins.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body class="skin-blue fixed" data-spy="scroll" data-target="#scrollspy">
+    <div class="wrapper">
+      <header class="main-header">
+       <a href="http://smart-hospital.in" target="_blank" class="logo">
+          <span class="logo-lg"><img src="assets/images/logo.png" alt="Smart Hospital"></span>
+        </a>
+       <nav class="navbar navbar-static-top" role="navigation">
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <div class="navbar-custom-menu" style="padding: 10px;">
+            <a href="http://qdocs.in/" target="_blank"><img src="assets/images/qdocs-square-logo.png" alt="img" class="" height="30"></a>
+          </div>
+        </nav>
+      </header>
+     
+      <aside class="main-sidebar">
+        <div class="sidebar single-page-nav" id="scrollspy">
+          <ul class="nav sidebar-menu">       
+            <li class="active page-scroll"><a href="#documenter_cover">Start</a></li>
+            <li class="page-scroll"><a href="#sysreq">System Requirements</a></li>
+            <li class="page-scroll"><a href="#install">Smart Hospital Installation</a></li>
+			<li class="page-scroll"><a href="#update">Updating Smart Hospital</a></li>
+            <li class="page-scroll"><a href="#using">Using Smart Hospital</a></li>
+             <li id="adminpanel">
+              <a href="#"><i class="fa fa-angle-left pull-right"></i> Admin Panel</a>
+              <ul class="nav treeview-menu">
+                <li class="page-scroll"><a href="#overview"><i class="fa fa-angle-double-right"></i>Overview</a></li>
+                  <li class="page-scroll"><a href="#frontoffice"><i class="fa fa-angle-double-right"></i>Front Office</a></li>
+                  <li class="page-scroll"><a href="#opd"><i class="fa fa-angle-double-right"></i>OPD - Out Patient</a></li>
+                  <li class="page-scroll"><a href="#ipd"><i class="fa fa-angle-double-right"></i>IPD - In Patient</a></li>
+				  <li class="page-scroll"><a href="#pharmacy"><i class="fa fa-angle-double-right"></i>Pharmacy</a></li>
+				  <li class="page-scroll"><a href="#pathology"><i class="fa fa-angle-double-right"></i>Pathology</a></li>
+				  <li class="page-scroll"><a href="#radiology"><i class="fa fa-angle-double-right"></i>Radiology</a></li>
+				  <li class="page-scroll"><a href="#ot"><i class="fa fa-angle-double-right"></i>Operation Theatre</a></li>
+				  <li class="page-scroll"><a href="#bloodbank"><i class="fa fa-angle-double-right"></i>Blood Bank</a></li>
+				  <li class="page-scroll"><a href="#tpa"><i class="fa fa-angle-double-right"></i>TPA Management</a></li>
+				  <li class="page-scroll"><a href="#finance"><i class="fa fa-angle-double-right"></i>Finance</a></li>
+				  <li class="page-scroll"><a href="#ambulance"><i class="fa fa-angle-double-right"></i>Ambulance</a></li>
+				  <li class="page-scroll"><a href="#bdr"><i class="fa fa-angle-double-right"></i>Birth & Death Record</a></li>
+                  <li class="page-scroll"><a href="#hr"><i class="fa fa-angle-double-right"></i>Human Resource</a></li>
+                  <li class="page-scroll"><a href="#messaging"><i class="fa fa-angle-double-right"></i>Messaging</a></li>
+                  <li class="page-scroll"><a href="#downcent"><i class="fa fa-angle-double-right"></i>Download Center</a></li>
+                  <li class="page-scroll"><a href="#inventory"><i class="fa fa-angle-double-right"></i>Inventory</a></li>
+                  <li class="page-scroll"><a href="#frontcms"><i class="fa fa-angle-double-right"></i>Front CMS</a></li>                  
+                  <li class="page-scroll"><a href="#reports"><i class="fa fa-angle-double-right"></i>Reports</a></li>
+				  <li class="page-scroll"><a href="#notifications"><i class="fa fa-angle-double-right"></i>Notifications</a></li>
+                  <li class="page-scroll"><a href="#calendar"><i class="fa fa-angle-double-right"></i>Calendar & ToDo List</a></li>
+                  <li class="page-scroll"><a href="#setup"><i class="fa fa-angle-double-right"></i>Setup</a></li>                
+              </ul>
+            </li>
+            <li class="page-scroll"><a href="#patientpanel">Patient Panel</a></li>
+			<li class="page-scroll"><a href="#license">License</a></li>			
+            <li class="page-scroll"><a href="#changelog">Changelog</a></li>
+            <li class="page-scroll"><a href="#freesupp">Free Help & Support</a></li>
+          </ul>
+        </div>
+      </aside>
+      <div class="content-wrapper">
+        <div class="content body">
+
+<section id="documenter_cover">
+<h1 class="page-header">Smart Hospital : Hospital Management System</h1>
+<h5 style="margin-top: 0px;font-style: italic;">The only software need to run your hospital Smarter.</h5>
+
+<h5><span style="font-size:14px;">By</span><br>
+<a href="http://qdocs.in" target="_blank"><img src="assets/images/qdocs.png" alt="img" class="" width="150"  /></a></h5>
+<hr> 
+<p>
+                    Ver. 2.1<br/>
+                    Email: <a href="mailto:support@qdocs.in">support@qdocs.in</a><br/>
+                    Website: <a href="http://smart-hospital.in" target="_blank">smart-hospital.in</a>
+        </p>
+                <hr>
+                <p>We would like to thank you for purchasing <b>Smart Hospital</b>! We are very pleased you have chosen <b>Smart Hospital</b> for your institution, you will not be disappointed! Before you get started, please be sure to always check out these documentation files. We outline all kinds of good information, and provide you with all the details you need to use <b>Smart Hospital</b>. <b>Smart Hospital</b> can be used with any hospital, clinic, pathology center, radiology center, pharmacy, blood bank or medical training institute.
+
+  <p>If you are unable to find your answer here in our documentation, watch our Video Tutorials, you can also visit our Help & Support. Chances are your question or issue have been brought up already and the answer is waiting to be found. If you are unable to find it anywhere, then please go our Support section and open a new Support Ticket with all the details we need. Please be sure to include your site URL as well. Thank you, we hope you enjoy using <b>Smart Hospital</b>!</p>
+
+  <p class="note" style="box-sizing: border-box; margin: 0px 0px 10px; border: 1px solid rgb(251, 167, 102); padding: 12px; border-radius: 4px; color: rgb(68, 74, 82); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; background: rgb(255, 248, 242);"><b>To read latest and updated documentation please visit <a href="http://smart-hospital.in/docs" target="_blank">smart-hospital.in/docs</a></b>
+  <p/>  
+  
+<a href="http://support.qdocs.in" class="btn btn-primary button-primary button-primary2">Help & Support</a>
+</section>
+
+<section id="sysreq">
+<h1 class="page-header">System Requirements</h1><hr>
+   <P>To installing <b>Smart Hospital</b>, Your web server must be running <b>PHP 5.4 or higher</b> and <b>Mysql 5.1 or higher</b>. We have tested it with Windows, Mac and Linux but for optimum performance we will recommend to use <b>Linux with Apache webserver</b>. Below are a list of items you should ensure your host can comply with.</P>
+                <ul>
+                    <li>PHP 5.4+</li>
+                    <li>MYSQL 5.1+</li>
+                    <li>mod_rewrite Apache</li>               
+                    <li>MBString Extension</li>
+                    <li>MYSQLi Extension</li>
+                    <li>Zip Extension</li>
+                    <li>CURL Extension (recommended)</li>
+                    * In most hosting accounts, these extensions are enabled by default. But you should check with your hosting provider.
+                </ul>
+                <P>Before installation <b>Smart Hospital</b> to install and work properly, you must make few directories/files writable. Below are a list of directories/files you should ensure that have write permissions.</P>
+                <ul style="word-wrap: break-word;">
+					<li>installation_dir/application/config/config.php</li>
+                  	<li>installation_dir/application/config/database.php</li>
+					<li>installation_dir/application/config/autoload.php</li>
+					<li>installation_dir/application/config/license.php</li>
+                    <li>installation_dir/temp</li>
+                    <li>installation_dir/backup</li>
+                    <li>installation_dir/backup/database_backup</li>
+                    <li>installation_dir/backup/temp_uploaded</li>
+                    <li>installation_dir/uploads</li>
+                    <li>installation_dir/uploads/&lt;all_its_sub_directories&gt;</li>                   					
+                </ul>
+</section>
+<!--end Requirements-->
+
+<!--Installation-->
+<section id="install">
+<h1 class="page-header">Smart Hospital Installation</h1><hr>
+  <p>Smart Hospital comes with a simple automatic installer.<p/>
+
+                <h4>- Configure database connection</h4>
+                <p>You need to have previously setup database from the cPanel or your hosting provider.<br/>
+                    Here is a good tutorial <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9363/2180/how-to-create-and-maintain-mysql-databases-in-cpanel" target="_blank">how to setup MySQL database in cPanel</a> if you are not familiar with this.<p/>
+                <ol>
+                    <li>Login to cPanel by accessing www.yourdomain.com/cpanel and navigate go MySQL Databases.</li>
+                    <li>Create database first.</li>
+                    <li>Create user and setup your password.</li>
+                    <li>Add the user to database by selecting the database and the username.</li>
+                </ol>
+                <br/>
+                Make sure you have checked All privileged when adding the user to database.
+                <h4>- Install</h4>
+                <p>Find the folder <b>smart_hospital_src</b> in your downloaded package from Codecanyon. This folder contains complete source code files need to install Smart Hospital. Upload all the files under this folder to your hosting folder and navigate to your url <b>http://yourdomain.com/</b> . After hitting url <b>http://yourdomain.com/</b> system redirects to <b>http://yourdomain.com/install/start</b> to start installer.<p/>
+                <p>You will need to pass the server requirements in order to install Smart Hospital.<p/>
+                <p><img src="assets/images/install1.png" alt="img" class="img-responsive" /></p>
+                <p>Click <strong>Database Setup</strong> and populate the fields according to your database setup.</p>
+                <p>If any errors found while connecting you will be notified otherwise you should see the credentials screen</p>
+                <p><img src="assets/images/install2.png" alt="img" class="img-responsive"/></p>
+                <p>Enter <b>Super Admin Email and Password</b> for your Admin Panel Login</p>
+                <p><img src="assets/images/install3.png" alt="img" class="img-responsive" /></p>
+                <p>Great! You have successfully installed Smart Hospital. At last step click on <b>Delete Install Directory and Login</b> button to go to Admin Panel Login page. </p>
+                <p><img src="assets/images/install4.png" alt="img" class="img-responsive" /></p>
+                <p>If you need help for installation, do not hesitate to open <a href="http://support.qdocs.in">Support Ticket</a></p>
+                <p>After successful installation you need to setup few things about your hospital. Smart Hospital comes with some predefined data but you still need to configure them as per your hospital.</p>
+</section>
+
+<!--Updating Smart Hospital-->
+<section id="update">
+<h1 class="page-header">Upgrading from Previous Version</h1><hr>
+  <h4>Upgrading from Version 1.1 to Version 2.1</h4>
+                <p>If you are already using Smart Hospital version 1.1 then you should upgrade your Smart Hospital to current version 2.1 to get all the new features and fixes if any. The upgrade is pretty simple just follow the steps below and you will get the newest version of Smart Hospital.</p>
+                <p>Check the <a href="#changelog">changelog</a> for changes and bug fixed in this version.</p>
+                
+                <p class="note" style="box-sizing: border-box; margin: 0px 0px 10px; border: 1px solid rgb(251, 167, 102); padding: 12px; border-radius: 4px; color: rgb(68, 74, 82); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; background: rgb(255, 248, 242);">
+                    <b>Always backup your all files and database before making an upgrade to avoid any accidental data loss</b>
+                </p>
+
+                <ol>
+					<li>Create backup of all files you have made changes or customized for your features (including your language file if you are using other than English).</li>
+                    <li>Download the latest Smart Hospital version 2.1 from CodeCanyon. Now extract and open <b>update/Upgrading from Version 1.1 to Version 2.1/step-1</b> folder.</li>
+                    <li>Copy all the content under <b>step-1</b> folder and overwrite to under your Smart Hospital installation folder.</li>
+                    <li>After that go to&nbsp;<span style=
+                                                    "box-sizing: border-box; font-weight: 700;">http://yourdomain.com/migrate</span> and if upgrade is successful a message will be shown that "Database updated successfully".</li>
+                    <li>After it copy all the files under <b>step-2</b> folder and overwrite to under your Smart Hospital installation folder.</li>
+                    <li>Check all directories permission required in <a href="#sysreq">System Requirements</a> section.</li>
+					<li><strong>Clear the cache of your browser</strong> and login to Admin Panel.</li>					
+					<li>If you are using your own language (other than English), make sure to add key phrases in language files described in Languages section <a href="#syssettings">System Settings > Languages</a>.</li>
+                </ol>
+                <p>If you experience any trouble while updating, open <a target="_blank"href="http://support.qdocs.in">support ticket</a> and we will be happy to assist you.</p>
+				
+  <h4>Upgrading from Version 2.0 to Version 2.1</h4>
+                <p>If you are already using Smart Hospital version 2.0 then you should upgrade your Smart Hospital to current version 2.1 to get all the new features and bug fixes if any. The upgrade is pretty simple just follow the steps below and you will get the newest version of Smart Hospital.</p>
+                <p>Check the <a href="#changelog">changelog</a> for changes and bug fixed in this version.</p>
+                
+                <p class="note" style="box-sizing: border-box; margin: 0px 0px 10px; border: 1px solid rgb(251, 167, 102); padding: 12px; border-radius: 4px; color: rgb(68, 74, 82); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; background: rgb(255, 248, 242);">
+                    <b>Always backup your all files and database before making an upgrade to avoid any accidental data loss</b>
+                </p>
+
+                <ol>
+					<li>Create backup of all files you have made changes or customized for your features (including your language file if you are using other than English).</li>
+                    <li>Download the latest Smart Hospital version 2.1 from CodeCanyon. Now extract and open <b>update/Upgrading from Version 2.0 to Version 2.1/step-1</b> folder.</li>
+                    <li>Import file permission_tbl.sql file in your Smart Hospital database through phpmyadmin.</li>
+                    <li>After it copy all the files under <b>step-2</b> folder and overwrite to under your Smart Hospital installation folder.</li>
+                    <li>Check all directories permission required in <a href="#sysreq">System Requirements</a> section.</li>
+					<li><strong>Clear the cache of your browser</strong> and login to Admin Panel.</li>					
+					<li>If you are using your own language (other than English), make sure to add key phrases in language files described in Languages section <a href="#syssettings">System Settings > Languages</a>.</li>
+                </ol>
+                <p>If you experience any trouble while updating, open <a target="_blank"href="http://support.qdocs.in">support ticket</a> and we will be happy to assist you.</p>				
+				
+</section>
+<!--end Updating Smart Hospital-->
+
+<!--Using Smart Hospital-->
+<section id="using">
+<h1 class="page-header">Using Smart Hospital</h1><hr>
+<h4>Smart Hospital - General Overview</h4>
+    <P>Before start using Smart Hospital consider a general scenario of typical hospital have different departments like OPD, IPD, Pharmacy, Pathology, Radiology, Operation Theatre, Blood Bank, Accounts, Admin etc. where we perform different patient and hospital related activities.</P> 
+	<P>Apart from above we also like to provide access to our Smart Hospital to different users like Doctors, Accountants, Pharmacist, Radiologist, Pathologist, and Patient. For these Smart Hospital have 9 inbuilt user's  roles - <strong>Super Admin</strong>, <b>Admin</b>, <b>Doctor</b>, <b>Accountant</b>, <b>Pathologist</b>, <b>Radiologist</b>, <b>Nurse</b>, <b>Receptionist</b> and <b>Patient</b>. Virtually you can create unlimited number of user roles for staff members.</P>
+</section>
+<!--end Using Smart Hospital-->
+
+<!--Admin Panel-->
+<section id="overview">
+<h1 class="page-header">Admin Panel</h1><hr>
+  <P>Login to Admin Panel through URL - <strong>http://yourdomain/site/login</strong></P>
+
+                <p><img src="assets/images/admin-login.png" alt="img" class="img-responsive"/></p>
+                <p>After successful login you will reach to Admin Dashboard. Below you can find navigational overview of user screen.</p>
+                <p><img src="assets/images/admin-dashboard.png" alt="img" class="img-responsive"/></p>
+                <p><img src="assets/images/hospital-admin-admin-dashboard-.png" alt="img" class="img-responsive"/></p>
+                <h4>Admin Panel consist 22 modules listed below -</h4>
+
+                <ol>
+                <li><strong>Front Office</strong> - for all OPD appointment and reception/front office related activities like enquiries, calls, visitors, postal receive/dispatch </li>
+                    <li><b>OPD - Out Patient</b> - for all OPD patient registration, visits, revisits, old OPD patients</li>
+                    <li><b>IPD - In Patient</b> - for all IPD patients admission, consultant register, diagnosis, timeline, IPD charges, payments, bill and discharged ipd patients </li>
+					<li><b>Pharmacy</b> - for all medicine list, stock, and pharmacy bills </li>
+                    <li><b>Pathology</b> - for all pathology test details and patient test records </li>
+                    <li><b>Radiology</b> - for all radiology test details and patient test records </li>
+                    <li><b>Operation Theatre</b> - for managing patient operation activities and operation records </li>
+                    <li><b>Blood Bank</b> - for managing blood group available blood stock, donor  details and blood issue details </li>
+					<li><b>TPA Management</b> - Third Party Administrator for managing changes and records of insurance or mediclaim companies </li>
+					<li><b>Finance</b> - for managing general income and expense </li>
+					<li><b>Ambulance</b> - for managing ambulance vehicles and ambulance call details </li>
+					<li><b>Birth And Death Record</b> - for managing all details of newly born babies birth and patients death</li>
+                    <li><strong>Human Resource</strong> - for all the information related to staff members can be manage here like staff search, profile, attendance, payroll, leaves</li>
+                    <li><b>Messaging</b> - it works like a notice board basically a messaging system for communication to patient and staff </li>
+                    <li><b>Download Center</b> - for managing downloadable documents that need to distribute staff </li>
+					<li><b>Inventory</b> - manage all the assets of your hospital with stocks and store under inventory module</li>
+                    <li><strong>Front CMS</strong> - manage front website of Smart Hospital here by creating pages, menus, events, gallery, news</li>
+					<li><b>Reports</b> - all the various reports related to different modules can be found here</li>
+					<li><b>Patient</b> - all patient related details can be found here</li>
+					<li><b>Notifications</b> - all automated notifications can be found here</li>
+                   <li><strong>Calendar & ToDo List</strong> - track and manage all daily/monthly activities and create your task in todo list</li>					
+                    <li><b>Setup</b> - configure Smart Hospital here for different settings like hospital, sessions, admin password, SMS, Paypal, backup / restore, languages</li>
+
+                </ol> 
+                <h5>To understand how Smart Hospital works first we need to configure and setup it for our hospital. In this whole documentation we will consider our sample hospital which is Smart Hospital & Research Center.</h5>  
+                <h4>Steps to setup your Smart Hospital -</h4>
+                <ol>
+                    <li>In the Admin panel go to <b>Setup > Settings > General Setting</b> in upper right side click on <b>Edit</b> button to update your hospital data.
+                        <p><img src="assets/images/system-general-setting.png" alt="img" class="img-responsive"></p>
+                    </li>
+                    <li>Update your <b>Hospital Name</b>, <b>Address</b>, <b>Phone</b>, <b>Email</b>, <b>Hospital Code</b> (Hospital Code is your hospital registration / accreditation no), <b>Language</b> (language in which you want to run your Smart Hospital), <b>Language RTL Text Mode</b> (for Arabian side languages), <b>Timezone</b>, <b>Time Format</b>, <b>Currency</b> (<a href="https://en.wikipedia.org/wiki/ISO_4217#Active_codes" target="_blank">ISO standard 3 digit currency code</a>), <b>Currency Symbol</b> and <b>Credit Limit</b> (used for IPD module balance amount credit limit), <b>Doctor Restriction Mode</b> (if Doctor Restriction Mode is disabled then all doctors can see other doctors patients in their account and if Doctor Restriction Mode is enabled then doctors can see only their assigned patients in OPD, IPD, OT and Appointment) now click on <b>Save</b> button to update record, <b>Superadmin Visibility </b> (if Superadmin Visibility is disabled then superadmin will not be visible to system for other staff users and if Superadmin Visibility is enabled then other staff users can see superadmin in system) now click on <b>Save</b> button to update record.</li>
+                    <li>For updating your hospital logo click on right column <b>Edit Logo</b> buttons.</li>
+					<li>For enabling automated email/sms notification on different events go to <b>Setup > Settings > Notification Setting</b> page.</li>
+                    <li>For automated SMS messaging add any one of available SMS Gateway with the required details from <b>Setup > Settings > SMS Setting</b>.</li>
+					<li>For automated Email messaging by default SendMail is selected in Smart Hospital. If your hosting server supports SendMail then your will get emails by default otherwise you have to select SMTP email engine. For SMTP you can use any free or paid smtp service like Gmail. To enter your SMTP server details go to <b>Setup > Settings > Email Setting > SMTP</b>.</li>
+                    <li>To enabling online payment in <b>Patient Panel</b> update your payment gateway account details for this, go to <b>Setup > Settings > Payment Methods</b> select your appropriate payment gateway and add you payment gateway account details then click on save button and enable it from right side box.</li>
+                    <li>At this point we have completed basic settings of our hospital. Now we will add our hospital other details in Smart Hospital like Hospital Charges, Bed, Ward, Floor, Departments, Doctors etc.</li>
+                    
+                    <li>For adding Hospital Charges go to <b>Setup > Hospital Charges</b>, Here first we will add <strong>Charge Category</strong>, for this click on <b>Add Charge Category</b> button. Now enter <strong>Name, Description</strong> and select <strong>Charge Type</strong> like <strong>Procedures</strong> (is for general ipd charges like doctor visit), <strong>Investigations</strong> (is for pathology/radiology lab test or other investigations), <strong>Supplier</strong> (is for other things supply like oxygen charges), <strong>Operation Theatre</strong> (is for operation theatre charges) and <strong>Other</strong> (is for other miscellaneous charges).
+                  <p><img src="assets/images/hos-add-category.png" alt="img" class="img-responsive"/></p>      
+					<p>Now we will add <strong>Charges</strong> for this click on <strong>Add Charge</strong> button. Now select <strong>Charge Type, Charge Category</strong>, enter <strong>Charge Code</strong> (it is like short code to differentiate two charges for same charge type and charge category), then enter <strong>Standard Charge</strong>, <strong>Description</strong> and if there is any <strong>TPA</strong> (Third Party Administrator or Insurance organization) is present then enter <strong>Scheduled Charge</strong> for this also)
+					<p><img src="assets/images/academics-class.png" alt="img" class="img-responsive"/></p>
+					</p>
+				  </li>
+                    <li>For adding <strong>Bed</strong> and their details go to <b>Setup > Bed</b>. 
+					Here first we will add <strong>Floors, Bed Groups, Bed Type</strong>. To add <strong>Floors</strong> click on <strong>+ Add</strong> button then enter <strong>Floor Name</strong> and <strong>Description</strong>.
+                    <p><img src="assets/images/floor-name.png" alt="img" class="img-responsive"/></p>
+					<p>To add <strong>Bed Group</strong> click on <strong>+ Add</strong> button then enter Bed Group <strong>Name</strong>, select <strong>Floor</strong> and enter <strong>Description</strong>.</p>
+					<p><img src="assets/images/bed-groups.png" alt="img" class="img-responsive"/></p>
+					<p>To to add <strong>Bed Type</strong> click on <strong>+ Add</strong> button then enter Bed Type <strong>Name</strong>.</p>
+					<p><img src="assets/images/bed-type.png" alt="img" class="img-responsive"/></p>
+					<p>Now to add <strong>Bed</strong> click on <strong>+ Add</strong> button then enter Bed <strong>Name</strong>, select <strong>Bed Type</strong> and <strong>Bed Group</strong>.</p>
+                    <p><img src="assets/images/add-bed.png" alt="img" class="img-responsive"/></p>
+					<p>At <strong>Bed Status</strong> page we can check current status of all bed.</p>
+					<p><img src="assets/images/bed-status.png" alt="img" class="img-responsive"/></p>
+				  </li>
+                   
+                  <li>For adding header and footer in <strong>OPD prescription, IPD Bill, Pharmacy Bill, Payslip</strong> go to <strong>Setup > Print Header Footer</strong>
+                    <p><img src="assets/images/opd-prescription.png" alt="img" class="img-responsive"/></p>    
+				  <p>To add <strong>OPD Prescription Header and Footer</strong> click on <strong>+ Add</strong> button now select <strong>Header</strong> image then enter <strong>Footer</strong> text.</p>
+                  <p><img src="assets/images/opd-prescription-print.png" alt="img" class="img-responsive"/></p> 
+				  <p>To add <strong>IPD Bill Header and Footer</strong> click on <strong>+ Add</strong> button now select <strong>Header</strong> image then enter <strong>Footer</strong> text.</p>
+          <p><img src="assets/images/ipd-bill-print.png" alt="img" class="img-responsive"/></p> 
+				  <p>To add <strong>Pharmacy Bill Header and Footer</strong> click on <strong>+ Add</strong> button now select <strong>Header</strong> image then enter <strong>Footer</strong> text.</p>
+          <p><img src="assets/images/pharmacy-bill-print.png" alt="img" class="img-responsive"/></p> 
+				  <p>To add <strong>Payroll Slip Header and Footer</strong> click on <strong>+ Add</strong> button now select <strong>Header</strong> image Then enter <strong>Footer</strong> text.</p>
+          <p><img src="assets/images/payslip-print.png" alt="img" class="img-responsive"/></p> 
+		   <p>To add other modules print header footer do the same thing.</p>
+				  </li>	
+				  <li>To setup <strong>Front Office</strong> go to <strong>Setup > Front Office</strong>.
+				  <p>To add <strong>Visitor Purpose</strong> click on <strong>+ Add Purpose</strong> button now enter <strong>Purpose</strong> and <strong>Description</strong>.</p>
+                  <p><img src="assets/images/front-office-purpose.png" alt="img" class="img-responsive"/></p>
+				  <p>To add <strong>Complain Type</strong> click on <strong>+ Add Complain Type</strong> button now enter <strong>Complain Type</strong> and <strong>Description</strong>.</p>
+                  <p><img src="assets/images/front-office-complain-type.png" alt="img" class="img-responsive"/></p>
+				  <p>To add <strong>Complain Source</strong> click on <strong>+ Add Source </strong>button now enter <strong>Source</strong> and <strong>Description</strong>.</p>
+                  <p><img src="assets/images/front-office-source.png" alt="img" class="img-responsive"/></p>				  
+				  </li>	
+				  <li>
+				  To setup <strong>Pharmacy</strong> go to <strong>Setup &gt; Pharmacy</strong>.
+				    <p>To add Medicine Category click on <strong>+ Add Medicine Category</strong> now enter Medicine <strong>Category Name</strong>.</p>
+                    <p><img src="assets/images/pharmacy-medicine-category.png" alt="img" class="img-responsive"/></p>
+				      <p>To add Supplier click on <strong>+ Add Supplier</strong> now enter <strong>Supplier Name</strong>, <strong>Supplier Contact</strong>, <strong>Contact Person Name</strong>, <strong>Contact Person Phone</strong>, <strong>Address</strong>.</p>
+				      <p><img src="assets/images/pharmacy-medicine-supplier.png" alt="img" class="img-responsive"/></p>
+				      <p>To add Medicine Dosage click on <strong>+ Add Medicine Dosage</strong> now enter <strong>Medicine Category</strong>, <strong>Dosage</strong>.</p>
+				      <p><img src="assets/images/pharmacy-medicine-dosage.png" alt="img" class="img-responsive"/></p>					
+				  </li>	
+				  <li>
+					To setup <strong>Pathology</strong> go to <strong>Setup &gt; Pathology</strong>.
+				      <p>To add Pathology Category click on <strong>+ Add Pathology Category</strong> now enter Pathology <strong>Category Name</strong>.</p>
+				      <p><img src="assets/images/pathology-pathology-category.png" alt="img" class="img-responsive"/></p>
+				  </li>	
+				  <li>
+				  To setup <strong>Radiology</strong> go to <strong>Setup &gt; Radiology</strong>.
+				    <p>To add Radiology Category click on <strong>+ Add Radiology Category</strong> now enter Radiology <strong>Category Name</strong>.</p>
+				    <p><img src="assets/images/radiology-add-category.png" alt="img" class="img-responsive"/></p>
+				  </li>	
+				  <li>
+				  To setup <strong>Finance</strong> go to <strong>Setup &gt; Finance</strong>.
+				  <p>To add Income Head click on <strong>+ add Income Head</strong> button now enter <strong>Income Head</strong> and <strong>Description</strong>.</p>
+                  <p><img src="assets/images/finance-income-head.png" alt="img" class="img-responsive"/></p>
+				  <p>To add Expense Head click on <strong>+ Add Expense Head</strong> button now enter <strong>Expense Head</strong> and <strong>Description</strong>.</p>
+                  <p><img src="assets/images/finance-expense-head.png" alt="img" class="img-responsive"/></p>
+				  </li>	
+
+				  <li>
+				  To setup <strong>Birth & Death Record</strong> go to <strong>Setup &gt;  Birth & Death Record</strong>.
+				  <p>To add Birth Record Custom Fields click on <strong>+ Add</strong> button now enter <strong>Name</strong> and <strong>Visibility</strong>.</p>
+                  <p><img src="assets/images/finance-income-head.png" alt="img" class="img-responsive"/></p>
+				  <p>To add Death Record Custom Fields click on <strong>+ Add</strong> button now enter <strong>Name</strong> and <strong>Visibility</strong>.</p>
+                  <p><img src="assets/images/finance-expense-head.png" alt="img" class="img-responsive"/></p>
+				  </li>					  
+				  
+				  <li>
+				  To setup <strong>Human Resource</strong> go to <strong>Setup &gt; Human Resource</strong>.
+				    <p>To add Leave Type click on <strong>+ Add Leave Type</strong> button now enter Leave Type <strong>Name</strong>.</p>
+                    <p><img src="assets/images/human-resource-leave.png" alt="img" class="img-responsive"/></p>
+				  <p>To add <strong>Department</strong> click on <strong>+ Add Department</strong> button now enter Department <strong>Name</strong>.</p>
+                  <p><img src="assets/images/human-resource-department2.png" alt="img" class="img-responsive"/></p>
+				  <p>To add <strong>Designation</strong> click on <strong>+ Add Designation</strong> button now enter Designation <strong>Name</strong>.</p>
+				  <p><img src="assets/images/human-resource-designation-2.png" alt="img" class="img-responsive"/></p>
+				  </li>	
+				  <li>
+				  To setup <strong>Inventory</strong> go to <strong>Setup &gt; Inventory</strong>.
+				    <p>To add Item Category click on <strong>+ Add Item Category</strong> now enter <strong>Item Category</strong> and <strong>Description</strong>.</p>
+                    <p><img src="assets/images/setup-inventory-item.png" alt="img" class="img-responsive"/></p>
+				  <p>To add Item Store click on <strong>+ Add Item Store</strong> button now enter <strong>Item Store Name</strong>, <strong>Item Stock Code</strong> and <strong>Description</strong>.</p>
+                  <p><img src="assets/images/setup-inventory-itemstore.png" alt="img" class="img-responsive"/></p>
+				  <p>To add Item Supplier click on <strong>+ Add Item Supplier</strong> button now enter Item Supplier <strong>Name</strong>, <strong>Phone, Email, Contact Person Name, Address, Contact Person Phone, Contact Person Email</strong> and <strong>Description</strong>.</p>
+                  <p><img src="assets/images/setup-inventory-itemsupplier.png" alt="img" class="img-responsive"/></p>
+				  </li>					  
+                  <li>Great! you have completed your <b>Smart Hospital</b> setup. Now further we will understand working of all the modules one by one in detail.</li>
+                </ol> 
+</section>
+<!--end Admin Panel-->
+
+<!--Front Office-->
+<section id="frontoffice"><h1 class="page-header">Front Office</h1><hr>
+<p>This module has 5 sections -</p>
+                <ol>
+                    <li>Add Appointment</li>
+                    <li>Visitor Book</li>
+                    <li>Phone Call Log</li>
+					<li>Postal</li>					
+					<li>Complain</li>									
+                </ol>                
+                <ul>                      
+                    <li><strong>Add Appointment</strong> - Appointment feature is for making <strong>Doctor Appointment</strong>. Receptionist or any permitted user can enter doctor appointment details here, also here can be <strong>Approved/Cancelled</strong> online appointments. To add new appointments click on <strong>+ Add Appointment</strong> button. Here select existing patient from <strong>Select Patient</strong> dropdown then enter <strong>Date</strong>, if patient is new then enter <strong>Patient Name</strong>, then enter <strong>Gender, Email, Phone, Doctor Message and Status</strong>.
+					
+                  <p><img src="assets/images/front-admission-enquiry.png" alt="img" class="img-responsive"/></p>
+				  
+				  <p>You can move approved appointment to OPD or IPD in single click</p>
+				  <p><img src="assets/images/front-office-movetoipd.png" alt="img" class="img-responsive"/></p>
+				  
+				  </li>
+                    
+					<li><strong>Visitor Book</strong> - Visitor Book is for managing visitor’s  records coming in hospital. For this click on <strong>Visitor Book</strong> button. To add visitor details click on <strong>+ Add Visitor</strong> button, now enter visitor person <strong>Purpose, Name, Phone, ID Card Number of Person, Date, In time, Out Time Note and Attached Document</strong> if any.
+		              <p><img src="assets/images/front-visiter-book.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Phone Call Log</strong> - Phone Call Log is for managing incoming or outgoing call details for this click on <strong>Phone Call Log</strong> button. To add Phone Call Log click on <strong>+ Add Call Log</strong> button, now enter Person <strong>Name, Phone, Date, Description, Next Follow Up Date, Call Duration, Note and Call Type Incoming or Outgoing</strong>.
+		          <p><img src="assets/images/front-phone-calllog.png" alt="img" class="img-responsive"/></p></li>
+				
+					<li><strong>Postal Receive </strong>- Postal Receive is for managing postal inward documents for managing postal receive click on <strong>Postal Receive</strong> button. To add Postal Receive click on <strong>+ Add Receive </strong>button now here enter <strong>From Title, Reference Number, Address, Note, To Title, Date, Attach Document</strong> if any.
+		          <p><img src="assets/images/front-postal-receive.png" alt="img" class="img-responsive"/></p></li>
+
+					<li><strong>Postal Dispatch </strong>- For managing Postal Dispatch click on <strong>Postal Dispatch</strong> button. To add Postal Dispatch click on <strong>+ Add Dispatch</strong> button now here enter <strong>To Title, Reference Number, Address, Note, From Title, Date and Attach Document</strong> if any.
+		          <p><img src="assets/images/front-postal-dispatch.png" alt="img" class="img-responsive"/></p></li>
+										
+					<li><strong>Complain </strong>- Complain is for managing any complain raise by any person for this click on <strong>Complain</strong> button. To add complain click on <strong>+ Add Complain</strong> button now enter <strong>Complain Type, Source, Complain By, Phone, Date, Description, Action Taken, Assigned, Note and Attach Document</strong> if any.
+		          <p><img src="assets/images/front-add-complain.png" alt="img" class="img-responsive"/></p></li>
+                </ul>
+</section>
+<!--end Front Office-->
+
+<!--OPD-->
+<section id="opd"><h1 class="page-header">OPD - Out Patient</h1><hr>
+ <P><strong>OPD (Out Patient Department)</strong> module is for managing out patient who just come for doctor for their issue/disease check up.</P>
+
+                <p></p>
+                <ul>
+                    <li>To add new OPD patient click on <strong>+ Add Patient</strong> button now enter <strong>Select Patient from dropdown or add +New Patient,Guardian Name, Gender, Age, Blood Group, Marital Status, Patient Photo, Phone, Email, Address, Remarks, Any Known Allergies, Height, Weight, BP, Symptoms, Note, Appointment Date, Case, Casualty, Old Patient, TPA (Third Party Administrator), Reference, Consultant Doctor, Amount, Payment Mode</strong>.
+                        <!-- <p><img src="assets/images/admin-student-categories.png" alt="img" class="img-responsive"/></p> -->
+						
+					After adding patient it will list on OPD Patient page now here you can click on <strong>Show</strong> button to see patient details.	
+                    <p><img src="assets/images/opd-patient-showbtn.png" alt="img" class="img-responsive"/></p>
+                  </li>
+					<li>Here we can see 3 tabs <strong>Visits, Diagnosis and Timeline</strong>.
+                      <p><img src="assets/images/admin-student-house.png" alt="img" class="img-responsive"/></p>
+					  <strong>Visits</strong> tab has all details of patient visit to add visit Prescription click on <strong>Add Prescription</strong> button here you can enter <strong>Prescription Header Note, Medicine and Prescription Footer Note</strong>. After adding prescription you can see and print prescription by clicking on <strong>View Prescription</strong> button.
+                      <p><img src="assets/images/opd-add-prescription.png" alt="img" class="img-responsive"/></p>
+                  </li>
+                    <li>To see OPD visit details click on <strong>Show</strong> button.
+                        <p><img src="assets/images/admin-student-information.png" alt="img" class="img-responsive"/></p>
+					If this patient comes again for revisit then you can simply click on <strong>Revisit</strong> button to add this patient OPD revisit details.
+                    <p><img src="assets/images/opd-revisit.png" alt="img" class="img-responsive"/></p>
+                  </li>
+                    <li>To see patient OPD Diagnosis details click on <strong>Diagnosis</strong> tab. Here you can see patient all OPD diagnosis details.<br />
+                        
+					To add new diagnosis report click on <strong>+ Add Diagnosis</strong> button here enter <strong>Report Type, Report Date, Attach Document and Description</strong>.
+                      <p><img src="assets/images/admin-student-detail.png" alt="img" class="img-responsive"/></p>                     
+                  </li>
+					<li>To see patient timeline click on <strong>Timeline</strong> tab. Here you can see patient timeline or you can enter any note in timeline.<br />
+                      
+				To add new timeline click on <strong>+ Add Timeline</strong> button here enter <strong>Title, Date, Description, Attach Document</strong>, by default all timeline are visible to this patient. If you want this timeline is not visible for this patient then <strong>UnCheck</strong> visible to this person <strong>CheckBox</strong> now click on <strong>Save</strong> button to save this timeline.
+                  <p><img src="assets/images/students-report.png" alt="img" class="img-responsive"></p>
+                  </li>	
+				  
+                <li><p>Generally OPD has only one time charges and doctor checkup but if you want to use OPD for adding multiple charges, multiple payments and bill like IPD (please check IPD module) then click on <strong>OPD No.</strong> of patient opd visit, now you can see more tabs available in OPD module like <strong>Charges, Payment & Bill</strong>. These extra features can be used in Speciality Medical Clinics (dental clinics) which do patient's treatment in single visits but apply multiple charges for different treatments and give detailed bill.</p>
+				<p><img src="assets/images/opd-more.png" alt="img" class="img-responsive"></p>
+				<p><img src="assets/images/opd-more-page.png" alt="img" class="img-responsive"></p>
+				
+				<p>If you want patent to be recheckup on same OPD No then you can use Recheckup feature, for this click on <strong>Recheckup</strong> button from Visit tab and enter required details for of recheckup, it is also same like OPD visit but recheckup created under same OPD No. </p>
+				<p><img src="assets/images/opd-more-recheckup.png" alt="img" class="img-responsive"></p>
+                </li>				
+									
+                </ul>
+</section>
+<!--end OPD-->
+
+<!--IPD-->
+<section id="ipd"><h1 class="page-header">IPD - In Patient</h1><hr>
+   <P><strong>IPD (In Patient Department)</strong> module is for managing those patient who admit in hospital for their issues/disease treatment.</P>
+                <ul>
+                    <li>To add new OPD patient click on <strong>+ Add Patient</strong> button. select <strong>Patient Name</strong> from dropdown or click on <strong>+ New Patient</strong> button to add new patient then enter <strong>Admission Date, Case, Casualty, Old Patient, TPA (Third Party Administrator), Credit Limit, Reference, Consultant Doctor, Bed Group, Bed Number</strong>.
+                      <p><img src="assets/images/add-fees-type.png" alt="img" class="img-responsive"/></p>
+					After adding patient it will list all <strong>IPD Patient</strong> page. To see patient details click on <strong>Show</strong> button.
+                    <p><img src="assets/images/ipd-after-adding-patient.png" alt="img" class="img-responsive"/></p>
+                  </li>   
+                   
+                    <li>Here we can see 7 tabs <strong>Consultant Register, Diagnosis, Timeline, Prescription, Charges, Payment, Bill</strong>.
+                        <p><img src="assets/images/add-fees-master-view.png" alt="img" class="img-responsive"/></p>
+                  </li>
+                    <li>Consultant Register tab has all details about instructions given by doctors day to day for this patient's treatment. To add instruction click on <strong>+ Add Consultant Instruction</strong> button here enter <strong>Applied Date, Consultant Instruction and Instruction date</strong>.
+                        <p><img src="assets/images/fees-discount1-view.png" alt="img" class="img-responsive"/></p>
+                  </li>           
+                    <li>To see patient IPD Diagnosis details click on <strong>Diagnosis</strong> tab. To add new Diagnosis Report click on <strong>+ Add Diagnosis</strong> button. Here enter <strong>Report Type, Report Date, Attach Document and Description</strong>.
+                        <p><img src="assets/images/admin-collect-fees-lura-popup2.png" alt="img" class="img-responsive"/></p> 
+                  </li>
+                    <li>To see patient IPD Timeline details click <strong>Timeline</strong> tab. To add new Timeline click on <strong>+ Add Timeline</strong> button here enter <strong>Timeline Title, Date, Description, Attached Document</strong>.
+                        <p><img src="assets/images/admin-search-fees-payment.png" alt="img" class="img-responsive"/></p>
+                  </li>
+                    <li>To add Prescription click on <strong>+ Add Prescription</strong> button here you can enter <strong>Prescription Header Note, Medicine and Prescription Footer Note</strong>.
+                  </li>				  
+                    <li>To see patient IPD Charges details click <strong>Charges</strong> tab here you can see all applied charges for patient day to day treatment. To add new charges click on <strong>+ Add Charges</strong> button, here enter <strong>Date, Charge type, Charge Category, Charge Code,(here Charge Type, Charge Category, Charge Code</strong> comes from <strong>Setup &gt; Hospital Charges</strong>). if patient comes under any TPA scheme (TPA selected at time of patient admission in IPD) then TPA charge will be applied as applied charge, finally if you need you can edit <strong>Applied Charge</strong> in textbox.
+                        <p><img src="assets/images/admin-search-due-fees.png" alt="img" class="img-responsive"/></p>
+                  </li>
+                    <li>To see patient IPD Payment details click <strong>Payment</strong> tab. Here you can see all payments done by patient. To add new payment click on <strong>+ Add Payment</strong> button here enter payment <strong>Amount, Payment Mode, Date, Attach Document and Note</strong>.
+                        <p><img src="assets/images/admin-fees-statement.png" alt="img" class="img-responsive"/></p>
+                  </li>
+                    <li>To see patient IPD Bill details click <strong>Bill</strong> tab. Here you can see patient IPD Bill breakdown in <strong>Applied Charges, Payment</strong> done and <strong>Bill Summary</strong> with <strong>Total Charges, Total Payment Balance</strong> here if you want you can apply <strong>Discount, Other Charges and Tax</strong> while generating final bill. To generate final bill click on <strong>Calculate</strong> button it will calculate final bill and show <strong>Net Payable Amount</strong> after receiving net payable amount you can click on <strong>Generate Bill And Discharge Patient</strong> button to discharge this patient and close its IPD admission. After clicking this button patient final bill will be generated and patient will be marked as <strong>Discharged</strong> and its occupied bed also become free.  Finally you can print bill by clicking on <strong>Print</strong> bill button. After discharge patient will be display in <strong>IPD Discharge Patient List</strong> Instead of IPD Patient List.
+                        <p><img src="assets/images/admin-balance-fees-report.png" alt="img" class="img-responsive"/></p>
+                  </li>
+                    <li>To see Discharge Patient List click on <strong>Discharged Patient</strong> button. Here you can see all details of IPD Discharge patient. To see discharge patient details click on <strong>Show</strong> button, here you can see discharge patient all details like <strong>Consultant Register, Diagnosis, Timeline, Charges, Payment and Bill</strong> . Once patient has been discharged you can add only his timeline. If you have accidentally discharge any patient and want to revert discharged status then go to <strong>Bill</strong> tab and click on <strong>Revert Generated Bill</strong> button. After clicking on this button this patient will be visible as normal IPD patient and you can enter all the activities in IPD patient details page.
+                        <p><img src="assets/images/fees-carry-forward.png" alt="img" class="img-responsive"/></p>
+                         <p><img src="assets/images/ipd-see-discharge.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                </ul>
+</section>
+<!--end IPD-->
+
+<!--Pharmacy-->
+<section id="pharmacy">
+<h1 class="page-header">Pharmacy</h1><hr>
+<p><strong>Pharmacy</strong> module is for managing medicines stock, selling and generating medicine bill.</p>               
+                
+                <ul>
+                    <li>Managing medicines click on <strong>Medicines</strong> button. You can see all medicine list with their name and available stock here. If a medicine row shows as white colour means its a stock is normal, if row colour is sky blue it means its stock is below than reorder level, if row colour is yellow means its stock below to minimum level and if row colour is red that means medicine is out of stock.
+                        <p><img src="assets/images/admin-income-head.png" alt="img" class="img-responsive"/></p>
+                        <p><img src="assets/images/pharmacy-medicines-click-1.png" alt="img" class="img-responsive" /></p>
+                  </li>    
+                    <li>To add new medicine click on <strong>+ Add Medicine</strong> button here enter <strong>Medicine Name, Medicine Category, Medicine Company, Medicine Composition, Medicine Group, Supplier, Unit, Minimum Level, Reorder Level, VAT, Unit/Packing, VAT Account, Note and Medicine Photo</strong>.
+                        <p><img src="assets/images/admin-add-income.png" alt="img" class="img-responsive"/></p>
+
+					To see medicine details and stock entry click on <strong>Show</strong> button, here you can also check medicine stock entry and bad stock entry details.
+                    <p><img src="assets/images/pharmacy-medicine-button-show.png" alt="img" class="img-responsive"/></p>
+                    <p><img src="assets/images/pharmacy-medicine-button.png" alt="img" class="img-responsive"/></p>
+				    </li>
+					
+					<li>To import medicines click on <strong>Import Medicine</strong> button. Here select <strong>Medicine Category</strong> from dropdown and select CSV file, then click on <strong>Import Medicine</strong> button.
+					<p><img src="assets/images/import-medi.png" alt="img" class="img-responsive"/></p>
+					
+					</li>
+					
+                    <li>To add medicine stock you should enter purchased medicine  details, for this click on <strong>Purchase</strong> button here you can see list of purchased medicines.
+					  <p><img src="assets/images/medicine-purchase-list.png" alt="img" class="img-responsive"/></p>
+					  
+					  <p>To add purchased medicine details click <strong> + Purchase Medicine</strong> button now here enter <strong> Supplier name, Purchase Date, Medicine Category, Medicine Name, Batch No, Expiry Date, MRP($), Batch Amt, Sale Price($), Packing Qty, Quantity, Purchase Price($), Amount($), Note, Attach document, Discount, Tax</strong>. After filling all relevant details, click on <strong>Calculate</strong> button then final amount will be calculated then click on <strong>Save</strong> button.</p>
+					  <p><img src="assets/images/pharmacy-purchase-medicine.png" alt="img" class="img-responsive"/></p>
+					  
+					  
+				  </li>
+                    <li>To add medicine bad stock or return stock click on <strong>Add Bad Stock</strong> button here enter<strong> Batch Number Expiry Date Outward Date Quantity and Note</strong>.
+					  <p><img src="assets/images/pharmacy-bed-stock-click.png" alt="img" class="img-responsive"/></p>
+				    </li>					
+					<li>To import medicines for stock click on <strong>Medicines</strong> button. Here you get <strong>Import Medicine</strong> button. Click on this button. With the help of this option, you can purchase medicine in large number of quantity. Select <strong>Medicine Category</strong> from dropdown box and select CSV file, then click on <strong>Import Medicine</strong> button.<br>
+					 [image]
+				    </li>
+					
+                    <li>To generate medicine sales bill click on <strong>Generate Bill</strong> button at pharmacy bill page, here enter <strong>Bill Number, Date, Patient Type, OPD/IPD Number, Patient Name, Doctor Name, Medicine Category, Medicine Name, Batch Number, Quantity, Sale Price, Amount</strong> to add more medicine click on <strong> "+"</strong> sign, after adding all medicine enter <strong>Discount or Tax </strong>if any to calculate final bill click on <strong>Calculate</strong> button then click on <strong>Save</strong> button. After this bill will be display on pharmacy bill page. To see bill details click on <strong>Show</strong> button now here you can also <strong>Print</strong> medicine bill.
+					  <p><img src="assets/images/admin-search-income.png" alt="img" class="img-responsive"/></p>
+				    </li>	
+                </ul>
+</section>
+<!--end Pharmacy-->
+
+<!--Pathology-->
+<section id="pathology"><h1 class="page-header">Pathology</h1><hr>
+<p><strong>Pathology</strong> module is for managing patient pathology test and reports.</p>
+
+                <ul>
+                    <li>To add pathology test click on <strong>+ Add Pathology Test</strong> button here enter <strong>Test Name, Short Name, Test Type, Category Name, Unit, Sub Category, Method, Report Days, Charge Category, Code, Standard Charge</strong> here charge category and code will come from hospital charges investigation charge type. Added pathology test will be list on pathology test page.
+                        <p><img src="assets/images/admin-expense-head.png" alt="img" class="img-responsive"/></p>
+                      <p><img src="assets/images/pathology-test-click.png" alt="img" class="img-responsive"/></p>  
+                  </li>    
+                    <li>To enter patient test report for a pathology test click on <strong>+ Add Patient & Report</strong> icon button. Here select <strong>Patient Name</strong> from dropdown or click on <strong>+ New Patient</strong> button to add new patient then enter <strong>Reporting Date, Description, Test Report, Referral Doctor.</strong> Remaining field like <strong> Charge Category, Code, Standard Charge($), Applied Charge($)</strong> will automatically add, which has been set in <strong>Hospital Charge</strong>. Click on Save.<br>
+                     
+					 <p><img src="assets/images/pathology-buttonshow.png" alt="img" class="img-responsive"/></p> 
+                  <p><img src="assets/images/admin-add-expense.png" alt="img" class="img-responsive"/></p></li> 
+                    <li>To see added patient report click on <strong>Test Report</strong> button on pathology test page.<br>
+					
+					  <p><img src="assets/images/admin-search-expense.png" alt="img" class="img-responsive"/></p>
+				  </li>
+                </ul>
+</section>
+<!--end Pathology-->
+
+<!--Radiology-->
+<section id="radiology"><h1 class="page-header">Radiology</h1><hr>
+ <p><strong>Radiology</strong> module is for managing patient radiology test report.</p>
+                <ul>
+                    <li>To add radiology test click on <strong>+ Add Radiology Test</strong> button here enter <strong>Test Name, Short Name, Test Type, Category Name, Sub Category, Report Days, Charge Category, Code, Standard Charge</strong> here charge category, code will come from hospital charges investigation charge type. Added radiology test will be list on radiology test page.
+                        <p><img src="assets/images/admin-student-attendance.png" alt="img" class="img-responsive"/></p>
+                     <p><img src="assets/images/radiology-test-click.png" alt="img" class="img-responsive"/></p>     
+                  </li>
+                    <li>To enter patient test report for a radiology test click on <strong>+ Add Patient & Report</strong> icon button. Here select <strong>Patient Name</strong> from dropdown or click on <strong>+ New Patient</strong> button to add new patient then enter, Reporting Date, Description, Test Report, Referral Doctor.</strong> Remaining field like <strong> Charge Category, Code, Standard Charge($), Applied Charge($)</strong> will automatically add, which has been set in <strong>Hospital Charge</strong>. Click on Save.<br>
+                       <p><img src="assets/images/radiology-buttonshow.png" alt="img" class="img-responsive"/></p>
+                        <p><img src="assets/images/admin-attendance-by-date.png" alt="img" class="img-responsive"/></p> 
+                  </li>
+                    <li>To see added patient report click on <strong>Test Report</strong> button on radiology test page.
+                        <p><img src="assets/images/admin-attendance-report.png" alt="img" class="img-responsive"/></p>
+                  </li>
+                </ul>
+</section>
+<!--end Radiology-->
+
+<!--OT-->
+<section id="ot"><h1 class="page-header">Operation Theatre</h1><hr>
+  <p><strong>Operation Theatre</strong> module is for managing operation theatre activities and patient operations.</p>
+                <ul>
+                    <li>To add new patient click on<strong> + Add Patient</strong> button Here select <strong>Patient Name</strong> from dropdown or click on <strong>+ New Patient</strong> button to add new patient then enter, Height, Weight, BP, Symptoms, Note, Operation Name, Operation Type, Operation Date, Consultant Doctor, Assistant Consultant 1, Assistant Consultant 2, Anesthetist, Anesthesia Type, OT Technician, OT Assistant, TPA (third party administrator), Charge Category, Code, Standard Charge, Applied Charge</strong>. Added patient will be list on operation theatre patient page.
+                        <p><img src="assets/images/exam-marks-grade.png" alt="img" class="img-responsive"/></p>
+                        <p><img src="assets/images/operation-addclick.png" alt="img" class="img-responsive"/></p>
+                  </li>
+                    <li>To see operation details click on <strong>Show</strong> button<br>
+					<p><img src="assets/images/admin-exam-list.png" alt="img" class="img-responsive"/></p>
+                  </li>
+                  <li>
+                        After operation manage all patient instructions given by consultant in Consultant Register for this click on <strong>Consultant Instruction</strong> button.
+                          <p><img src="assets/images/admin-exam-schedule.png" alt="img" class="img-responsive"/></p>    
+                  </li>
+				  <li>
+                        After operation, you can see bill detail of patient, click on any patient<strong> Bill No.</strong> tab. Here you can see bill detail of any perticular patient.<br>
+                         <p><img src="assets/images/admin-exam-schedule.png" alt="img" class="img-responsive"/></p>
+                  </li>
+                </ul>
+</section>
+<!--end OT-->
+
+<!--Blood Bank-->
+<section id="bloodbank"><h1 class="page-header">Blood Bank</h1><hr>
+ <p><strong>Blood Bank</strong> module is for managing blood bank status, <strong>donor details</strong> and <strong>blood issue details.</strong></p>
+                <ul>
+                    <li>Currently blood bank status is not automated so you have to edit status  manually for every blood group though in future updates we will make it automated.
+                        <p><img src="assets/images/academics-section.png" alt="img" class="img-responsive"/></p>
+                    </li>
+					<li>For donor details page click on <strong>Donor Details</strong> button. At this page you can check all donor details. To add new blood donor click on <strong>+ Add Blood Donor</strong> button, here enter <strong>Donor Name, Age, Blood Group, Gender, Father Name, Contact Number and Address</strong>.
+                        <p><img src="assets/images/blood-bank-click.png" alt="img" class="img-responsive"/></p>     
+                    </li>
+					<li>For blood issue page click on <strong>Blood Issue Details</strong> button at blood bank status page. At this Blood Issue Details page you can check all issued blood details. To issue blood click on <strong>Issue Blood</strong> button Here select <strong>Patient Name</strong> from dropdown or click on <strong>+ New Patient</strong> button to add new patient then enter <strong>Issue Date, Doctor Name, Donor Name, Blood Group, Technician, Lot, Bag Number, Amount and Remarks</strong>.<br>
+          <p><img src="assets/images/blood-bank-issue.png" alt="img" class="img-responsive"/></p>
+					<p><img src="assets/images/blood-bank-new-paitent.png" alt="img" class="img-responsive"/></p>
+                    </li>
+				
+					<li>To see bill details page click on <strong>Blood Issue Details</strong> button at blood bank page. At this, click on any<strong> Bill No.</strong>. Here you can see<strong> Received to(Blood Receiver No), Doctor, Donor Name, Institution, Technician, Lot, Bag No, Remarks, Amount.</strong> <br>
+					
+          <p><img src="assets/images/blood-bank-new-paitent-print.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                </ul>
+</section>
+<!--end Blood Bank-->
+
+<!--TPA-->
+<section id="tpa"><h1 class="page-header">TPA Management</h1><hr>
+ <p><strong>TPA</strong> module is for managing third party administrator or mediclaim insurance provider companies.</p>
+                <ul>
+                    <li>Add new TPA click on <strong>+ Add TPA</strong> button here enter <strong>TPA Organisation Name, Code, Contact Number, Address, Contact Person name, Contact Person Phone</strong>.
+                      <p><img src="assets/images/tpa-buttonshow.png" alt="img" class="img-responsive"/></p>
+                    <p><img src="assets/images/tpa-addnewtpa.png" alt="img" class="img-responsive"/>     
+                  </li>
+					<li>To see TPA organization details click on <strong>Organisation Profile</strong> button. Here you can edit or delete different associated charges for this tpa organisation in different charge types. Associated charges should be applied first from hospital charges module.
+                        <p><img src="assets/images/tpa-delete.png" alt="img" class="img-responsive"/></p>     
+                  </li>
+				  
+</section>
+<!--end TPA-->
+
+<!--Finance-->
+<section id="finance"><h1 class="page-header">Finance</h1><hr>
+<p>Finance module has 2 sections -</p>
+                <ol>
+                    <li>Income</li>
+                    <li>Expense</li>
+                </ol>
+                <ul>
+                    <li><strong>Income</strong> - here we will manage all general income coming from different Income Heads. To add new income click on <strong>+ Add Income</strong> button, here enter <strong>Income Head, Name, Invoice Number, Date, Amount, Attach Document and Description</strong>.
+                        <p><img src="assets/images/finance-income.png" alt="img" class="img-responsive"/></p>
+                        <p><img src="assets/images/finance-income-modal.png" alt="img" class="img-responsive"/></p>
+                    </li>
+					<li><strong>Expense</strong> - here we will manage all expenses coming from different Expense Heads. To add new expense click on <strong>+ Add Expense</strong> button here enter <strong>Expense Head, Name, Invoice Number, Date, Amount, Attach Document and Description</strong>.
+                        <p><img src="assets/images/finance-expense.png" alt="img" class="img-responsive"/></p>
+                        <p><img src="assets/images/finance-expense-modal.png" alt="img" class="img-responsive"/></p>     
+                   </li>
+				   
+                </ul>
+</section>
+<!--end Finance-->
+
+<!--Ambulance-->
+<section id="ambulance"><h1 class="page-header">Ambulance</h1><hr>
+ <p><strong>Ambulance</strong> module is for managing ambulance vehicles and ambulance calls for patient travelling.</p>
+                <ul>
+                    <li>To add new ambulance vehicle click on <strong>+ Add Ambulance</strong> button here enter <strong>Vehicle Number, Vehicle Model, Year Made, Driver Name, Driver Licence, Driver Contact, Vehicle Type and Note</strong>.
+                        <p><img src="assets/images/ambulance-section.png" alt="img" class="img-responsive"/></p>
+                        <p><img src="assets/images/ambulance-section-modal.png" alt="img" class="img-responsive"/></p>
+                  </li>
+					<li>To see ambulance call click on <strong>Ambulance Call </strong>button.
+                        <p><img src="assets/images/ambulance-call.png" alt="img" class="img-responsive"/></p> 
+
+                  </li>
+					<li>To add new ambulance call click on <strong>+ Add Ambulance Call</strong> button. Here select <strong>Patient Name</strong> from dropdown or click on <strong>+ New Patient</strong> button to add new patient then enter, <strong>Vehicle Model, Driver Name, Date, Amount</strong>.<br>
+                     <p><img src="assets/images/ambulance-call-modal.png" alt="img" class="img-responsive"/></p>
+                  </li>
+				  
+                </ul>
+</section>
+<!--end Ambulance-->
+
+<!-- Birth & Death Record  -->
+<section id="bdr"><h1 class="page-header">Birth & Death Record</h1><hr>
+<p>This module is for managing babies birth & patients death record in hospital. Birth & Death Record module has 2 sections -</p>
+<ol>
+ <li>Birth Record </li> 
+ <li>Death Record <l/i>
+</ol>
+<ul>
+ <li>
+   <p><strong>Birth Record</strong> - here we will manage all babies birth record happened in hospital. To add record, click on<strong> + Add Birth Record </strong>, here you enter<strong> Child Name, Gender, Weight, Child Photo, Birth Date, Phone, Address, Mother Name, IPD/OPD Number, Mother Photo, Father Name, Father Photo, Report, Attach Document(Any ID Proof or other required document), Custom Field(Optional)</strong>.</p>
+ <p><img src="assets/images/add-birth-record.png" alt="img" class="img-responsive"/></p>
+ <p><img src="assets/images/add-birth-record-popup.png" alt="img" class="img-responsive"/></p>
+ 
+ <p>After adding birth record you can print baby birth certificate</p>
+ <p><img src="assets/images/add-birth-record-print-popup.png" alt="img" class="img-responsive"/></p>
+ </li>
+    
+<li>
+<p><strong>Death Record</strong> - here we will manage all expired patient record happened in hospital. To add record, click on<strong> +  Add Death Record</strong>, here you enter <strong> Patient Name, IPD/OPD No, Death Date, Guardian Name, Report, Custom Field(optional)</strong>.</p>
+ <p><img src="assets/images/death-record.png" alt="img" class="img-responsive"/></p>
+ <p><img src="assets/images/death-record-popup.png" alt="img" class="img-responsive"/></p>
+</li>
+    <li>
+	If you have to view death record of any patient, click on<strong> Show </strong>, Here you can see<strong> OPD/IPD No, Patient, Gender, Death Date, Address, Death Report, Responsible Name </strong>.<br>
+ <p><img src="assets/images/death-record-popup-print.png" alt="img" class="img-responsive"/></p>
+	</li>
+</ul>
+
+<!-- End of Birth & Death Record -->
+
+
+<!--Human Resource-->
+<section id="hr"><h1 class="page-header">Human Resource</h1><hr>
+<p>This module has 4 sections -</p>
+                <ol>
+                    <li>Staff Directory</li>
+                    <li>Staff Attendance</li>                    
+					<li>Payroll</li>					
+					<li>Leaves</li>
+                </ol>
+                <p>
+				In Human Resource we will manage all activities of hospital staff (not patient) from Doctor to Owner or Peon or any hospital member even he/she using or not using Smart Hospital application. First we will add Staff Member from Staff Directory then we will manage day by day Staff Attendance then manage Payroll/Salary of staff then Apply or Approve Leave Request.				</p>
+                <ul>					
+					<li><strong>Staff Directory </strong>- here you can search all active staff members. You can filter staff members by Role or search by any keyword. You can also see staff directory in two views Card View or List View. 
+					  <p><img src="assets/images/human-staff-directory.png" alt="img" class="img-responsive"/></p>
+					
+					<p>You can edit any staff by clicking on <strong>Edit</strong> button on Staff Card. To view staff details/profile click on <strong>View</strong> button present on staff card. Staff profile provides 360* view of staff including complete profile, payroll, payslip, allotted/apply/approved leaves, monthly/yearly attendance, uploaded documents and timeline. After staff retirement or reliving you can <strong>Disable</strong> staff <strong>Thumbs Down Red Icon</strong> button. After disabling staff, staff profile is marked as red color in background and its login to Smart Hospital also being disabled. Disabled staff can be seen in Human Resource > Disabled Staff. You can also add staff leaving date and resignation letter from staff Edit. Staff can be deleted after disabling staff.
+					<img src="assets/images/human-staff-profileview.png" alt="img" class="img-responsive"/></p>
+					
+					To add new staff member click on <strong>+ Add Staff</strong> button from top right corner of this page. Enter <strong>Staff ID</strong>, select <strong>Role</strong> (roles can be manage from Setup &gt; Settings > Roles Permission), <strong>Designation, Department, First Name, Last Name, Father Name, Mother Name, Gender, Marital Status, Date Of Birth, Date Of Joining, Phone, Emergency Contact Number, Email, Photo, Current Address, Permanent Address, Qualification, Work Experience, Specialization, Note, EPF No (Employee Provident Fund Number), Basic Salary, Contract Type, Work Shift, Location, Leaves(Sickness, Personal), Bank Account Title, Bank Account Number, Bank Name, IFSC Code, Bank Branch Name, Facebook URL, Twitter URL, LinkedIn URL, Instagram URL, Upload Resume, Joining Letter</strong> and <strong>Other Documents</strong> then click on <strong>Save</strong> button.
+                  <p><img src="assets/images/human-staff-adddtaff.png" alt="img" class="img-responsive"/></p></li>
+            <li><strong>Disabled Staff </strong>- Go to <strong>Human Resource > Disabled Staff</strong> here you can see all Disabled Staff. Click on any staff to see his/her profile. At profile page you can see <strong>Delete</strong> Staff button, by deleting staff all profile data will be deleted. To Enable any Disabled staff click on <strong>Green Colour Thumbs Up Icon</strong> button.
+                        
+                    <p><img src="assets/images/human-resource-disabled-staff.png" alt="img" class="img-responsive"/></p></li>              
+					
+					<li><strong>Staff Attendance</strong> - here you can record staff attendance. Select Staff <strong>Role</strong> and <strong>Attendance Date</strong> then click on <strong>Search</strong> button. Now can see staff list, select attendance radio button for <strong>Present/Late/Absent/Half Day</strong> and enter any <strong>Note</strong> then click on <strong>Save Attendance</strong> button to submit attendance. If you mark selected date as Holiday then check button <strong>Mark As Holiday</strong>. If attendance has been already submitted then you will get message of "Attendance Already Submitted You Can Edit Record" in this case you can still edit exiting attendance.
+                  <p><img src="assets/images/human-staff-staff-attendance.png" alt="img" class="img-responsive"/></p></li>
+					
+	         <li><strong>Payroll </strong>- here we will generate monthly salary of staff members. Select <strong>Role, Month</strong> and <strong>Year</strong> then click <strong>Search</strong> button to see staff members list and their payroll status. Now you can see staff list, from Status column you can see current salary status available option from <strong>Action</strong> column. Payroll has three status <strong>Not Generated -> Generated -> Paid</strong>. If status is Not Generated then you can see Generate Payroll button, if status is Generated then you can see Proceed To Pay button and if status is Paid then you can see View Payslip button in Action column. If status is Generated or Paid then you can revert this status in previous status.  
+                      <p><img src="assets/images/human-resource-staff-payroll.png" alt="img" class="img-responsive"/></p>                      
+                    
+					
+					Now click on <strong>Generate Payroll</strong> button from <strong>Action</strong> column. At this page you can see staff profile, attendance, approve leaves details. In earning column add earning <strong>Type</strong> and <strong>Amount</strong> then in deduction column enter deduction <strong>Type</strong> and <strong>Amount</strong> (from top right corner <strong>Attendance</strong> section you can check this month all attendance and approve details based on this you can calculate deduction for this staff) then in Payroll Summary column enter any tax if applied then finally click on <strong>Calculate</strong> button to calculate Net Salary amount then click on <strong>Save</strong> button to save this salary generation. 
+          <p><img src="assets/images/human-resource-staffdetails.png" alt="img" class="img-responsive"/></p>
+					
+					
+					Now come again on payroll page and check this staff payroll status for same month now it should be <strong>Generated</strong> and in <strong>Action</strong> column <strong>Proceed To Pay</strong> button should be visible. Here click on <strong>Proceed To Pay</strong> button to pay generated salary to this staff. Now at Proceed To Pay modal popup window you can <strong>Staff, Net Payment Amount, Month-Year</strong>, select <strong>Payment mode</strong> through which you are paying salary,<strong> Payment Date</strong>, and <strong>Note</strong> then click on <strong>Save</strong> button.
+          <p><img src="assets/images/human-resource-proceed-pay.png" alt="img" class="img-responsive"/></p>
+					
+					
+					Now come again on payroll page and check this staff payroll status for the same month now it should be <strong>Paid</strong> and in <strong>Action</strong> column <strong>View Payslip</strong> button should be visible. Here click on <strong>View Payslip</strong> button to see and print payslip. 
+					<p><img src="assets/images/human-hstaff-generate-payroll-print.png" alt="img" class="img-responsive"/></p>
+				  </li>
+					
+					
+					<li><strong>Leaves</strong> - Here you can apply for leave request or if you have permissions then you can approve other leave request. For approve leave request click on <strong>Approve Leave Request</strong> button  here you can view, approve or manually submit staff leave request. Click on <strong>View</strong> icon button from <strong>Action</strong> column to see details of applied leave request. Now at this modal popup window you can see details of leave request and change its status to <strong>Approve/Disapprove/Pending</strong> then enter any Note then click on <strong>Save</strong> button.                        <p><img src="assets/images/human-staffresource-leaves.png" alt="img" class="img-responsive"/></p>
+                      <p><img src="assets/images/human-staffresource-approve-leave.png" alt="img" class="img-responsive"/></p>
+					
+					To add leave request manually click on + <strong>Add Leave Request</strong> button from top right corner. Here select <strong>Role, Staff Name, Apply Date, Leave Type, Leave Date, reason, Note, Attach Document</strong> and <strong>Status</strong> of leave request then click on <strong>Save</strong> button.
+					<p><img src="assets/images/human-staffresource-approve-leavemodal.png" alt="img" class="img-responsive"/></p>
+				  <strong>Apply Leave</strong> - to apply self leaves click on <strong>Apply Leave</strong> button,  here logged in staff user can apply/view leave request for his own only. To view applied leaves click on <strong>View</strong> icon button from <strong>Action</strong> column. To apply leave click on <strong>+ Apply Leave</strong> button from top right corner. 
+                        
+                  <p><img src="assets/images/human-hataff-applyleave.png" alt="img" class="img-responsive"/></p>
+                <p><img src="assets/images/human-hataff-applyleave-modal.png" alt="img" class="img-responsive"/></p>
+                  </li>
+					
+							
+					
+                </ul>
+</section>
+<!--end Human Resource-->
+
+
+
+<!--Messaging-->
+<section id="messaging"><h1 class="page-header">Messaging</h1><hr>
+                <p>This module is for sending different messages to different users.</p>
+                <ul>
+                    <li><strong>Notice Board</strong> is for sending common messages to all staff members to add new notice board message click on <strong> +Post New Message</strong> button, here enter <strong>Message Title, Message Text, Notice Date, Publish On Date and Message To</strong> different types of staff users.
+                        <p><img src="assets/images/communicate-send-message.png" alt="img" class="img-responsive"/></p>
+                        <p><img src="assets/images/compose-new-message.png" alt="img" class="img-responsive"/></p>
+                  </li>
+                    <li>To send Email /SMS click on <strong>Send Email /SMS</strong> button. Here you can send two types of messages either group messages or individual user messages to send group messages click on <strong>Group</strong> tab, here enter<strong> Message Title, Send Through Email or SMS, Message Text, Message To</strong> select different users group.
+                        <p><img src="assets/images/sms-click-button.png" alt="img" class="img-responsive"/></p>
+                        <p><img src="assets/images/sms-click-individual.png" alt="img" class="img-responsive"/></p>
+                  </li> 
+                </ul>
+</section>
+<!--end Communicate-->
+
+<!--Download Center-->
+<section id="downcent"><h1 class="page-header">Download Center</h1><hr>
+ <p><strong>Download Center</strong> is for managing different documents which should be available for download to other staff members.</p>
+                <ul>
+                    <li>To upload document click on <strong>+ Upload Content</strong> button here enter <strong>Content Title, Content Type, Upload Date, Content File and Description</strong>.
+                        <p><img src="assets/images/download-center-upload-content.png" alt="img" class="img-responsive"/></p>
+                  <p><img src="assets/images/download-center-modal.png" alt="img" class="img-responsive"/></p></li>
+                </ul>
+</section>
+<!--end Download Center-->
+
+<!--Inventory-->
+<section id="inventory"><h1 class="page-header">Inventory</h1><hr>
+<p><strong>Inventory</strong> module is for managing different assets or items present in hospital. First we will add items then add item stocks then we will manage issue and return of items to different staff members.</p>
+
+                <ul>
+                    <li>To see items click on <strong>Item</strong> button. At this page to add new items click on <strong>+ Add Item</strong> button here enter <strong>Item Name, Item Category, Unit, Purchase Price and Description</strong>.
+                        <p><img src="assets/images/admin-itemcategory.png" alt="img" class="img-responsive"/></p>
+                         <p><img src="assets/images/admin-itemcategory-list.png" alt="img" class="img-responsive"/></p>
+                        <!-- <p><img src="assets/images/admin-itemcategory-modal.png" alt="img" class="img-responsive"/></p> -->
+                    </li>    
+                    <li>To add item stock click on <strong>+ Add Item Stock</strong> button, here enter<strong> Item Category, Item Name, Supplier, Store, Quantity, Purchase Price, Date, Description and Attach Document</strong>.
+                        <p><img src="assets/images/admin-inventry-itemstock.png" alt="img" class="img-responsive"/></p>
+                    </li>    
+
+                    <li>To see issue or return item click on <strong>Issue Item</strong> button. To issue an item click on <strong>+ Add Issue Item</strong> button, here enter <strong>User Type, Issued to, Issue By, Issue Date, Return Date, Note, Item Category, Item and Issue Quantity</strong>.
+						<p><img src="assets/images/admin-inventry-issueitem.png" alt="img" class="img-responsive"/></p>
+          <p><img src="assets/images/admin-inventry-additemstock.png" alt="img" class="img-responsive"/></p>
+       
+
+                  
+						<p>To return an item click on <strong>Click To Return</strong> button.</p>
+                </ul>
+</section>
+<!--end Inventory-->
+
+<!--Front CMS-->
+<section id="frontcms"><h1 class="page-header">Front CMS</h1><hr>
+<p><strong>Front CMS</strong> module for managing hospital front website. First we will upload different images or files used in front website in Media Manager then we will create front website menu in Menus then we will add different Pages, Events, Galleries, News and Banner images.</p>
+
+			<ul>
+        <li>To use Front CMS first we will configure it by <strong>Setup > Settings > Front CMS Setting</strong> here we can enable/disable Front CMS, Sidebar, Language RTL Text Mode, check Sidebar Option, upload Logo, Favicon, enter Footer Text, Google Analytics, Facebook URL, Twitter URL, Youtube URL, Google Plus, Linkedin URL, Instagram URL, Pinterest URL and Current Theme (there are 3 pre-built themes supplied with Smart Hospital but you can create your own theme by copying "default" theme with your own name in same folder. For themes /application/views/themes contains php view files and /backend/themes folder contains css, js, images etc. files).
+            <p><img src="assets/images/front-cms-setting.png" alt="img" class="img-responsive"/></p>
+              </li> 
+               <li>To manage images or files in media manager click on <strong>Media Manager</strong> button hear drag and drop or upload your desired file. Uploaded file will be displaying in media manager. Click on image or file to see this image details.
+                        <p><img src="assets/images/front-cms-pagelist.png" alt="img" class="img-responsive"/></p>
+              </li>    
+                    <li>In media manager you can also upload your YouTube video URL. For this enter your <strong>YouTube URL</strong> then click on <strong>Submit</strong> button
+					  <p><img src="assets/images/front-cms-youtubevideo.png" alt="img" class="img-responsive"/></p>
+			  </li>
+                    <li>To manage menus click on <strong>Menus</strong> button. Here by default you will get two menu <strong>Main Menu</strong> and <strong>Bottom Menu</strong>. Here you can add more menu but these other menu will be only display in front site if you will add them in front site theme additionally.
+					  <p><img src="assets/images/front-cms-menulist.png" alt="img" class="img-responsive"/></p>
+					<p><img src="assets/images/front-cms-menulist-modal.png" alt="img" class="img-responsive"/></p>
+					To manage existing menu click on <strong>+ Plus</strong> button. To add new menu item enter <strong>Menu Item</strong>, select it will point to<strong> External URL</strong> or a CMS Page, it's link will be <strong>Open In New Tab</strong> or same tab, enter <strong>External URL Address</strong> or select <strong>CMS Page</strong>. To change menu ordering <strong>click on a menu and drag and drop</strong> it that place up or down.
+					<p><img src="assets/images/front-cms-addmenuitem.png" alt="img" class="img-responsive"/></p>
+					
+					To add appointment form page link in front site <strong>Appointment</strong> menu create an <strong>Appointment</strong> menu and link it with your (appointment page url is predefined <strong>https://yourdomain.com/form/appointment</strong> ) appointment page .
+					<p><img src="assets/images/appointment-menu-link.png" alt="img" class="img-responsive"/></p>
+			  </li>
+					
+					<li>Now we will add pages in front site. By default 5 pages are pre built e. g. <strong>Home page, Appointment, Contact Us, Complain and 404 page</strong>. To change these pages you can edit these pages. To add new pages click on <strong>Add Page</strong> button. Here enter <strong>Page Title, Page Type (Standard, Events, News or Gallery), Page Description, + Add Media</strong> to select media from Media manager, SEO details for <strong>Meta Title, Meta Keyword, Meta Description, Sidebar Setting </strong> enable/disable, select <strong>Featured Image</strong>. 
+                      <p><img src="assets/images/front-add-pagess.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li>To add new Event click on <strong>Add Event</strong> button. Here you can add all events scheduled past/future in your hospital. To add new event click on <strong>+ Add</strong> button. Here enter event <strong>Title, Event Venue, Event Start Date, Event End Date, Description, SEO Detail Meta Title, Meta Keyword, Meta Description</strong> then select <strong>Sidebar Setting</strong>, <strong>Featured Image</strong> then click on <strong>Save</strong> button. 					                        
+                        <p><img src="assets/images/front-cms-events.png" alt="img" class="img-responsive"/></p>
+						<p><img src="assets/images/front-cms-events-add.png" alt="img" class="img-responsive"/></p>
+			  </li>
+					<li>To add new gallery click on <strong>Add Gallery</strong> button. Here you can add all image/video galleries of your hospital. To add new gallery click on <strong>+ Add</strong> button. Here enter gallery <strong>Title, Description, Gallery Images, SEO Detail Meta Title, Meta Keyword, Meta Description</strong> then select <strong>Sidebar Setting, Featured Image</strong> then click on <strong>Save</strong> button. 
+                        <p><img src="assets/images/front-cms-gallery.png" alt="img" class="img-responsive"/></p>
+					 <p><img src="assets/images/front-cms-addgallery.png" alt="img" class="img-responsive"/></p>
+			  </li>
+					<li>To add new news click on Add News button. Here you can add all News/Notices of your hospital. To add new news click on <strong>+ Add</strong> button. Here enter news <strong>Title, News Date, Description, SEO Detail Meta Title, Meta Keyword, Meta Description</strong> then select <strong>Sidebar Setting, Featured Image</strong> then click on <strong>Save</strong> button.
+					  <p><img src="assets/images/admin-front-newslist.png" alt="img" class="img-responsive"/></p>
+					 <p><img src="assets/images/admin-front-addnew.png" alt="img" class="img-responsive"/></p>					
+			  </li>
+                     
+           <li>To manage banners click on <strong>Banners</strong> button. To add image in banner click on <strong>+ Add Images</strong> button.                        
+              <p><img src="assets/images/admin-front-slidebanner.png" alt="img" class="img-responsive"/></p></li>             
+        </ul>
+</section>
+<!--end Front CMS-->
+
+<!--Reports-->
+<section id="reports"><h1 class="page-header">Reports</h1><hr>
+<p><strong>Report</strong> module is for getting different reports related to various modules. Report module consist 18 reports as follows -</p>
+                <ol>
+                    <li>Transaction Report</li>
+					<li>Appointment Report</li>
+					<li>OPD Report</li>
+					<li>IPD Report</li>
+					<li>Discharged Patient</li>					 
+					<li>Pharmacy Bill Report</li>
+					<li>Expiry Medicine Report</li>
+                    <li>Pathology Patient Report</li>
+                    <li>Radiology Patient Report</li>
+                    <li>OT Report</li>
+                    <li>Blood Issue Report</li>
+                    <li>Blood Donor Report</li>
+					<li>TPA Report</li>
+					<li>Income Report</li>
+					<li>Income Group Report</li>
+					<li>Expense Report</li>
+					<li>Expense Group Report</li>
+					<li>Ambulance Report</li>
+					<li>Birth Report</li>
+					<li>Death Report</li>
+					<li>Payroll Month Report</li>
+					<li>Payroll Report</li>
+                    <li>Staff Attendance Report</li>
+					<li>User Log</li>
+					<li>Patient Login Credential</li>
+					<li>Email / SMS Log</li>
+					<li>Inventory Stock Report</li>
+					<li>Inventory Item Report</li>
+					<li>Inventory Issue Report</li>
+                </ol>
+               
+                <ul>
+                    <li><strong>Transaction Report </strong>- Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                        <p><img src="assets/images/reports-transaction.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>OPD Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                        <p><img src="assets/images/reports-opd.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>IPD Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+
+                        <p><img src="assets/images/report-patient-ipdreport.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Pharmacy Bill Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF..
+                        <p><img src="assets/images/pharmacy-bill-report.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Expiry Medicine Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF..
+                        <p><img src="assets/images/expiry-medicine-report.png" alt="img" class="img-responsive"/></p>
+					</li>					
+                    <li><strong>Pathology Patient Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF. 
+                        <p><img src="assets/images/pathology-pathologyreport.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Radiology Patient Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                      <p><img src="assets/images/radio-radiologyreport.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>OT Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                      <p><img src="assets/images/operationtheatre-otreport.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Blood Issue Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                      <p><img src="assets/images/bloodbank-bloodissuereport.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Blood Donor Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                      <p><img src="assets/images/bloodbank-blooddonorreport.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Income Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                      <p><img src="assets/images/income-incomesearch.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Income Group Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                      <p><img src="assets/images/income-group-report.png" alt="img" class="img-responsive"/></p>
+					</li>					
+                    <li><strong>Expense Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                      <p><img src="assets/images/expense-expensesearch.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Expense Group Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                      <p><img src="assets/images/expense-group-report.png" alt="img" class="img-responsive"/></p>
+					</li>					
+                    <li><strong>Ambulance Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                      <p><img src="assets/images/admin-ambulance-report.png" alt="img" class="img-responsive"/></p>
+					</li>
+					<li><strong>Birth Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.<br>
+                      <p><img src="assets/images/birth-report.png" alt="img" class="img-responsive"/></p>
+					  
+					</li>
+					<li><strong>Death Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.<br>
+                      <p><img src="assets/images/death-report.png" alt="img" class="img-responsive"/></p>
+					</li>
+					
+                    <li><strong>Payroll Month Report</strong> - Here you can select different month and year for report data. Also you can 
+                        download this report as PDF.
+                      <p><img src="assets/images/payroll-payrollreport.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Payroll Report</strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                    <p><img src="assets/images/payroll-payrollsearch.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Staff Attendance Report</strong> - Here you can select different month and year for report data. Also you can 
+                        download this report as PDF.
+                    <p><img src="assets/images/admin-staff-attendance-report.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>User Log</strong><strong></strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                    <p><img src="assets/images/userlogfornt.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Patient Login Credential</strong><strong></strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+<p><img src="assets/images/patient-patientcredentialreport.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Email / SMS Log</strong><strong></strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                    <p><img src="assets/images/report-mailsms-index.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Inventory Stock Report</strong><strong></strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                    <p><img src="assets/images/report-inventory-stock-report.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Inventory Item Report</strong><strong></strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                    <p><img src="assets/images/report-inventory-item-report.png" alt="img" class="img-responsive"/></p>
+					</li>
+                    <li><strong>Inventory Issue Report</strong><strong></strong> - Here in search type you can select different time intervals for report data. Also you can 
+                        download this report as PDF.
+                    <p><img src="assets/images/report-inventory-issue-report.png" alt="img" class="img-responsive"/></p>
+					</li>					
+                </ul>
+</section>
+<!--end Reports-->
+
+<!-- <Notifications> -->
+<section id="notifications"><h1 class="page-header">Notifications</h1><hr>
+
+<p>In top area in the main screen you can see bell icon for Notifications. Here different users will receive automated notification for 6 events -</p>
+<ul>
+<li><strong>Appointment Created</strong> - at time of patient appointment has been created</li>
+<li><strong>Appointment Approved</strong> - at time of patient appointment has been approved</li>
+<li><strong>OPD Created</strong> - When a patient has been registered for OPD</li>
+<li><strong>IPD Created</strong> - When patient has been registered for IPD</li>
+<li><strong>OT Created</strong> - When patient has been registered for Operation Theatre</li>
+<li><strong>Payroll</strong> - When concerning staff salary has been paid</li>
+<p><img src="assets/images/notification.png" alt="img" class="img-responsive"/></p>
+</ul>
+<!-- <End Of Notifications> -->
+
+<!--Calendar-->
+<section id="calendar"><h1 class="page-header">Calendar ToDo List</h1><hr>
+<p>This module has 2 sections -</p>
+                <ol>
+                    <li>Calendar</li>
+                    <li>ToDo List</li>                   
+                </ol>
+                <p>In Calendar we can add personal or public events can be visible under login panels. In ToDo List we can add our personal task.</p>
+                <ul>
+                    <li><strong>Calendar </strong>- Go to <strong>top right corner of page besides your profile icon you can see Calendar icon</strong> now at calendar page click on any date or time frame, at this modal window enter <strong>Event Title, Description, Event Date, Event Colour</strong> and <strong>Event Type</strong> (<strong>Public</strong> is visible to all, <strong>Private</strong> is only you can see this event, <strong>All &lt;your role&gt;</strong> is this event will be visible to all users of your role, <strong>Protected</strong> that means it is visible to all staff members but not patient) then click on <strong>Save</strong> button.                       
+                        <p><img src="assets/images/calendar-topright.png" alt="img" class="img-responsive"/></p>
+                         <p><img src="assets/images/calendar-topright-popup.png" alt="img" class="img-responsive"/></p>
+                    </li>
+					<li><strong>ToDo List </strong>- Go to <strong>top right corner of page besides your profile icon you can see <strong>ToDo List</strong> icon, click on<strong> View All</strong> button</strong> now at calendar page right side you can see all your task click on <strong>+</strong> icon button, at this modal window enter <strong>Title</strong> and <strong>Date</strong> then click on <strong>Save</strong> button.                       
+                        <p><img src="assets/images/calendar-todolist-popup.png" alt="img" class="img-responsive"/></p>
+                    </li> 
+                    
+                </ul>
+</section>
+<!--end Calendar-->
+
+<!--Setup-->
+<section id="setup"><h1 class="page-header">Setup</h1><hr>
+ <p><strong>Setup</strong> module is for configuration settings and master entry forms for other modules to run whole Smart Hospital system properly. This module has 11 sections -</p>
+                <ol>
+                    <li>Settings</li>
+					<li>Patient</li>					
+                    <li>Hospital Charges</li>
+                    <li>Bed</li>
+                    <li>Print Header Footer</li>
+                    <li>Front Office</li>
+                    <li>Pharmacy</li>
+					<li>Pathology</li>
+					<li>Radiology</li>
+                    <li>Finance</li>
+					<li>Birth & Death Record</li>
+                    <li>Human Resource</li>
+                    <li>Inventory</li>
+                </ol>                
+                <ul>
+                    <li><strong>Settings </strong>- this section has 11 parts.
+					  <p><img src="assets/images/system-general-setting.png" alt="img" class="img-responsive"/></p>
+					<ol>
+					<li>General Setting</li>
+					<li>Notification Setting</li>
+					<li>SMS Setting</li>
+					<li>Email Setting</li>
+					<li>Payment Methods</li>
+					<li>Front CMS Setting</li>
+					<li>Roles Permissions</li>
+					<li>Backup / Restore</li>
+					<li>Languages</li>
+					<li>Users</li>
+					<li>Modules</li>
+					</ol>
+					<li>
+					<strong>General Setting</strong> - Update your <strong>Hospital Name, Address, Phone, Email, Hospital Code</strong> (Hospital Code is your hospital registration / accreditation no), <strong>Language</strong> (language in which you want to run your Smart Hospital), <strong>Language RTL Text Mode</strong> (for Arabian side languages), <strong>Timezone, Time Format, Currency</strong> (ISO standard 3 digit currency code), <strong>Currency Symbol, Credit Limit </strong>(used for IPD module balance amount credit limit), <b>Doctor Restriction Mode</b> (if Doctor Restriction Mode is disabled then all doctors can see other doctors patients in their account and if Doctor Restriction Mode is enabled then doctors can see only their assigned patients in OPD, IPD, OT and Appointment), <b>Superadmin Visibility </b> (if Superadmin Visibility is disabled then superadmin will not be visible to system for other staff users and if Superadmin Visibility is enabled then other staff users can see superadmin in system) and select <strong>Current Admin Theme</strong>, now click on <strong>Save</strong> button to update record 
+					<p><img src="assets/images/general-setting2.png" alt="img" class="img-responsive"/></p>
+                    
+                        <p>For updating your hospital logo click on right column <strong>Edit Logo</strong> buttons.</p>
+                        <p><img src="assets/images/general-setting3.png" alt="img" class="img-responsive"></p>
+                  </li>
+                    <li>
+                    <strong>Notification Setting </strong>- in Smart Hospital there are 6 events <strong>OPD Patient Registration, IPD Patient Registration, IPD Patient Discharged, OPD Patient Revisit, Login Credential</strong> and <strong>Appointment Approved</strong> where automated Email / SMS are sending to concerning person's email / mobile number. To control, when email / sms notifications will be send use <strong>Notification Setting</strong>.
+                    <p>Check the following at which event, which person receive notification  </p>
+                    <ul>
+                    <li><strong>OPD Patient Registration:</strong> OPD Patient</li>
+                    <li><strong>IPD Patient Registration:</strong> IPD Patient</li>
+                    <li><strong>IPD Patient Discharged:</strong> IPD Patient</li>
+                    <li><strong>OPD Patient Revisit:</strong> OPD Patient</li>
+                    <li><strong>Login Credential:</strong> Patient, Staff</li>
+					<li><strong>Appointment Approved:</strong> Patient</li>
+                    </ul>
+                   <p><img src="assets/images/notification-setting.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li>
+                        <strong>SMS Setting </strong>-  for SMS notifications to patient or staff you must have to add SMS Gateway details in Smart Hospital. Add <strong>Clickatell</strong>, <strong>Twilio</strong>, <strong>MSG91</strong>, <strong>Text Local</strong>, <strong>SMS Country</strong> or <strong>Custom SMS Gateway</strong> with the required details. You can add multiple sms gateways but only one can be enable at a time. You can also add any other http api based sms gateways through Custom SMS Gateway but it need to configure SMS Library in source code and require PHP coding skills. Through this you can add any SMS Gateway which supports http based api.
+                                   <p><img src="assets/images/sms-setting-clicktall.png" alt="img" class="img-responsive"/></p>
+                                   <p><img src="assets/images/sms-setting-twiliosms.png" alt="img" class="img-responsive"/></p>
+                                   <p><img src="assets/images/sms-setting-msg91.png" alt="img" class="img-responsive"/></p>
+                                   <p><img src="assets/images/sms-setting-testlocal.png" alt="img" class="img-responsive"/></p>
+                                   <p><img src="assets/images/sms-setting-country.png" alt="img" class="img-responsive"/></p>
+                                   <p><img src="assets/images/sms-setting-customgateway.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li>
+                        <strong>Email Setting </strong>- to send emails from Smart Hospital you need to configure Email Setting. Currently Email is available for SendMail and SMTP delivery engine. 
+                        <p>Select <strong>SendMail</strong> email engine to send emails through your hosting SendMail program. By default SendMail is set as Email Engine. SendMail can only work and send emails if your cpanel hosting supports it. If SendMail not sending email then contact to your hosting provider. Since SendMail is easiest but less reliable so check your spam folders in email inbox because sometimes emails detected as spams if using SendMail. </p>
+                        <p>Another option is to use SMTP as email engine. Select <strong>SMTP</strong> email engine to send email using any SMTP relay. You can use Gmail or any other free SMTP service provider to use SMTP email engine.</p>
+                        To use Gmail SMTP  using your gmail email account, enter following details in SMTP Engine -
+						<ul>
+						<li><strong>SMTP Username</strong>: your gmail email id</li>
+						<li><strong>SMTP Password</strong>: your gmail email account password</li>
+						<li><strong>SMTP Server</strong>: smtp.gmail.com</li>
+						<li><strong> SMTP Port</strong>: 587</li>
+						<li><strong>SMTP Security</strong>: tls</li>
+						</ul>
+                        and finally click on <strong>Save</strong> button to save your settings. After this login to your gmail account then visit: <a href="https://www.google.com/settings/security/lesssecureapps" target="_blank" >https://www.google.com/settings/security/lesssecureapps</a> &nbsp; &nbsp;then toggle on.
+                        <p><img src="assets/images/email-setting1.png" alt="img" class="img-responsive"></p>
+                        <p><img src="assets/images/email-settinglist.png" alt="img" class="img-responsive"></p>
+						<p>After above settings you will receive email successfully but if you are still not receiving emails that means you hosting provider has blocked external smtp ports or services in this case please contact to your hosting provider for smtp issues.</p>
+                    </li>         
+                    <li>
+                        <strong>Payment Methods </strong>- there are 3 payment gateways <strong>Paypal, Stripe</strong> and <strong>PayU</strong> available in Smart Hospital. For enabling patient or their guardian to pay IPD bill payment online through Patient Panel then you must have to enter and enable any one of payment gateway. You can add multiple payment gateway details but you can enable only one at a time. Add your payment gateway account details in required fields, then enable that payment gateway.
+                        <p><img src="assets/images/payment-methods-paypal.png" alt="img" class="img-responsive"></p>
+                        <p><img src="assets/images/payment-methods-stripe.png" alt="img" class="img-responsive"></p>
+                        <p><img src="assets/images/payment-methods-payu.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li>
+                        <strong>Front CMS Setting </strong>- here we can <strong>enable/disable Front CMS, Sidebar, Language RTL Text Mode, check Sidebar Option, upload Logo, Favicon, enter Footer Text, Google Analytics, Facebook URL, Twitter URL, Youtube URL, Google Plus, Linkedin URL, Instagram URL, Pinterest URL and Current Theme</strong> (there are 3 default themes supplied with Smart Hospital but you can create your own theme by copying "default" theme with your own name in same folder. For themes /application/views/themes contains php view files and /backend/themes folder contains css, js, images etc. files).
+                        <p><img src="assets/images/front-cms-setting.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li>
+                        <strong>Roles Permissions </strong>- here we can create different Roles for staff users and then assign different user permission to this Role. To add new role enter <strong>Role Name</strong> then click on <strong>Save</strong> button all existing roles can be see from right side of this page. By default in Smart Hospital you will get 8 user roles <strong>Super Admin, Admin, Accountant, Doctor, Pharmacist, Pathologist, Radiologist, Receptionist, Nurse</strong>. You can edit name or permission of these roles except Super Admin. 
+						<p><img src="assets/images/roll-permissions.png" alt="img" class="img-responsive"/></p>
+						To assign permission click on <strong>Assign Permission</strong> button from <strong>Action</strong> column. At this page you can see Module wise different features and their different permissions. Carefully assign different permissions on roles. After assigning permission, check where it is effecting in system. There are 4 types of permissions present here <strong>View, Add, Edit and Delete</strong>. Here note that <strong>if you are assigning Add/Edit or Delete permission then View permission should be given obviously</strong> if you have not given View permission then system can behave inconsistent so in best practice if you are giving Add/Edit/Delete any one permission then give View permission too.                      
+						<p><img src="assets/images/assign-permission-admin.png" alt="img" class="img-responsive"/></p>
+                  </li>					
+                    <li>
+                        <strong>Backup/Restore </strong>- for taking backup of your Smart Hospital database click on 
+                        <strong>Create Backup</strong> button it will create a .sql file you can 
+                        <strong>Download</strong> it on your local system or <strong>Restore</strong> back in your system or 
+                        <strong> Delete</strong> backup file. You can also Restore database file from local system click on 
+                        <strong>Choose File</strong> select .sql file from your local system then click on 
+                        <strong>Upload</strong> button.
+						<p><img src="assets/images/backup-restore.png" alt="img" class="img-responsive"/></p>
+						
+						If you want to use auto backup feature of Smart Hospital then you should configure <strong>Cron</strong> settings on your hosting server for corn url <strong>http://yourdomain/cron/autobackup/&lt;your-cron-secret-key&gt;</strong> . To generate/regenerate your cron secret key simply click on <strong>Generate/Regenerate</strong> button under <strong>Cron Secret Key</strong> section. To view existing cron secret key click on <strong>eye</strong> icon button.					
+						
+						<p><strong>Setup cPanel Cron Job -</strong> Login to your cPanel and navigate to <strong>Cron</strong> jobs, add the following settings :</p>
+                      <p><img src="assets/images/system-backup-cronjob.png" alt="img" class="img-responsive"></p>
+                      wget -q -O- http://yourdomain/cron/autobackup/&lt;your-cron-secret-key&gt;
+						Change the URL according to your base URL.
+						
+					You can also use some free cron job service like https://www.easycron.com. Mostly the free cron job services have a limit to execute every 20 minutes but it will work well too with Smart Hospital auto backup. </li>
+                    <li><strong>Languages </strong>- to change language key phrases, go your language directory e.g. for <strong>English</strong> language go to edit file <strong>/application/language/English/app_files/system_lang.php</strong> . Where as <strong>/application/language/English/form_validation_lang.php</strong> file is used for validation message text. Languages other than English are translated from language translation engine so obviously many text not translated perfectly up to your mark. We are requesting to other language users please translate text as per your intelligence. Below you can find the list of all 72 languages. </li>
+                <ol style="padding-left: 30px;padding-top: 10px;">
+                    <li>Afrikaans</li>
+                    <li>Albanian</li> 
+                    <li>Arabic  </li>
+                    <li>Azerbaijan  </li>
+                    <li>Basque  </li>
+                    <li>Bengali </li>
+                    <li>Bosnian </li>
+                    <li>Catalan </li>
+                    <li>Cebuano </li>
+                    <li>Chinese </li>
+                    <li>Czech </li>
+                    <li>Danish  </li>
+                    <li>Dutch </li>
+                    <li>English</li>
+                    <li>Esperanto </li>
+                    <li>Estonian  </li>
+                    <li>Finnish </li>
+                    <li>French  </li>
+                    <li>Galician  </li>
+                    <li>Georgian  </li>
+                    <li>German  </li>
+                    <li>Greek </li>
+                    <li>Gujarati  </li>
+                    <li>Haitian (Creole)</li> 
+                    <li>Hebrew  </li>
+                    <li>Hindi </li>
+                    <li>Hungarian </li>
+                    <li>Icelandic </li>
+                    <li>Indonesian  </li>
+                    <li>Irish </li>
+                    <li>Italian </li>
+                    <li>Japanese  </li>
+                    <li>Javanese  </li>
+                    <li>Kannada </li>
+                    <li>Korean  </li>
+                    <li>Latin</li>
+                    <li>Latvian </li>
+                    <li>Lithuanian  </li>
+                    <li>Macedonian  </li>
+                    <li>Malagasy  </li>
+                    <li>Malay </li>
+                    <li>Malayalam </li>
+                    <li>Maltese </li>
+                    <li>Maori </li>
+                    <li>Marathi </li>
+                    <li>Mongolian </li>
+                    <li>Nepali  </li>
+                    <li>Norwegian </li>
+                    <li>Persian </li>
+                    <li>Portuguese  </li>
+                    <li>Punjabi </li>
+                    <li>Romanian  </li>
+                    <li>Russian </li>
+                    <li>Scottish  </li>
+                    <li>Sinhala </li>
+                    <li>Slovakian </li>
+                    <li>Slovenian </li>
+                    <li>Spanish </li>
+                    <li>Sundanese </li>
+                    <li>Swahili </li>
+                    <li>Swedish </li>
+                    <li>Tagalog </li>
+                    <li>Tamil </li>
+                    <li>Telugu  </li>
+                    <li>Thai  </li>
+                    <li>Turkish </li>
+                    <li>Urdu  </li>
+                    <li>Uzbek </li>
+                    <li>Vietnamese  </li>
+                    <li>Welsh </li>
+                    <li>Xhosa </li>
+                    <li>Yiddish</li>
+                </ol>
+                <br>
+
+                
+                    <li>
+                        For adding new languages click on +
+                        <strong>Add</strong> button from top right side of page, here enter your 
+                        <strong>Language Name</strong> & click <strong>Save</strong> button. Active language can also be select from 
+                        <strong>System Settings > General Setting</strong>.
+                        <p><img src="assets/images/admin-language.png" alt="img" class="img-responsive"/></p>
+                    </li>
+               
+                    <li>
+                        <strong>Users </strong>- All the users like Patient, Staff can be see here and you can enable or disable them from login to system. To enable or disable user click on <strong>toggle</strong> button in <strong>Action</strong> column.
+                        <p><img src="assets/images/admin-users.png" alt="img" class="img-responsive"/></p>    
+                    </li>  
+                
+                
+                    <li>
+                        <strong>Modules </strong>- Smart Hospital comes with 25+ modules but there are 19 modules available to enable/disable from whole system. Disabling any module will be disabled from Admin and Patient at once. It works over Roles Permission module so even you have given permission for module but after disabling module will be disabled from whole system. To enable/disable simply click on <strong>toggle</strong> button present in <strong>Action</strong> column. 
+                        <p><img src="assets/images/admin-modules.png" alt="img" class="img-responsive"/></p>    
+                    </li> 
+				</ul>
+<!-- <Patient> -->
+
+                    <ul>
+                      <li>
+                   <strong>Patient</strong> - Here you can manage patient's profile data like add, import, enable disable.
+				   <p><img src="assets/images/setup-patient-list.png" alt="img" class="img-responsive"/></p>
+				   
+				   <p>To add new patient click on <strong>+ Add New Patient</strong> then enter patient profile related data then click on <strong>Save</strong> button</p>
+				   <p><img src="assets/images/setup-add-newpatient.png" alt="img" class="img-responsive"/></p>
+				   <p>Import Patient is for upload multiple patient data in a single click instead of one by one. For this <strong>Select CSV file</strong> and click on <strong>Import</strong> button. You can easily download sample CSV file from here. For this click on <strong>Download Sample Data</strong>.</p>
+				   <p><img src="assets/images/setup-import-paitent-popup.png" alt="img" class="img-responsive"/></p>
+				   <p>Disabled Patient is for seeing all disabled patient.</p>				   
+                   <p><img src="assets/images/setup-disabled-patient-list.png" alt="img" class="img-responsive"/></p>
+                   </li>
+                    </ul>
+
+<!-- <End of Patient> -->
+
+<!-- <Hospital Charges> -->
+				<ul>
+				   <li><strong>Hospital Charges</strong> - Here first we will add Charge Category, for this click on + <b>Add Charge Category</b> button. Now enter <strong>Name, Description and select Charge Type</strong> like <strong>Procedures</strong> (is for general ipd charges like doctor visit), <strong>Investigations</strong> (is for pathology/radiology lab test or other investigations), <strong>Supplier</strong> (is for other things supply like oxygen charges), <strong>Operation</strong> Theatre (is for operation theatre charges) and <strong>Other</strong> (is for other miscellaneous charges).
+                                      <p><img src="assets/images/hos-add-category.png" alt="img" class="img-responsive"/></p>      
+					<p>Now we will add Charges for this click on <strong>+ Add Charge</strong> button. Now enter <strong>Charge Type, Charge Category, Charge Code</strong> (it is like short code to differentiate two charges for same charge type and charge category), then enter <strong>Standard Charge</strong>, <strong>Description</strong> and if there is any <strong>TPA</strong> (Third Party Administrator or Insurance organization) is present then enter <strong>Scheduled Charges For TPA</strong> also)
+					<p><img src="assets/images/academics-class.png" alt="img" class="img-responsive"/></p>
+					</p>
+					<p>In <strong>Doctor OPD Charge</strong>, you click on <strong>+Add Charge</strong>, now select <strong>Doctor Name, Standard Charge($)</strong>. If Charges applicable in TPA, then click on <strong>Apply To All</strong>.
+					</p>
+				  </li>
+<!-- <End of Hospital Charges> -->		
+	  
+<!-- <Bed>-->
+                    <li><b>Bed</b> - here first we will add Floors, Bed Groups, Bed Type.
+                      <p>To add floor click on <strong>+ Add</strong> button then enter <strong>Floor Name</strong> and <strong>Description</strong>.</p>
+          <p><img src="assets/images/floor-name.png" alt="img" class="img-responsive"/></p>
+					<p>To add bed group click on <strong>+ Add</strong> button then enter <strong>Bed Group Name</strong>, select <strong>Floor</strong> and enter <strong>Description</strong>.</p>
+					<p><img src="assets/images/bed-groups.png" alt="img" class="img-responsive"/></p>
+					<p>To to add bed type click on <strong>+ Add</strong> button then enter <strong>Bed Type Name</strong>.</p>
+					<p><img src="assets/images/bed-type.png" alt="img" class="img-responsive"/></p>
+					<p>Now to add bed click on <strong>+ Add</strong> button then enter <strong>Bed Name</strong>, select <strong>Bed Type</strong> and <strong>Bed Group</strong>.</p>
+          <p><img src="assets/images/add-bed.png" alt="img" class="img-responsive"/></p>
+					<p>At <strong>Bed Status</strong> page we can check current status of bed.</p>
+					<p><img src="assets/images/bed-status.png" alt="img" class="img-responsive"/></p>
+					</li>
+	 <!-- <End Of Bed>--> 
+	<!-- <Print Header Footer> -->
+                   
+                  <li><strong>Print Header Footer</strong> - here we will add header and footer in OPD Prescription, IPD Bill, Pharmacy Bill, Payslip.
+                    <p><img src="assets/images/opd-prescription.png" alt="img" class="img-responsive"/></p>    
+				  <p>To add OPD Prescription header and footer click on <strong>+ Add</strong> button now select <strong>Header</strong> image then enter <strong>Footer Text</strong>.</p>
+          <p><img src="assets/images/opd-prescription-print.png" alt="img" class="img-responsive"/></p> 
+				  <p>To add IPD Bill header and footer <strong>click on add button now select header image then enter footer text.</strong></p>
+          <p><img src="assets/images/ipd-bill-print.png" alt="img" class="img-responsive"/></p> 
+				  <p>To add Pharmacy Bill header and footer click on <strong>+ Add</strong> button now select <strong>Header</strong> image then enter <strong>Footer Text</strong></p>
+          <p><img src="assets/images/pharmacy-bill-print.png" alt="img" class="img-responsive"/></p> 
+				  <p>To add Payroll Payslip header and footer click on <strong>+ Add</strong> button now select <strong>Header</strong> image then enter <strong>Footer Text</strong></p>
+          <p><img src="assets/images/payslip-print.png" alt="img" class="img-responsive"/></p> 
+		  <p>To add other modules print header footer do the same thing.</p>
+				  </li>	
+	<!-- <End Of Print Header Footer>-->
+	
+	<!-- <Front Office> -->
+				  
+				  <li><strong>Front Office</strong> - .
+				    <p>To add Visitor Purpose click on <strong>+ Add Purpose</strong> button now enter <strong>Purpose</strong> and <strong>Description</strong>.</p>
+          <p><img src="assets/images/front-office-purpose.png" alt="img" class="img-responsive"/></p>
+				  <p>To add Complain Type click on <strong>+ Add Complain Type</strong> button now enter <strong>Complain Type</strong> and <strong>Description</strong>.</p>
+          <p><img src="assets/images/front-office-complain-type.png" alt="img" class="img-responsive"/></p>
+				  <p>To add Complain Source click on <strong>+ Add Source</strong> button now enter <strong>Source</strong> and <strong>Description</strong>.</p>
+          <p><img src="assets/images/front-office-source.png" alt="img" class="img-responsive"/></p>				  
+				  </li>	
+				  
+		<!-- <End Of Front Office>-->
+		
+		<!-- <Pharmacy> -->
+				  <li>
+				  <strong>Pharmacy</strong> -
+				  <p>To add medicine category click on <strong>+ Add Medicine Category</strong> now enter <strong>Medicine Category Name</strong>.</p>
+          <p><img src="assets/images/setup-pharmacy-add-medicine-category.png" alt="img" class="img-responsive"/></p>
+		  <p>To add supplier click on <strong>+ Add Supplier</strong> now enter <strong>Supplier Name, Supplier Contact, Contact Person Name, Contact Person Phone, Address </strong>.</p>
+          <p><img src="assets/images/setup-pharmacy-add-supplier.png" alt="img" class="img-responsive"/></p>
+		  <p>To add medicine dosage click on <strong>+ Add Medicine Dosage</strong> now enter <strong>Medicine Category, Dosage</strong>.</p>
+		  <p><img src="assets/images/setup-pharmacy-add-medicine-dosage.png" alt="img" class="img-responsive"/></p>
+				  </li>	
+		<!-- <End Of Pharmacy>-->
+		
+		<!-- <Pathology> -->
+				  
+				  <li>
+					<strong>Pathology</strong> -
+				  <p>To add Pathology Category click on <strong>+ Add Pathology Category</strong> now enter <strong>Pathology Category Name</strong>.</p>
+				  <p><img src="assets/images/pathology-pathology-category.png" alt="img" class="img-responsive"/></p>
+				  </li>	
+		<!-- <End Of pathology>-->
+		
+		<!-- <Radiology> -->
+				  
+				  <li>
+				  <strong>Radiology</strong> -
+				  <p>To add Radiology Category click on <strong>+ Add Radiology Category</strong> now enter <strong>Radiology Category Name</strong>.</p>
+				  <p><img src="assets/images/radiology-add-category.png" alt="img" class="img-responsive"/></p>
+				  </li>	
+				  
+		<!-- <End of Radiology>	-->
+		
+		<!-- <Finance> -->
+				  <li>
+				  <strong>Finance</strong> -
+				  <p>To add Income Head click on <strong>+ Add Income head</strong> button now enter <strong>Income Head</strong> and <strong>Description</strong>.</p>
+          <p><img src="assets/images/finance-income-head.png" alt="img" class="img-responsive"/></p>
+				  <p>To add Expense Head click on <strong>+ Add Expense Head</strong> button now enter <strong>Expense Head</strong> and <strong>Description</strong>.</p>
+          <p><img src="assets/images/finance-expense-head.png" alt="img" class="img-responsive"/></p>
+				  </li>	
+		<!-- <End Of Finance> -->
+		
+		<!-- <Birth and Death Record> -->
+		<li>
+		<strong>Birth and Death Record</strong> - 
+		<p>You can add input box custom field in birth and death record.<p>
+			  In <strong> Birth Record Custom Field </strong>, click on <strong> + Add</strong> button, here you add desired custom field and click on checkbox for <strong>Visibility On Print</strong>. This will enable your custom field for visible in print certificate.
+		
+			<p><img src="assets/images/setup-birth-record-custom-fields.png" alt="img" class="img-responsive"/></p>
+		 In <strong> Death Record Custom Field </strong>, click on <strong> + Add</strong> button, here click on checkbox for <strong> Visibility On Print</strong>. This will enable your custom field for visible in print certificate.
+		 <p><img src="assets/images/setup-death-record-custom-fields.png" alt="img" class="img-responsive"/></p>
+			 </li>
+		
+
+
+		<!-- <End of Birth and Death Record> -->		
+		
+		<!-- <Human Resource> -->
+				  <li>
+				  <strong>Human Resource</strong> -
+				  <p>To add Leave Type click on <strong>+ Add Leave Type</strong> button now enter <strong>Leave Type Name</strong>.</p>
+          <p><img src="assets/images/human-resource-leave.png" alt="img" class="img-responsive"/></p>
+				  <p>To add Department click on <strong>+ Add Department</strong> button now enter <strong>Department Name</strong>.</p>
+          <p><img src="assets/images/human-resource-department2.png" alt="img" class="img-responsive"/></p>
+				  <p>To add Designation click on <strong>+ Add Designation</strong> button now enter<strong> Designation Name</strong>.</p>
+				  <p><img src="assets/images/human-resource-designation-2.png" alt="img" class="img-responsive"/></p>
+				  </li>	
+				  
+		<!-- <End of Human Resource>-->
+		
+		<!-- <Inventory> -->
+				  <li>
+				  <strong>Inventory</strong> -
+				  <p>To add Item Category click on <strong>+ Add Item Category</strong> now enter <strong>Item Category</strong> and <strong>Description</strong>.</p>
+          <p><img src="assets/images/setup-inventory-item.png" alt="img" class="img-responsive"/></p>
+				  <p>To add Item Store click on <strong>+ Add Item Store</strong> button now enter <strong>Item Store Name , Item Stock Code</strong> and <strong>Description</strong>.</p>
+          <p><img src="assets/images/setup-inventory-itemstore.png" alt="img" class="img-responsive"/></p>
+				  <p>To add Item Supplier click on <strong>+ Add Item Supplier</strong> button now enter <strong>Item Supplier Name, Phone, Email, Contact Person Name, Address, Contact Person Phone, Contact Person Email</strong> and <strong>Description</strong>.</p>
+          <p><img src="assets/images/setup-inventory-itemsupplier.png" alt="img" class="img-responsive"/></p>
+				  </li>	
+				  
+		<!-- <End Of Inventory> -->
+				</ul>
+</section>
+<!--end Setup-->
+
+<!--Patient Panel-->
+<section id="patientpanel"><h1 class="page-header">Patient Panel</h1><hr>
+  <P>Login to Patient Panel through URL <strong>http://yourdomain/site/userlogin</strong> .</P>
+  <p><img src="assets/images/userlogin.png" alt="img" class="img-responsive"></p>
+  Patient Panel has 4 sections -
+                <ol>
+                    <li>My Appointments</li>
+					<li>OPD</li>
+                    <li>IPD</li>
+					<li>Pharmacy</li>
+					<li>Pathology</li>
+					<li>Radiology</li>
+					<li>Operation Theatre</li>
+					<li>Ambulance</li>
+					<li>Blood Bank</li>
+					<li>Calendar</li>   
+					
+                </ol>
+               
+                <ul>
+                    <li><strong>My Appointments </strong>- after login Patient can see their Appointments
+                         here.
+                      <p><img src="assets/images/patient-dashboard-appointment.png" alt="img" class="img-responsive"></p>
+					  To add new appointments click on <strong>+ Add Appointment</strong> button. Here enter Appointment Date, Doctor and Message. Patient can cancel their appointments till appointment in its pending status, for this click on <strong>Cancel</strong> button.
+						<p><img src="assets/images/appointment-details.png" alt="img" class="img-responsive"></p>
+					  
+                  </li>
+                    <li><strong>OPD </strong>- patient can see their OPD details here like <strong>OPD Visits, Diagnosis, and Timeline</strong>.
+					  <p><img src="assets/images/appointment-userprofile.png" alt="img" class="img-responsive"></p>
+					  
+                        <p>Click on OPD number to get more details of OPD Reckeckups, Charges, Payments & Bills</p>
+					  <p><img src="assets/images/appointment-userprofile-modal.png" alt="img" class="img-responsive"></p>
+					                         
+                    </li>					
+                    <li><strong>IPD</strong> - patient can see here IPD details like Consultant Register, Diagnosis, Timeline, Charges, Payment and Bill. from Payment tab patient can also make payment for their IPD bills if payment gateway has been enabled from Hospital Admin.
+					  <p><img src="assets/images/patient-consultant-register.png" alt="img" class="img-responsive"></p>
+                        <p><img src="assets/images/patient-consultant--details.png" alt="img" class="img-responsive"></p>
+<p><img src="assets/images/patient-charges.png" alt="img" class="img-responsive"></p>
+To make IPD bill payment click on <strong>+ Make Payment</strong> button, here balance amount will be filled by default but you can edit payment amount, whatever you want to pay. Now click on <strong>Add</strong> button. In next page you will see payment details for confirmation then click on <strong>Make Payment</strong> button to proceed payment gateway page for payment processing.
+<p><img src="assets/images/patient-paymentfull.png" alt="img" class="img-responsive"></p>
+<p><img src="assets/images/patient-payment-modal.png" alt="img" class="img-responsive"></p>
+<p><img src="assets/images/patient-payment-makedetail.png" alt="img" class="img-responsive"></p>
+<p><img src="assets/images/patient-payment-bill.png" alt="img" class="img-responsive"></p>
+                    </li>
+					
+					
+					<li><strong>Pharmacy</strong> - here patient can see purchased medicines details
+					<p><img src="assets/images/paitent-pharmacy-bill.png" alt="img" class="img-responsive"></p>
+					</li>
+					
+					<li><strong>Pathology</strong> - here patient can see pathology test reports
+					<p><img src="assets/images/paitent-pathology-patient-report.png" alt="img" class="img-responsive"></p>
+					</li>
+					
+					<li><strong>Radiology</strong> - here patient can see radiology test reports
+					<p><img src="assets/images/paitent-radiology-paitent-report.png" alt="img" class="img-responsive"></p>
+					</li>
+					<li><strong>Operation Theatre</strong> - here patient can see operation theatre details
+					<p><img src="assets/images/patient-ot.png" alt="img" class="img-responsive"></p>
+					</li>
+					<li><strong>Ambulance </strong> - here patient can see booked ambulance details
+					<p><img src="assets/images/paitent-ambulance-bill.png" alt="img" class="img-responsive"></p>
+					</li>					
+					<li><strong>Blood Bank</strong> - here patient can see issue blood from blood bank details
+					<p><img src="assets/images/paitetn-bloodbank.png" alt="img" class="img-responsive"></p>
+					</li>
+					<li><strong>Notification</strong> - Notification bell button icon can  be fond at top bar. Here patient can see notification messages for different events
+					<p><img src="assets/images/patient-noti.png" alt="img" class="img-responsive"></p>
+					</li>
+					<li><strong>Calendar </strong>- here patient can see public events created on hospital by other staff users.
+                        <p><img src="assets/images/user-calendar.png" alt="img" class="img-responsive"></p>
+                    </li>
+                </ul>
+</section>
+<!--end Student Panel-->
+
+<!--License-->
+<section id="license"><h1 class="page-header">License</h1><hr>
+  <P>Smart Hospital does not require to enter Envato Market Purchase Code at time of installation but after installation enter your <strong>Envato Market Purchase Code</strong> with your <strong>Email address</strong> registered with Envato in <strong>Admin Panel</strong>. After verify your Envato Market Purchase Code admin panel alert message will disappear and your Envato Market Purchase Code will be registered. Envato Market Purchase Code verification process requires internet connection on your server machine. If you don't have internet connection on your server machine then contact to our customer support for offline verification.</P>
+  <p><img src="assets/images/license-panel.png" alt="img" class="img-responsive"/></p>
+                
+</section>
+<!--end License-->
+
+<!--Changelog-->
+<section id="changelog">
+<h1 class="page-header">Smart Hospital Changelog for minor version 2.1</h1><hr>
+                <h5><strong>Version 2.1</strong></h5>
+                <p>Released Date: 27th November, 2019</p>
+				<p><strong>Bug Fixes</strong></p>
+                <ul>
+                    <li>Fixed permissions issues</li>
+                    <li>Fixed Report issues</li>
+                    <li>Fixed Appointment issues</li>
+					<li>Fixed OPD Bill issues</li>
+					<li>Fixed Pathology issues</li>
+					<li>Fixed Radiology issues</li>
+					<li>Fixed Supplier issues</li>
+					<li>Fixed Dashboard count issues</li>
+					<li>Fixed Bill print issues</li>
+					<li>Fixed some design issues</li>
+					<li>Fixed some UI/UX issues</li>					
+                </ul>
+</section>
+<!--end Changelog-->
+<!--Free Support-->
+<section id="freesupp"><h1 class="page-header">Free Help & Support</h1><hr>
+  <p>All of our items come with free support, and we have a <strong>Dedicated 
+                                        Support Ticket System</strong> to handle your requests. Support is limited to questions regarding the code features, bugs or problems with the application. We are not able to provide support for code customizations or third-party plugins. If you need help with anything other than minor customizations of your code then you should enlist the help of a developer or our customization service.</p>
+                                <i>Please mention your <B>Codecanyon Purchase Code</B> with your support ticket.</i>  
+                                <p><a href="http://support.qdocs.in" class="button button-primary button-hero">Go to Support Portal</a></p>
+</section>
+<!--End free support-->
+
+<!--Thanks-->
+<section>
+   <h3>Thank you once again for the purchase!</h3><hr>
+                                <p>Once again, thank you to trust on Smart Hospital. We will be glad to help you if you have any questions relating to this application. No guarantees, but we will do best to assist.</p>
+                                <h5 class="alert"><i>Please if you like this Smart Hospital, please do not forget to rate us 5 Star at Codecanyon</i></h5>
+                                <h5 style="color:#2195f3;"><b>QDOCS Team</b></h5>
+                                <div style="padding-top:70px;"></div>
+</section>
+<!--Thanks-->
+
+        </div><!-- /.content -->
+      </div><!-- /.content-wrapper -->
+
+      <footer class="main-footer">
+        <strong>Copyright © 2019 <a href="http://qdocs.in/" target="_blank">QDOCS</a></a> 
+      </footer>
+
+      
+
+    </div><!-- ./wrapper -->
+<a class="scrool-top" href="javascript:void(0)"><i class="fa fa-angle-up"></i></a> 
+    <!-- jQuery 2.2.3 -->
+    <script src="assets/js/jquery-2.2.3.min.js"></script>
+    <!-- Bootstrap 3.3.6 -->
+    <script src="assets/js/bootstrap.min.js"></script>
+     <script src="assets/js/jquery.easing.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+     <!-- FastClick -->
+    <script src="assets/js/fastclick.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="assets/js/app.min.js"></script>
+    <!-- SlimScroll 1.3.0 -->
+    <script src="assets/js/jquery.slimscroll.min.js"></script>
+  
+    <script src="assets/js/docs.js"></script>
+    <script src="assets/js/jquery.singlePageNav.min.js"></script>
+  </body>
+</html>

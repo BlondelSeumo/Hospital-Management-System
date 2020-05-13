@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} shamba ni required";
+$lang['form_validation_isset'] = "{field} shamba lazima kuwa na thamani";
+$lang['form_validation_valid_email'] = "{field} uwanja lazima iwe halali ya barua pepe";
+$lang['form_validation_valid_emails'] = "{field} uwanja lazima iwe zote halali anwani ya barua pepe";
+$lang['form_validation_valid_url'] = "{field} uwanja lazima iwe halali URL";
+$lang['form_validation_valid_ip'] = "{field} uwanja lazima iwe halali ya IP";
+$lang['form_validation_min_length'] = "{field} shamba lazima angalau {param} wahusika katika urefu";
+$lang['form_validation_max_length'] = "{field} uwanja hawawezi kisichozidi {param} wahusika katika urefu";
+$lang['form_validation_exact_length'] = "{field} shamba lazima hasa {param} wahusika katika urefu";
+$lang['form_validation_alpha'] = "{field} shamba inaweza tu vyenye herufi wahusika";
+$lang['form_validation_alpha_numeric'] = "{field} shamba inaweza tu vyenye alpha-numeric wahusika";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} shamba inaweza tu vyenye alpha-numeric wahusika na nafasi";
+$lang['form_validation_alpha_dash'] = "{field} shamba inaweza tu vyenye alpha-numeric wahusika, inasisitiza, na dashes";
+$lang['form_validation_numeric'] = "{field} uwanja lazima iwe na namba tu";
+$lang['form_validation_is_numeric'] = "{field} uwanja lazima iwe tu numeric wahusika";
+$lang['form_validation_integer'] = "{field} uwanja lazima iwe integer";
+$lang['form_validation_regex_match'] = "{field} shamba ni si katika muundo sahihi";
+$lang['form_validation_matches'] = "{field} shamba haina mechi ya {param} shamba";
+$lang['form_validation_differs'] = "{field} shamba lazima tofauti kutoka {param} shamba";
+$lang['form_validation_is_unique'] = "{field} uwanja lazima iwe na thamani ya kipekee";
+$lang['form_validation_is_natural'] = "{field} shamba lazima tu vyenye tarakimu";
+$lang['form_validation_is_natural_no_zero'] = "{field} shamba lazima tu iwe na tarakimu na lazima kuwa kubwa kuliko sifuri";
+$lang['form_validation_decimal'] = "{field} uwanja lazima iwe na idadi decimal";
+$lang['form_validation_less_than'] = "{field} uwanja lazima iwe na idadi ya chini ya {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} uwanja lazima iwe na idadi ya chini ya kuliko au sawa na {param}";
+$lang['form_validation_greater_than'] = "{field} uwanja lazima iwe na idadi kubwa zaidi kuliko {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} uwanja lazima iwe na idadi kubwa zaidi kuliko au sawa na {param}";
+$lang['form_validation_error_message_not_set'] = "Hawawezi kupata ujumbe wa makosa sambamba na shamba yako jina-9";
+$lang['form_validation_in_list'] = "{field} shamba lazima kuwa moja ya: {param}";

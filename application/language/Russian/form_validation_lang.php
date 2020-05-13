@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} поле";
+$lang['form_validation_isset'] = "{field} поле должно иметь значение";
+$lang['form_validation_valid_email'] = "{field} поле должно содержать корректный адрес электронной почты";
+$lang['form_validation_valid_emails'] = "{field} поле должно содержать все действительные адреса электронной почты";
+$lang['form_validation_valid_url'] = "{field} поле должно содержать корректный адрес";
+$lang['form_validation_valid_ip'] = "{field} поле должно содержать действительный IP";
+$lang['form_validation_min_length'] = "{field} поле должно быть как минимум {param} символов в длину";
+$lang['form_validation_max_length'] = "{field} полей не может превышать {param} символов в длину";
+$lang['form_validation_exact_length'] = "{field} поле должно быть точно {param} символов в длину";
+$lang['form_validation_alpha'] = "{field} поле может содержать только буквенные символы";
+$lang['form_validation_alpha_numeric'] = "{field} поле может содержать только буквенно-цифровые символы";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} поле может содержать только буквенно-цифровые символы и пробелы";
+$lang['form_validation_alpha_dash'] = "{field} поле может содержать только буквенно-цифровые символы, знаки подчеркивания и тире";
+$lang['form_validation_numeric'] = "{field} поле должно содержать только цифры";
+$lang['form_validation_is_numeric'] = "{field} поле должно содержать только цифры";
+$lang['form_validation_integer'] = "{field} поле должно содержать целое число";
+$lang['form_validation_regex_match'] = "{field} поле не в правильном формате";
+$lang['form_validation_matches'] = "{field} поле не соответствует области {param}";
+$lang['form_validation_differs'] = "{field} поле должно отличаться от поля {param}";
+$lang['form_validation_is_unique'] = "{field} поле должно содержать уникальное значение";
+$lang['form_validation_is_natural'] = "{field} поле должно содержать только цифры";
+$lang['form_validation_is_natural_no_zero'] = "{field} поле должно содержать только цифры и должно быть больше нуля";
+$lang['form_validation_decimal'] = "{field} поле должно содержать десятичное число";
+$lang['form_validation_less_than'] = "{field} поле должно содержать число меньше, чем {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} поле должно содержать число, меньшее или равное {param}";
+$lang['form_validation_greater_than'] = "{field} поле должно содержать число больше {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} поле должно содержать число, большее или равное {param}";
+$lang['form_validation_error_message_not_set'] = "Можете получить доступ к сообщение об ошибке, соответствующее поле Имя-9";
+$lang['form_validation_in_list'] = "{field} поле должно быть одним из следующих: {param}";

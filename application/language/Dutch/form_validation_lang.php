@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} is een verplicht veld";
+$lang['form_validation_isset'] = "{field}-veld moet een waarde hebben";
+$lang['form_validation_valid_email'] = "{field} veld moet een geldig e-mail adres";
+$lang['form_validation_valid_emails'] = "{field} veld moet bevatten alle geldige e-mail adressen";
+$lang['form_validation_valid_url'] = "{field} veld moet een geldige URL";
+$lang['form_validation_valid_ip'] = "{field} veld moet een geldig IP-adres";
+$lang['form_validation_min_length'] = "{field} veld moet ten minste {param} tekens";
+$lang['form_validation_max_length'] = "{field} veld kan niet hoger zijn dan {param} tekens";
+$lang['form_validation_exact_length'] = "{field} veld moet precies {param} tekens";
+$lang['form_validation_alpha'] = "{field} veld kunnen alleen alfabetische tekens bevatten";
+$lang['form_validation_alpha_numeric'] = "{field} veld kan bevatten uitsluitend alfa-numerieke tekens";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} veld mag alleen bestaan uit alfanumerieke tekens en spaties";
+$lang['form_validation_alpha_dash'] = "{field} veld mag alleen bestaan uit letters en cijfers, underscores en koppeltekens";
+$lang['form_validation_numeric'] = "{field} veld mag alleen cijfers bevatten";
+$lang['form_validation_is_numeric'] = "{field} veld moet bevatten alleen numerieke tekens";
+$lang['form_validation_integer'] = "{field} veld bevat een geheel getal";
+$lang['form_validation_regex_match'] = "{field} veld is niet in het juiste formaat";
+$lang['form_validation_matches'] = "{field} veld komt niet overeen met de {param} veld";
+$lang['form_validation_differs'] = "{field} veld moet verschillen van de {param} veld";
+$lang['form_validation_is_unique'] = "{field} veld bevat een unieke waarde";
+$lang['form_validation_is_natural'] = "{field} veld mag alleen cijfers bevatten";
+$lang['form_validation_is_natural_no_zero'] = "{field} veld mag alleen cijfers bevatten en moet groter zijn dan nul";
+$lang['form_validation_decimal'] = "{field} veld moet een decimaal getal";
+$lang['form_validation_less_than'] = "{field} veld bevat een aantal minder dan {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} veld bevat een getal dat kleiner is dan of gelijk is aan {param}";
+$lang['form_validation_greater_than'] = "{field} veld moet een getal zijn groter dan {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} veld moet een nummer groter dan of gelijk aan {param}";
+$lang['form_validation_error_message_not_set'] = "Geen toegang tot een foutbericht weergegeven die overeenkomt met de naam van het veld {field}";
+$lang['form_validation_in_list'] = "{field} veld moet zijn: {param}";

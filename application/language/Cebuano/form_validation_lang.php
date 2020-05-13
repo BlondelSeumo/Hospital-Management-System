@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} sa uma nga gikinahanglan";
+$lang['form_validation_isset'] = "{field} sa uma kinahanglan gayud nga adunay usa ka bili";
+$lang['form_validation_valid_email'] = "{field} sa uma kinahanglan nga naglakip sa usa ka balido nga email address";
+$lang['form_validation_valid_emails'] = "{field} sa uma kinahanglan nga naglakip sa tanan nga balido nga email address";
+$lang['form_validation_valid_url'] = "{field} sa uma kinahanglan nga naglakip sa usa ka balido nga URL";
+$lang['form_validation_valid_ip'] = "{field} sa uma kinahanglan nga naglakip sa usa ka balido nga IP";
+$lang['form_validation_min_length'] = "{field} sa uma kinahanglan nga sa labing menos {param} mga karakter sa gitas-on";
+$lang['form_validation_max_length'] = "{field} sa uma dili molabaw {param} mga karakter sa gitas-on";
+$lang['form_validation_exact_length'] = "{field} sa uma kinahanglan gayud {param} mga karakter sa gitas-on";
+$lang['form_validation_alpha'] = "{field} umahan nga mahimo lamang nga naglakip sa alpabetikal nga mga karakter";
+$lang['form_validation_alpha_numeric'] = "{field} umahan nga mahimo lamang naglakip alpha-numero nga mga karakter";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} umahan nga mahimo lamang naglakip alpha-numero karakter ug sa luna";
+$lang['form_validation_alpha_dash'] = "{field} umahan nga mahimo lamang naglakip alpha-numero karakter, nagpakita, ug dashes";
+$lang['form_validation_numeric'] = "{field} sa uma kinahanglan nga naglakip lamang sa mga numero";
+$lang['form_validation_is_numeric'] = "{field} sa uma kinahanglan nga naglakip lamang sa mga numero sa mga karakter";
+$lang['form_validation_integer'] = "{field} sa uma kinahanglan nga naglakip sa usa ka integer";
+$lang['form_validation_regex_match'] = "{field} uma mao ang dili sa husto nga format";
+$lang['form_validation_matches'] = "{field} sa uma dili pagpares sa mga {param} uma";
+$lang['form_validation_differs'] = "{field} sa uma kinahanglan nga lahi gikan sa mga {param} uma";
+$lang['form_validation_is_unique'] = "{field} sa uma kinahanglan nga naglakip sa usa ka talagsaon nga bili";
+$lang['form_validation_is_natural'] = "{field} sa uma kinahanglan lamang naglangkob sa mga numero";
+$lang['form_validation_is_natural_no_zero'] = "{field} sa uma kinahanglan lamang naglangkob sa mga numero ug kinahanglan nga mas dako pa kay sa zero";
+$lang['form_validation_decimal'] = "{field} sa uma kinahanglan nga naglakip sa usa ka decimal gidaghanon";
+$lang['form_validation_less_than'] = "{field} sa uma kinahanglan nga naglakip sa usa ka gidaghanon sa dili kaayo kay sa {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} sa uma kinahanglan nga naglakip sa usa ka gidaghanon sa dili kaayo kay sa o katumbas sa {param}";
+$lang['form_validation_greater_than'] = "{field} sa uma kinahanglan nga naglakip sa usa ka gidaghanon sa mas dako kay sa {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} sa uma kinahanglan nga naglakip sa usa ka gidaghanon sa labaw pa kay sa o katumbas sa {param}";
+$lang['form_validation_error_message_not_set'] = "Nga dili sa pag-access usa ka sayop nga mensahe nga katumbas sa inyong mga uma nga ngalan {field}";
+$lang['form_validation_in_list'] = "{field} sa uma kinahanglan nga usa sa: {param}";

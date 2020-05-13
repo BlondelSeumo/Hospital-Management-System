@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} eremua beharrezkoa da";
+$lang['form_validation_isset'] = "{field} eremu bat izan behar du balio";
+$lang['form_validation_valid_email'] = "{field} eremu bat eduki behar du baliozko e-posta helbidea";
+$lang['form_validation_valid_emails'] = "{field} eremua eduki behar guztiak baliozko e-posta helbide";
+$lang['form_validation_valid_url'] = "{field} eremu bat eduki behar du baliozko URL";
+$lang['form_validation_valid_ip'] = "{field} eremu bat eduki behar du baliozko IP";
+$lang['form_validation_min_length'] = "{field} eremua izan behar du, gutxienez, {param} karaktere";
+$lang['form_validation_max_length'] = "{field} eremu ezin du gainditu {param} karaktere";
+$lang['form_validation_exact_length'] = "{field} eremua izan behar du, zehazki {param} karaktere";
+$lang['form_validation_alpha'] = "{field} eremu daiteke bakarrik eduki alfabetoaren karaktere";
+$lang['form_validation_alpha_numeric'] = "{field} eremu daiteke bakarrik eduki alfa-zenbakizko karaktereak";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} eremu daiteke bakarrik eduki alfa-zenbakizko karaktereak eta espazioak";
+$lang['form_validation_alpha_dash'] = "{field} eremu daiteke bakarrik eduki alfa-zenbakizko karaktereak, azpimarrak, eta marrak";
+$lang['form_validation_numeric'] = "{field} eremuan bakarrik eduki behar zenbakiak";
+$lang['form_validation_is_numeric'] = "{field} eremuan bakarrik eduki behar zenbakizko karaktere";
+$lang['form_validation_integer'] = "{field} eremua eduki behar da zenbaki oso bat";
+$lang['form_validation_regex_match'] = "{field} eremua ez da zuzena formatuan";
+$lang['form_validation_matches'] = "{field} eremu ez dator {param} eremuan";
+$lang['form_validation_differs'] = "{field} eremuan behar datoz {param} eremuan";
+$lang['form_validation_is_unique'] = "{field} eremu bat eduki behar du balio berezia";
+$lang['form_validation_is_natural'] = "{field} eremuan behar bakarrik eduki digituak";
+$lang['form_validation_is_natural_no_zero'] = "{field} eremuan behar bakarrik eduki digituak eta baino handiagoa izan behar du zero";
+$lang['form_validation_decimal'] = "{field} eremu bat eduki behar du zenbaki hamartar";
+$lang['form_validation_less_than'] = "{field} eremu bat eduki behar du kopurua baino gutxiago {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} eremu bat eduki behar du kopurua baino txikiagoa edo berdina {param}";
+$lang['form_validation_greater_than'] = "{field} eremu bat eduki behar baino handiagoa den zenbakia {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} eremu bat eduki behar du kopurua baino handiagoa edo berdina {param}";
+$lang['form_validation_error_message_not_set'] = "Ezin sarbidea errore-mezu bat dagokion zure eremu-izena {field}";
+$lang['form_validation_in_list'] = "{field} eremu bat izan behar da: {param}";

@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} pole je povinné";
+$lang['form_validation_isset'] = "{field} pole musí mít hodnotu";
+$lang['form_validation_valid_email'] = "{field} pole musí obsahovat platnou e-mailovou adresu";
+$lang['form_validation_valid_emails'] = "{field} pole musí obsahovat všechny platné e-mailové adresy";
+$lang['form_validation_valid_url'] = "{field} pole musí obsahovat platnou URL";
+$lang['form_validation_valid_ip'] = "{field} pole musí obsahovat platnou IP";
+$lang['form_validation_min_length'] = "{field} pole musí být alespoň {param} znaků v délce";
+$lang['form_validation_max_length'] = "{field} pole nesmí překročit {param} znaků v délce";
+$lang['form_validation_exact_length'] = "{field} pole musí být přesně {param} znaků v délce";
+$lang['form_validation_alpha'] = "{field} pole může obsahovat pouze abecední znaky";
+$lang['form_validation_alpha_numeric'] = "{field} pole může obsahovat pouze alfanumerické znaky";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} pole může obsahovat pouze alfanumerické znaky a mezery";
+$lang['form_validation_alpha_dash'] = "{field} pole může obsahovat pouze alfanumerické znaky, podtržítka a pomlčky";
+$lang['form_validation_numeric'] = "{field} pole musí obsahovat pouze čísla";
+$lang['form_validation_is_numeric'] = "{field} pole musí obsahovat pouze numerické znaky";
+$lang['form_validation_integer'] = "{field} pole musí obsahovat číslo";
+$lang['form_validation_regex_match'] = "{field} pole není ve správném formátu";
+$lang['form_validation_matches'] = "{field} pole neodpovídá {param} pole";
+$lang['form_validation_differs'] = "{field} pole se musí lišit od {param} pole";
+$lang['form_validation_is_unique'] = "{field} pole musí obsahovat jedinečnou hodnotu";
+$lang['form_validation_is_natural'] = "{field} pole musí obsahovat pouze číslice";
+$lang['form_validation_is_natural_no_zero'] = "{field} pole musí obsahovat pouze číslice a musí být větší než nula";
+$lang['form_validation_decimal'] = "{field} pole musí obsahovat desetinné číslo";
+$lang['form_validation_less_than'] = "{field} pole musí obsahovat číslo menší než {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} pole musí obsahovat číslo menší než nebo rovno {param}";
+$lang['form_validation_greater_than'] = "{field} pole musí obsahovat číslo větší než {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} pole musí obsahovat číslo větší než nebo rovno {param}";
+$lang['form_validation_error_message_not_set'] = "Schopen přístup chybová zpráva odpovídající vaší oblasti jméno-9";
+$lang['form_validation_in_list'] = "{field} pole musí být jedna z: {param}";

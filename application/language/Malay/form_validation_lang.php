@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} bidang diperlukan";
+$lang['form_validation_isset'] = "{field} bidang harus memiliki nilai";
+$lang['form_validation_valid_email'] = "{field} bidang mesti mengandungi alamat email yang sah";
+$lang['form_validation_valid_emails'] = "{field} bidang mesti mengandungi semua sah alamat e-mel";
+$lang['form_validation_valid_url'] = "{field} bidang mesti mengandungi yang sah URL";
+$lang['form_validation_valid_ip'] = "{field} bidang mesti mengandungi IP yang sah";
+$lang['form_validation_min_length'] = "{field} lapangan harus sekurang-kurangnya {param} aksara";
+$lang['form_validation_max_length'] = "{field} bidang tidak boleh melebihi {param} aksara";
+$lang['form_validation_exact_length'] = "{field} bidang mesti menjadi betul-betul {param} aksara";
+$lang['form_validation_alpha'] = "{field} bidang mungkin hanya mengandungi abjad watak-watak";
+$lang['form_validation_alpha_numeric'] = "{field} bidang mungkin hanya mengandungi alpha-angka watak-watak";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} bidang mungkin hanya mengandungi alpha-angka dan ruang";
+$lang['form_validation_alpha_dash'] = "{field} bidang mungkin hanya mengandungi alpha-angka, garis bawah, dan garis";
+$lang['form_validation_numeric'] = "{field} bidang mesti mengandungi hanya nombor";
+$lang['form_validation_is_numeric'] = "{field} bidang mesti mengandungi hanya angka";
+$lang['form_validation_integer'] = "{field} bidang mesti mengandungi sebuah integer";
+$lang['form_validation_regex_match'] = "{field} bidang tidak dalam format yang betul";
+$lang['form_validation_matches'] = "{field} bidang tidak sepadan {param} bidang";
+$lang['form_validation_differs'] = "{field} bidang harus berbeza dari {param} bidang";
+$lang['form_validation_is_unique'] = "{field} bidang mesti mengandungi nilai unik";
+$lang['form_validation_is_natural'] = "{field} bidang hanya perlu mengandungi digit";
+$lang['form_validation_is_natural_no_zero'] = "{field} bidang hanya perlu mengandungi digit dan mesti lebih besar daripada sifar";
+$lang['form_validation_decimal'] = "{field} bidang mesti mengandungi bilangan desimal";
+$lang['form_validation_less_than'] = "{field} bidang mesti mengandungi beberapa kurang dari {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} bidang mesti mengandungi beberapa kurang daripada atau yang sama untuk {param}";
+$lang['form_validation_greater_than'] = "{field} bidang mesti mengandungi beberapa lebih besar daripada {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} bidang mesti mengandungi beberapa lebih besar daripada atau yang sama untuk {param}";
+$lang['form_validation_error_message_not_set'] = "Tidak dapat mengakses ralat yang sepadan untuk bidang anda nama-9";
+$lang['form_validation_in_list'] = "{field} bidang harus menjadi salah satu: {param}";

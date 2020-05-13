@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} lapangan sing dibutuhake";
+$lang['form_validation_isset'] = "{field} lapangan kudu duwe nilai";
+$lang['form_validation_valid_email'] = "{field} lapangan iki kudu ngemot alamat email bener";
+$lang['form_validation_valid_emails'] = "{field} lapangan iki kudu ngemot kabeh bener alamat email";
+$lang['form_validation_valid_url'] = "{field} lapangan iki kudu ngemot a valid URL";
+$lang['form_validation_valid_ip'] = "{field} lapangan iki kudu ngemot IP bener";
+$lang['form_validation_min_length'] = "{field} lapangan kudu paling sethithik {param} karakter ing dawa";
+$lang['form_validation_max_length'] = "{field} lapangan ora bisa ngluwihi {param} karakter ing dawa";
+$lang['form_validation_exact_length'] = "{field} lapangan kudu persis {param} karakter ing dawa";
+$lang['form_validation_alpha'] = "{field} lapangan mung bisa ngemot abjad karakter";
+$lang['form_validation_alpha_numeric'] = "{field} lapangan mung bisa ngemot alpha-numerik karakter";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} lapangan mung bisa ngemot alpha-numerik karakter lan spasi";
+$lang['form_validation_alpha_dash'] = "{field} lapangan mung bisa ngemot alpha-numerik karakter, underscores, lan dashes";
+$lang['form_validation_numeric'] = "{field} lapangan iki kudu ngemot mung nomer";
+$lang['form_validation_is_numeric'] = "{field} lapangan iki kudu ngemot mung karakter numerik";
+$lang['form_validation_integer'] = "{field} lapangan iki kudu ngemot ongko";
+$lang['form_validation_regex_match'] = "{field} lapangan ora ing format sing bener";
+$lang['form_validation_matches'] = "{field} lapangan ora cocog {param} lapangan";
+$lang['form_validation_differs'] = "{field} lapangan kudu beda-beda saka {param} lapangan";
+$lang['form_validation_is_unique'] = "{field} lapangan iki kudu ngemot nilai unik";
+$lang['form_validation_is_natural'] = "{field} lapangan kudu mung ngemot digit";
+$lang['form_validation_is_natural_no_zero'] = "{field} lapangan kudu mung ngemot digit lan kudu luwih saka nul";
+$lang['form_validation_decimal'] = "{field} lapangan iki kudu ngemot nomer desimal";
+$lang['form_validation_less_than'] = "{field} lapangan iki kudu ngemot nomer kurang saka {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} lapangan iki kudu ngemot nomer kurang saka utawa witjaksono kanggo {param}";
+$lang['form_validation_greater_than'] = "{field} lapangan iki kudu ngemot pirang-pirang luwih saka {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} lapangan iki kudu ngemot pirang-pirang luwih saka utawa witjaksono kanggo {param}";
+$lang['form_validation_error_message_not_set'] = "Tukang kanggo ngakses pesen kesalahan cocog kanggo jeneng lapangan {field}";
+$lang['form_validation_in_list'] = "{field} lapangan kudu dadi salah siji saka: {param}";

@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} intsimi ezifunekayo";
+$lang['form_validation_isset'] = "{field} mhlaba kufuneka kuba ixabiso";
+$lang['form_validation_valid_email'] = "{field} mhlaba kufuneka ziqulathe elisebenzayo idilesi ye-imeyili";
+$lang['form_validation_valid_emails'] = "{field} mhlaba kufuneka ziqulathe zonke semthethweni iidilesi ze-imeyili";
+$lang['form_validation_valid_url'] = "{field} mhlaba kufuneka ziqulathe elisebenzayo URL";
+$lang['form_validation_valid_ip'] = "{field} mhlaba kufuneka ziqulathe elisebenzayo IP";
+$lang['form_validation_min_length'] = "{field} mhlaba kufuneka ubuncinane {param} iimpawu ngobude";
+$lang['form_validation_max_length'] = "{field} intsimi ayikwazi zingaphezu {param} iimpawu ngobude";
+$lang['form_validation_exact_length'] = "{field} mhlaba kufuneka kube kanye kanye {param} iimpawu ngobude";
+$lang['form_validation_alpha'] = "{field} intsimi unakho kuphela ziqulathe alphabetical iimpawu";
+$lang['form_validation_alpha_numeric'] = "{field} intsimi unakho kuphela ziqulathe alpha-amanani abasebenzi";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} intsimi unakho kuphela ziqulathe alpha-amanani abasebenzi kwaye izithuba";
+$lang['form_validation_alpha_dash'] = "{field} intsimi unakho kuphela ziqulathe alpha-amanani abasebenzi, underscores, kwaye oodwi";
+$lang['form_validation_numeric'] = "{field} mhlaba kufuneka ziqulathe kuphela amanani";
+$lang['form_validation_is_numeric'] = "{field} mhlaba kufuneka ziqulathe kuphela amanani abasebenzi";
+$lang['form_validation_integer'] = "{field} mhlaba kufuneka ziqulathe elipheleleyo";
+$lang['form_validation_regex_match'] = "{field} intsimi ayikho echanekileyo ifomati";
+$lang['form_validation_matches'] = "{field} intsimi alungqinelani i-{param} intsimi";
+$lang['form_validation_differs'] = "{field} mhlaba kufuneka ziyahluka kuhlahlo-{param} intsimi";
+$lang['form_validation_is_unique'] = "{field} mhlaba kufuneka siqulathe eyodwa ixabiso";
+$lang['form_validation_is_natural'] = "{field} mhlaba kufuneka kuphela ziqulathe amasuntswana";
+$lang['form_validation_is_natural_no_zero'] = "{field} mhlaba kufuneka kuphela ziqulathe imivo kwaye kufuneka engaphezu iqanda";
+$lang['form_validation_decimal'] = "{field} mhlaba kufuneka siqulathe decimal inani";
+$lang['form_validation_less_than'] = "{field} mhlaba kufuneka siqulathe inani elingaphantsi kwama-{param}";
+$lang['form_validation_less_than_equal_to'] = "{field} mhlaba kufuneka siqulathe inani ngaphantsi okanye no {param}";
+$lang['form_validation_greater_than'] = "{field} mhlaba kufuneka siqulathe inani elingaphezulu kwe-{param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} mhlaba kufuneka siqulathe inani elingaphezulu kwe-okanye no {param}";
+$lang['form_validation_error_message_not_set'] = "Akukwazeki ukufikelela impazamo umyalezo ehambelana yakho entsimini igama {field}";
+$lang['form_validation_in_list'] = "{field} mhlaba kufuneka omnye: {param}";

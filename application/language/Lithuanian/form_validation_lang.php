@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} laukas yra privalomas";
+$lang['form_validation_isset'] = "{field} laukelyje privalo turėti vertę";
+$lang['form_validation_valid_email'] = "{field} laukelyje turi būti galiojantį el. pašto adresas";
+$lang['form_validation_valid_emails'] = "{field} laukelyje turi būti nurodoma visa galiojantį el. pašto adresai";
+$lang['form_validation_valid_url'] = "{field} laukelyje turi būti galiojantis URL";
+$lang['form_validation_valid_ip'] = "{field} laukelyje turi būti galiojantis IP";
+$lang['form_validation_min_length'] = "{field} laukelyje privalo būti bent {param} simbolių ilgio";
+$lang['form_validation_max_length'] = "{field} srityje negali viršyti {param} simbolių ilgio";
+$lang['form_validation_exact_length'] = "{field} laukelyje turi būti tiksliai {param} simbolių ilgio";
+$lang['form_validation_alpha'] = "{field} lauke gali būti tik raidės";
+$lang['form_validation_alpha_numeric'] = "{field} srityje gali būti tik raidiniai skaitmeniniai simboliai";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} srityje gali būti tik tekstinių simbolių ir tarpų";
+$lang['form_validation_alpha_dash'] = "{field} srityje gali būti tik raidiniai skaitmeniniai simboliai, pabrėžia, ir brūkšnių.";
+$lang['form_validation_numeric'] = "{field} laukelyje turi būti tik skaičiai";
+$lang['form_validation_is_numeric'] = "{field} laukelyje turi būti tik skaitmeniniai ženklai";
+$lang['form_validation_integer'] = "{field} laukelyje turi būti sveikasis skaičius";
+$lang['form_validation_regex_match'] = "{field} srityje nėra teisingo formato";
+$lang['form_validation_matches'] = "{field} srityje neatitinka {param} srityje";
+$lang['form_validation_differs'] = "{field} laukelyje turi skirtis nuo {param} srityje";
+$lang['form_validation_is_unique'] = "{field} laukelyje turi būti unikalus reikšmė";
+$lang['form_validation_is_natural'] = "{field} laukelyje turi būti tik skaitmenys";
+$lang['form_validation_is_natural_no_zero'] = "{field} laukelyje turi būti tik skaitmenys turi būti didesnis už nulį";
+$lang['form_validation_decimal'] = "{field} laukelyje turi būti dešimtainis skaičius";
+$lang['form_validation_less_than'] = "{field} laukelyje turi būti daug mažiau, nei {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} laukelyje turi būti skaičius yra mažesnis kaip arba lygus {param}";
+$lang['form_validation_greater_than'] = "{field} laukelyje turi būti daug didesnis nei {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} laukelyje turi būti daug didesnis nei arba lygus {param}";
+$lang['form_validation_error_message_not_set'] = "Negali gauti klaidos pranešimą, atitinkantį jūsų lauko pavadinimas {field}";
+$lang['form_validation_in_list'] = "{field} laukelyje turi būti vienas: {param}";

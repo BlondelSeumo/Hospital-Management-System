@@ -1,0 +1,31 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} میدان کی ضرورت ہے";
+$lang['form_validation_isset'] = "{field} میدان میں ہونا ضروری ہے ، ایک قیمت";
+$lang['form_validation_valid_email'] = "{field} میدان پر مشتمل ہونا چاہئے ایک درست ای میل ایڈریس";
+$lang['form_validation_valid_emails'] = "{field} میدان پر مشتمل ہونا چاہئے تمام درست ای میل ایڈریس";
+$lang['form_validation_valid_url'] = "{field} میدان پر مشتمل ہونا چاہئے ایک درست یو آر ایل";
+$lang['form_validation_valid_ip'] = "{field} میدان پر مشتمل ہونا چاہئے ایک درست IP";
+$lang['form_validation_min_length'] = "{field} میدان میں ہونا ضروری ہے کم از کم {param} لمبائی میں حروف";
+$lang['form_validation_max_length'] = "{field} میدان سے تجاوز نہیں کر سکتا {param} لمبائی میں حروف";
+$lang['form_validation_exact_length'] = "{field} میدان میں ہونا ضروری ہے بالکل {param} لمبائی میں حروف";
+$lang['form_validation_alpha'] = "{field} میدان سکتا ہے صرف پر مشتمل حروف تہجی حروف";
+$lang['form_validation_alpha_numeric'] = "{field} میدان سکتا ہے صرف پر مشتمل الفا عددی حروف";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} میدان سکتا ہے صرف پر مشتمل الفا عددی حروف اور خالی جگہوں";
+$lang['form_validation_alpha_dash'] = "{field} میدان سکتا ہے صرف پر مشتمل الفا عددی حروف, ظاہر, اور ڈیش";
+$lang['form_validation_numeric'] = "{field} میدان پر مشتمل ہونا چاہئے صرف تعداد";
+$lang['form_validation_is_numeric'] = "{field} میدان پر مشتمل ہونا چاہئے صرف عددی حروف";
+$lang['form_validation_integer'] = "{field} میدان پر مشتمل ہونا چاہئے ایک عددی";
+$lang['form_validation_regex_match'] = "{field} میدان نہیں ہے ، درست شکل میں";
+$lang['form_validation_matches'] = "{field} میدان سے مماثل نہیں ہے {param} میدان";
+$lang['form_validation_differs'] = "{field} میدان سے اختلاف کرنا چاہیے ، {param} میدان";
+$lang['form_validation_is_unique'] = "{field} میدان پر مشتمل ہونا چاہئے ایک منفرد قدر";
+$lang['form_validation_is_natural'] = "{field} میدان ضروری ہے صرف ہندسوں پر مشتمل ہے";
+$lang['form_validation_is_natural_no_zero'] = "{field} میدان ضروری ہے صرف ہندسوں پر مشتمل اور زیادہ ہونا چاہیے صفر کے مقابلے میں";
+$lang['form_validation_decimal'] = "{field} میدان پر مشتمل ہونا چاہئے ایک دشملو تعداد";
+$lang['form_validation_less_than'] = "{field} میدان پر مشتمل ہونا چاہئے ایک بڑی تعداد کے مقابلے میں کم {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} میدان پر مشتمل ہونا چاہئے ایک بڑی تعداد سے کم یا برابر کرنے کے لئے {param}";
+$lang['form_validation_greater_than'] = "{field} میدان پر مشتمل ہونا چاہئے ایک بڑی تعداد کے مقابلے میں زیادہ {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} میدان پر مشتمل ہونا چاہئے ایک بڑی تعداد سے زیادہ یا برابر {param}کے ساتھ تک رسائی حاصل کرنے کے قابل نہیں ایک غلطی پیغام اسی کے لئے آپ کے میدان کے نام {field}";
+$lang['form_validation_error_message_not_set'] = "{field} میدان سے ایک ہونا چاہیے: {param}";

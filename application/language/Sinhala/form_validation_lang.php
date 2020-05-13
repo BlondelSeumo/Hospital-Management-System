@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} ක්ෂේත්රයේ අවශ්ය වේ";
+$lang['form_validation_isset'] = "{field} ක්ෂේත්රයේ තිබිය යුතුය අගය";
+$lang['form_validation_valid_email'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය, වලංගු විද්යුත්-තැපැල් ලිපිනය";
+$lang['form_validation_valid_emails'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය සියලු වලංගු විද්යුත් තැපැල් ලිපින";
+$lang['form_validation_valid_url'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය වලංගු URL එක";
+$lang['form_validation_valid_ip'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය වලංගු IP";
+$lang['form_validation_min_length'] = "{field} ක්ෂේත්රයේ අවම වශයෙන් විය යුතුය {param} චරිත දිග";
+$lang['form_validation_max_length'] = "{field} ක්ෂේත්රයේ නොහැකි ඉක්මවා {param} චරිත දිග";
+$lang['form_validation_exact_length'] = "{field} ක්ෂේත්රයේ විය යුතුය හරියටම {param} චරිත දිග";
+$lang['form_validation_alpha'] = "{field} ක්ෂේත්රයේ පමණක් විය හැක අඩංගු අකාරාදී චරිත";
+$lang['form_validation_alpha_numeric'] = "{field} ක්ෂේත්රයේ පමණක් විය හැක අඩංගු ඇල්ෆා-සංඛ්යාත්මක චරිත";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} ක්ෂේත්රයේ පමණක් විය හැක අඩංගු ඇල්ෆා-සංඛ්යාත්මක චරිත හා ස්ථාන";
+$lang['form_validation_alpha_dash'] = "{field} ක්ෂේත්රයේ පමණක් විය හැක අඩංගු ඇල්ෆා-සංඛ්යාත්මක චරිත, අවධාරනය, සහ ඉතුරු";
+$lang['form_validation_numeric'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය පමණක් අංක";
+$lang['form_validation_is_numeric'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය පමණක් සංඛ්යාත්මක චරිත";
+$lang['form_validation_integer'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය යනු පූර්ණ සංඛ්යාවකි";
+$lang['form_validation_regex_match'] = "{field} ක්ෂේත්රයේ නොවේ නිවැරදි ආකෘතිය";
+$lang['form_validation_matches'] = "{field} ක්ෂේත්ර නොගැලපේ {param} ක්ෂේත්රයේ";
+$lang['form_validation_differs'] = "{field} ක්ෂේත්රයේ යුතු වෙනස් {param} ක්ෂේත්රයේ";
+$lang['form_validation_is_unique'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය සුවිශේෂී වටිනාකම";
+$lang['form_validation_is_natural'] = "{field} ක්ෂේත්රයේ යුතුය පමණක් අඩංගු ඉලක්කම්";
+$lang['form_validation_is_natural_no_zero'] = "{field} ක්ෂේත්රයේ යුතුය පමණක් අඩංගු ඉලක්කම් හා වඩා වැඩි විය යුතුය ශුන්ය";
+$lang['form_validation_decimal'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය දශම සංඛ්යාව";
+$lang['form_validation_less_than'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය සංඛ්යාව ට වඩා අඩු {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය සංඛ්යාව ට වඩා අඩු හෝ සමාන, {param}";
+$lang['form_validation_greater_than'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය සංඛ්යාව ට වඩා වැඩි {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} ක්ෂේත්රයේ අඩංගු විය යුතුය සංඛ්යාව ට වඩා වැඩි හෝ සමාන {param}";
+$lang['form_validation_error_message_not_set'] = "ප්රවේශ වීමට නොහැකි දෝෂයක් පණිවිඩය අනුරූප ඔබේ ක්ෂේත්රයේ නම {field}";
+$lang['form_validation_in_list'] = "{field} ක්ෂේත්රයේ එකක් විය යුතුය: {param}";

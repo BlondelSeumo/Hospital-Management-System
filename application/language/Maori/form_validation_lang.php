@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} mara hiahiatia";
+$lang['form_validation_isset'] = "{field} mara me te whai i te uara";
+$lang['form_validation_valid_email'] = "{field} mara me i roto i te wāhitau īmēra tika";
+$lang['form_validation_valid_emails'] = "{field} mara me i roto i te katoa whaimana te wāhitau īmēra";
+$lang['form_validation_valid_url'] = "{field} mara me i roto i te URL tika";
+$lang['form_validation_valid_ip'] = "{field} mara me i roto i te tika IP";
+$lang['form_validation_min_length'] = "{field} mara me te kia i te iti rawa {param} pūāhua i roto i te roa";
+$lang['form_validation_max_length'] = "{field} mara e kore e taea nui {param} pūāhua i roto i te roa";
+$lang['form_validation_exact_length'] = "{field} mara kia rite {param} pūāhua i roto i te roa";
+$lang['form_validation_alpha'] = "{field} mara kia anake i roto i te pūrārangi pūāhua";
+$lang['form_validation_alpha_numeric'] = "{field} mara kia anake i roto ārepa-tau pūāhua";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} mara kia anake i roto ārepa-tau pūāhua, me te wāhi";
+$lang['form_validation_alpha_dash'] = "{field} mara kia anake i roto ārepa-tau pūāhua, ahungarua, me te pīhono";
+$lang['form_validation_numeric'] = "{field} mara me i roto i ngā tau anake";
+$lang['form_validation_is_numeric'] = "{field} mara me i roto i anake tau pūāhua";
+$lang['form_validation_integer'] = "{field} mara me i roto i te tau tōpū";
+$lang['form_validation_regex_match'] = "{field} mara, ko te kore e i roto i te tika hōputu";
+$lang['form_validation_matches'] = "{field} mara e kore e ōrite te {param} mara";
+$lang['form_validation_differs'] = "{field} mara rerekē i te {param} mara";
+$lang['form_validation_is_unique'] = "{field} mara me i roto i te tau te uara";
+$lang['form_validation_is_natural'] = "{field} mara anake i roto mati";
+$lang['form_validation_is_natural_no_zero'] = "{field} mara anake i roto i te mati, me te kia nui atu i te kore";
+$lang['form_validation_decimal'] = "{field} mara me i roto i te tau ā-ira";
+$lang['form_validation_less_than'] = "{field} mara me i roto i te maha iti iho i te {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} mara me i roto i te maha iti iho i te rite ki {param}";
+$lang['form_validation_greater_than'] = "{field} mara me i roto i te maha nui atu {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} mara me i roto i te maha nui atu rite ki te {param}";
+$lang['form_validation_error_message_not_set'] = "Taea ki te uru he karere hapa e hāngai ana ki tou ingoa mara {field}";
+$lang['form_validation_in_list'] = "{field} mara me te kia kotahi o: {param}";

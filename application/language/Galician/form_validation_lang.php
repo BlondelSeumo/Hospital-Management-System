@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} de campo é obrigatorio";
+$lang['form_validation_isset'] = "{field} de campo debe ter un valor";
+$lang['form_validation_valid_email'] = "{field} de campo debe conter un enderezo de correo electrónico válido";
+$lang['form_validation_valid_emails'] = "{field} de campo debe conter todos os enderezos de correo electrónico válido";
+$lang['form_validation_valid_url'] = "{field} de campo debe conter un URL válido";
+$lang['form_validation_valid_ip'] = "{field} de campo debe conter unha IP válida";
+$lang['form_validation_min_length'] = "{field} de campo debe ser de polo menos {param} caracteres";
+$lang['form_validation_max_length'] = "{field} de campo non pode exceder {param} caracteres";
+$lang['form_validation_exact_length'] = "{field} de campo debe ser exactamente {param} caracteres";
+$lang['form_validation_alpha'] = "{field} de campo só pode conter alfabética personaxes";
+$lang['form_validation_alpha_numeric'] = "{field} de campo só pode conter alfa-numérico personaxes";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} de campo só pode conter alfa-numérico personaxes e espazos";
+$lang['form_validation_alpha_dash'] = "{field} de campo só pode conter alfa-numérico personaxes, subliñados, guións";
+$lang['form_validation_numeric'] = "{field} de campo debe conter só números";
+$lang['form_validation_is_numeric'] = "{field} de campo debe conter só numérico personaxes";
+$lang['form_validation_integer'] = "{field} de campo debe conter un número enteiro";
+$lang['form_validation_regex_match'] = "{field} de campo non está no formato correcto";
+$lang['form_validation_matches'] = "{field} de campo non corresponde a {param} campo";
+$lang['form_validation_differs'] = "{field} de campo debe diferir o {param} campo";
+$lang['form_validation_is_unique'] = "{field} de campo debe conter un único valor";
+$lang['form_validation_is_natural'] = "{field} de campo debe conter só díxitos";
+$lang['form_validation_is_natural_no_zero'] = "{field} de campo debe conter só díxitos e debe ser maior que cero";
+$lang['form_validation_decimal'] = "{field} de campo debe conter un número decimal";
+$lang['form_validation_less_than'] = "{field} de campo debe conter un número inferior a {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} de campo debe conter un número menor ou igual a {param}";
+$lang['form_validation_greater_than'] = "{field} de campo debe conter un número maior que {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} de campo debe conter un número maior que ou igual a {param}";
+$lang['form_validation_error_message_not_set'] = "Incapaz de acceder a unha mensaxe de erro correspondente para o seu campo de nome-9";
+$lang['form_validation_in_list'] = "{field} de campo debe ser un dos: {param}";

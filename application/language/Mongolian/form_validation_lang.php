@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} талбар шаардлагатай байна";
+$lang['form_validation_isset'] = "{field} талбар байх естой үнэ цэнэ";
+$lang['form_validation_valid_email'] = "{field} хээрийн агуулсан байх естой хүчинтэй и-мэйл хаяг";
+$lang['form_validation_valid_emails'] = "{field} хээрийн агуулсан байх естой бүх хүчинтэй и-мэйл хаяг";
+$lang['form_validation_valid_url'] = "{field} хээрийн агуулсан байх естой хүчинтэй URL";
+$lang['form_validation_valid_ip'] = "{field} хээрийн агуулсан байх естой хүчинтэй IP";
+$lang['form_validation_min_length'] = "{field} талбар байх естой наад зах нь {param} урттай тэмдэгт";
+$lang['form_validation_max_length'] = "{field} хээрийн хэтрэхгүй байх {param} урттай тэмдэгт";
+$lang['form_validation_exact_length'] = "{field} талбар байх естой яг {param} урттай тэмдэгт";
+$lang['form_validation_alpha'] = "{field} талбар болох нь зөвхөн агуулсан цагаан толгойн үсгийн тэмдэгт";
+$lang['form_validation_alpha_numeric'] = "{field} талбар болох нь зөвхөн агуулсан альфа-тоон тэмдэгт";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} талбар болох нь зөвхөн агуулсан альфа-тоон тэмдэгт болон зай";
+$lang['form_validation_alpha_dash'] = "{field} талбар болох нь зөвхөн агуулсан альфа-тоон тэмдэгт, зураас, dashes";
+$lang['form_validation_numeric'] = "{field} хээрийн агуулсан байх естой нь зөвхөн тоо";
+$lang['form_validation_is_numeric'] = "{field} хээрийн агуулсан байх естой нь зөвхөн тоон тэмдэгт";
+$lang['form_validation_integer'] = "{field} хээрийн агуулсан байх естой бүхэл";
+$lang['form_validation_regex_match'] = "{field} талбар биш юм, зөв хэлбэр";
+$lang['form_validation_matches'] = "{field} хээрийн нийцэхгүй {param} талбар";
+$lang['form_validation_differs'] = "{field} хээрийн естой өөр {param} талбар";
+$lang['form_validation_is_unique'] = "{field} талбарыг агуулсан өвөрмөц утга";
+$lang['form_validation_is_natural'] = "{field} хээрийн естой л агуулж оронтой";
+$lang['form_validation_is_natural_no_zero'] = "{field} хээрийн естой л агуулж оронтой байх естой, илүү тэг";
+$lang['form_validation_decimal'] = "{field} талбарыг агуулсан аравтын тоо";
+$lang['form_validation_less_than'] = "{field} хээрийн агуулсан байх естой хэд хэдэн бага {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} хээрийн агуулсан байх естой хэд хэдэн бага эсвэл тэнцүү {param}";
+$lang['form_validation_greater_than'] = "{field} хээрийн агуулсан байх естой хэд хэдэн илүү {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} хээрийн агуулсан байх естой тоо илүү эсвэл тэнцүү {param}";
+$lang['form_validation_error_message_not_set'] = "Авах боломжгүй алдааны мэдэгдэл харгалзах танай салбарт нэр {field}";
+$lang['form_validation_in_list'] = "{field} талбар байх естой нэг: {param}";

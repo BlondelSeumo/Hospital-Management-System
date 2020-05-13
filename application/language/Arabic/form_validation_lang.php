@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} الحقل مطلوب";
+$lang['form_validation_isset'] = "{field} الحقل يجب أن يكون لها قيمة";
+$lang['form_validation_valid_email'] = "{field} الميدانية يجب أن تحتوي على عنوان بريد إلكتروني صالح";
+$lang['form_validation_valid_emails'] = "{field} الميدانية يجب أن تحتوي على جميع عناوين البريد الإلكتروني صالحة";
+$lang['form_validation_valid_url'] = "{field} الميدانية يجب أن تحتوي على عنوان URL صالح";
+$lang['form_validation_valid_ip'] = "{field} الميدانية يجب أن يحتوي على IP صالح";
+$lang['form_validation_min_length'] = "{field} الحقل يجب أن يكون على الأقل {param} حرفا في الطول";
+$lang['form_validation_max_length'] = "{field} الميدانية لا يمكن أن يتجاوز {param} حرفا في الطول";
+$lang['form_validation_exact_length'] = "{field} الحقل يجب أن يكون بالضبط {param} حرفا في الطول";
+$lang['form_validation_alpha'] = "{field} الميدانية قد تحتوي فقط على أحرف أبجدية";
+$lang['form_validation_alpha_numeric'] = "{field} الميدانية قد تحتوي فقط على أحرف أبجدية رقمية";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} الميدانية قد تحتوي فقط على أحرف أبجدية رقمية و المساحات";
+$lang['form_validation_alpha_dash'] = "{field} الميدانية قد تحتوي فقط على أحرف أبجدية رقمية, يؤكد, و شرطات";
+$lang['form_validation_numeric'] = "{field} الميدانية يجب أن تحتوي على أرقام فقط";
+$lang['form_validation_is_numeric'] = "{field} الميدانية يجب أن تحتوي على أحرف رقمية فقط";
+$lang['form_validation_integer'] = "{field} الميدانية يجب أن يحتوي على عدد صحيح";
+$lang['form_validation_regex_match'] = "{field} الحقل ليس في الشكل الصحيح";
+$lang['form_validation_matches'] = "{field} الحقل لا تتطابق مع {param} المجال";
+$lang['form_validation_differs'] = "{field} الميدانية يجب أن تختلف من {param} المجال";
+$lang['form_validation_is_unique'] = "{field} الميدانية يجب أن تحتوي على قيمة فريدة من نوعها";
+$lang['form_validation_is_natural'] = "{field} الميدانية يجب أن تحتوي فقط على أرقام";
+$lang['form_validation_is_natural_no_zero'] = "{field} الميدانية يجب أن تحتوي فقط على الأرقام يجب أن تكون أكبر من الصفر";
+$lang['form_validation_decimal'] = "{field} الميدانية يجب أن تحتوي على عدد عشري";
+$lang['form_validation_less_than'] = "{field} الميدانية يجب أن تحتوي على عدد أقل من {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} الميدانية يجب أن تحتوي على عدد أقل من أو يساوي {param}";
+$lang['form_validation_greater_than'] = "{field} الميدانية يجب أن تحتوي على عدد أكبر من {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} الميدانية يجب أن تحتوي على عدد أكبر من أو يساوي {param}";
+$lang['form_validation_error_message_not_set'] = "غير قادر على الوصول إلى رسالة خطأ المقابلة إلى اسم الحقل {field}";
+$lang['form_validation_in_list'] = "{field} الميدانية يجب أن تكون واحدة من: {param}";

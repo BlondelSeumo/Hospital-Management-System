@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} polje je potrebno";
+$lang['form_validation_isset'] = "{field} polje mora da ima vrijednost";
+$lang['form_validation_valid_email'] = "{field} polje mora sadrži važi e-mail adresu";
+$lang['form_validation_valid_emails'] = "{field} polje mora sadrži sve važi e-mail adresa";
+$lang['form_validation_valid_url'] = "{field} polje mora sadrži važi URL";
+$lang['form_validation_valid_ip'] = "{field} polje mora sadrži važi IP";
+$lang['form_validation_min_length'] = "{field} polje mora biti barem {param} likovi u dužinu";
+$lang['form_validation_max_length'] = "{field} polje ne smije biti veći od {param} likovi u dužinu";
+$lang['form_validation_exact_length'] = "{field} polje mora biti tacno {param} likovi u dužinu";
+$lang['form_validation_alpha'] = "{field} polje možda samo sadrži po abecedi likovi";
+$lang['form_validation_alpha_numeric'] = "{field} polje možda samo sadrži alfa-brojčane likovi";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} polje možda samo sadrži alfa-brojčane likovi i prostore";
+$lang['form_validation_alpha_dash'] = "{field} polje možda samo sadrži alfa-brojčane likovi, pokazuje, i crtice";
+$lang['form_validation_numeric'] = "{field} polje mora sadrži samo brojevi";
+$lang['form_validation_is_numeric'] = "{field} polje mora sadrži samo brojčane likovi";
+$lang['form_validation_integer'] = "{field} polje mora sadrži broj";
+$lang['form_validation_regex_match'] = "{field} polje nije u pravu format";
+$lang['form_validation_matches'] = "{field} polje ne odgovara {param} polje";
+$lang['form_validation_differs'] = "{field} polje mora da se razlikuju od {param} polje";
+$lang['form_validation_is_unique'] = "{field} polje mora sadrži jedinstvena vrijednosti";
+$lang['form_validation_is_natural'] = "{field} polje mora samo sadrži cifara";
+$lang['form_validation_is_natural_no_zero'] = "{field} polje mora samo sadrži broj i moraju biti veće od nule";
+$lang['form_validation_decimal'] = "{field} polje mora sadrži broj decimalni";
+$lang['form_validation_less_than'] = "{field} polje mora sadrži broj manje od {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} polje mora sadrži broj manje od ili jednaka {param}";
+$lang['form_validation_greater_than'] = "{field} polje mora sadrži broj veće od {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} polje mora sadrži broj veće od ili jednaka {param}";
+$lang['form_validation_error_message_not_set'] = "U stanju da pristup greška poruku odgovara tvom polju ime ... 9";
+$lang['form_validation_in_list'] = "{field} polje mora da je jedan od: {param}";

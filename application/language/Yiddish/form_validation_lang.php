@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} פעלד איז פארלאנגט";
+$lang['form_validation_isset'] = "{field} פעלד מוזן האָבן אַ ווערט";
+$lang['form_validation_valid_email'] = "{field} פעלד מוזן אַנטהאַלטן אַ גילטיק email אַדרעס";
+$lang['form_validation_valid_emails'] = "{field} פעלד מוזן אַנטהאַלטן אַלע גילטיק email ווענדט";
+$lang['form_validation_valid_url'] = "{field} פעלד מוזן אַנטהאַלטן אַ גילטיק URL";
+$lang['form_validation_valid_ip'] = "{field} פעלד מוזן אַנטהאַלטן אַ גילטיק יפּ";
+$lang['form_validation_min_length'] = "{field} פעלד מוזן זיין לפּחות {param} אותיות אין לענג";
+$lang['form_validation_max_length'] = "{field} פעלד קענען ניט יקסיד {param} אותיות אין לענג";
+$lang['form_validation_exact_length'] = "{field} פעלד מוזן זיין פּונקט {param} אותיות אין לענג";
+$lang['form_validation_alpha'] = "{field} פעלד קען בלויז אַנטהאַלטן אַלפאַבעטיקאַל אותיות";
+$lang['form_validation_alpha_numeric'] = "{field} פעלד קען בלויז אַנטהאַלטן אַלף-נומעריק אותיות";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} פעלד קען בלויז אַנטהאַלטן אַלף-נומעריק אותיות און ספּייסיז";
+$lang['form_validation_alpha_dash'] = "{field} פעלד קען בלויז אַנטהאַלטן אַלף-נומעריק אותיות, שטרייכט, און דאַשיז";
+$lang['form_validation_numeric'] = "{field} פעלד מוזן אַנטהאַלטן בלויז נומערן";
+$lang['form_validation_is_numeric'] = "{field} פעלד מוזן אַנטהאַלטן בלויז נומעריק אותיות";
+$lang['form_validation_integer'] = "{field} פעלד מוזן אַנטהאַלטן אַ ינטאַדזשער";
+$lang['form_validation_regex_match'] = "{field} פעלד איז נישט אין די ריכטיק פֿאָרמאַט";
+$lang['form_validation_matches'] = "{field} פעלד טוט ניט גלייַכן די {param} פעלד";
+$lang['form_validation_differs'] = "{field} פעלד מוזן אַנדערש זייַן פון די {param} פעלד";
+$lang['form_validation_is_unique'] = "{field} פעלד מוזן אַנטהאַלטן אַ יינציק ווערט";
+$lang['form_validation_is_natural'] = "{field} פעלד מוזן אַנטהאַלטן בלויז דידזשאַץ";
+$lang['form_validation_is_natural_no_zero'] = "{field} פעלד מוזן אַנטהאַלטן בלויז דידזשאַץ און מוזן זיין גרעסער ווי נול";
+$lang['form_validation_decimal'] = "{field} פעלד מוזן אַנטהאַלטן אַ דעצימאַל נומער";
+$lang['form_validation_less_than'] = "{field} פעלד מוזן אַנטהאַלטן אַ נומער ווייניקער ווי {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} פעלד מוזן אַנטהאַלטן אַ נומער ווייניקער ווי אָדער גלייַך צו {param}";
+$lang['form_validation_greater_than'] = "{field} פעלד מוזן אַנטהאַלטן אַ נומער גרעסער ווי {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} פעלד מוזן אַנטהאַלטן אַ נומער גרעסער ווי אָדער גלייַך צו {param}";
+$lang['form_validation_error_message_not_set'] = "געקענט צו צוטריט אַ טעות אָנזאָג קאָראַספּאַנדינג צו דיין פעלד נאָמען-9";
+$lang['form_validation_in_list'] = "{field} פעלד מוזן זיין איינער פון: {param}";

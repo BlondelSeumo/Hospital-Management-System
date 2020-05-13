@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} väli on nõutav";
+$lang['form_validation_isset'] = "{field} valdkonnas peab olema väärtus";
+$lang['form_validation_valid_email'] = "{field} väli peab sisaldama kehtiv e-posti aadress";
+$lang['form_validation_valid_emails'] = "{field} valdkonnas peab sisaldama kõiki kehtiv e-posti aadressid";
+$lang['form_validation_valid_url'] = "{field} valdkonnas peab olema kehtiv URL";
+$lang['form_validation_valid_ip'] = "{field} väli peab sisaldama kehtiv IP";
+$lang['form_validation_min_length'] = "{field} valdkonnas peab olema vähemalt {param} tähemärki";
+$lang['form_validation_max_length'] = "{field} valdkonnas ei ületa {param} tähemärki";
+$lang['form_validation_exact_length'] = "{field} valdkonnas peab olema täpselt {param} tähemärki";
+$lang['form_validation_alpha'] = "{field} väli võib sisaldada ainult tähte";
+$lang['form_validation_alpha_numeric'] = "{field} väli võib sisaldada ainult tähtnumbrilist märki";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} väli võib sisaldada ainult alfa-tähti ja numbreid ja tühikuid";
+$lang['form_validation_alpha_dash'] = "{field} väli võib sisaldada ainult tähtnumbrilist märki, rõhutab ja kriipsud";
+$lang['form_validation_numeric'] = "{field} väli peab sisaldama ainult numbreid";
+$lang['form_validation_is_numeric'] = "{field} valdkonnas peab sisaldada ainult tähti ja numbreid";
+$lang['form_validation_integer'] = "{field} väli peab sisaldama täisarv";
+$lang['form_validation_regex_match'] = "{field} valdkonnas ei ole õiges vormingus";
+$lang['form_validation_matches'] = "{field} valdkonda ei sobi {param} valdkonnas";
+$lang['form_validation_differs'] = "{field} valdkonnas peab erineda {param} valdkonnas";
+$lang['form_validation_is_unique'] = "{field} valdkonnas peab sisaldama unikaalset väärtust";
+$lang['form_validation_is_natural'] = "{field} valdkonnas peab sisaldama ainult numbreid";
+$lang['form_validation_is_natural_no_zero'] = "{field} valdkonnas peab sisaldama ainult numbreid ning peab olema suurem kui null";
+$lang['form_validation_decimal'] = "{field} valdkonnas peab sisaldama decimal number";
+$lang['form_validation_less_than'] = "{field} väli peab sisaldama mitmeid vähem kui {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} valdkonnas peab sisaldama number väiksem või võrdne {param}";
+$lang['form_validation_greater_than'] = "{field} valdkonnas peab sisaldama number on suurem kui {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} valdkonnas peab sisaldama number on suurem või võrdne {param}";
+$lang['form_validation_error_message_not_set'] = "Suuda access tõrketeate, mis vastab oma valdkonnas nimi {field}";
+$lang['form_validation_in_list'] = "{field} valdkonnas peab olema üks: {param}";

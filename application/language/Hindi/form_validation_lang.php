@@ -1,0 +1,32 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['form_validation_required'] = "{field} क्षेत्र की आवश्यकता है";
+$lang['form_validation_isset'] = "{field} फ़ील्ड में एक मान होना चाहिए";
+$lang['form_validation_valid_email'] = "{field} क्षेत्र को शामिल होना चाहिए एक मान्य ईमेल पता";
+$lang['form_validation_valid_emails'] = "{field} क्षेत्र शामिल होना चाहिए सभी मान्य ईमेल पते";
+$lang['form_validation_valid_url'] = "{field} क्षेत्र को शामिल होना चाहिए एक मान्य URL";
+$lang['form_validation_valid_ip'] = "{field} क्षेत्र को शामिल होना चाहिए एक मान्य IP";
+$lang['form_validation_min_length'] = "{field} क्षेत्र होना चाहिए कम से कम {param} लंबाई में वर्ण";
+$lang['form_validation_max_length'] = "{field} क्षेत्र से अधिक नहीं हो सकता {param} लंबाई में वर्ण";
+$lang['form_validation_exact_length'] = "{field} क्षेत्र वास्तव में होना चाहिए {param} लंबाई में वर्ण";
+$lang['form_validation_alpha'] = "{field} क्षेत्र ही होते हैं वर्णमाला के अक्षर";
+$lang['form_validation_alpha_numeric'] = "{field} क्षेत्र ही होते हैं अल्फा-न्यूमेरिक वर्ण";
+$lang['form_validation_alpha_numeric_spaces'] = "{field} क्षेत्र ही होते हैं अल्फा-न्यूमेरिक वर्ण और रिक्त स्थान";
+$lang['form_validation_alpha_dash'] = "{field} क्षेत्र ही होते हैं अल्फा-संख्यात्मक अक्षर, अंडरस्कोर, और डैश";
+$lang['form_validation_numeric'] = "{field} क्षेत्र शामिल होना चाहिए केवल संख्या";
+$lang['form_validation_is_numeric'] = "{field} क्षेत्र शामिल होना चाहिए केवल संख्यात्मक अक्षर";
+$lang['form_validation_integer'] = "{field} क्षेत्र को शामिल होना चाहिए एक पूर्णांक";
+$lang['form_validation_regex_match'] = "{field} क्षेत्र में नहीं है, सही स्वरूप";
+$lang['form_validation_matches'] = "{field} क्षेत्र से मेल नहीं खाता {param} क्षेत्र";
+$lang['form_validation_differs'] = "{field} क्षेत्र से अलग क्षेत्र {param}";
+$lang['form_validation_is_unique'] = "{field} क्षेत्र को शामिल होना चाहिए एक अनूठा मूल्य";
+$lang['form_validation_is_natural'] = "{field} क्षेत्र ही होते हैं अंक";
+$lang['form_validation_is_natural_no_zero'] = "{field} क्षेत्र ही होते हैं अंक और शून्य से अधिक होना चाहिए";
+$lang['form_validation_decimal'] = "{field} क्षेत्र को शामिल होना चाहिए एक दशमलव संख्या";
+$lang['form_validation_less_than'] = "{field} क्षेत्र शामिल होना चाहिए की एक संख्या की तुलना में कम {param}";
+$lang['form_validation_less_than_equal_to'] = "{field} क्षेत्र शामिल होना चाहिए की एक संख्या से कम या बराबर करने के लिए {param}";
+$lang['form_validation_greater_than'] = "{field} क्षेत्र को शामिल होना चाहिए एक से अधिक संख्या {param}";
+$lang['form_validation_greater_than_equal_to'] = "{field} क्षेत्र शामिल होना चाहिए की एक संख्या से अधिक या बराबर करने के लिए {param}";
+$lang['form_validation_error_message_not_set'] = "का उपयोग करने में असमर्थ एक त्रुटि संदेश के लिए इसी अपने क्षेत्र का नाम है-9";
+$lang['form_validation_in_list'] = "{field} क्षेत्र से एक होना चाहिए: {param}";
